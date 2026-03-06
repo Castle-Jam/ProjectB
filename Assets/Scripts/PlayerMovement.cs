@@ -1,45 +1,45 @@
-using UnityEditor.ShaderKeywordFilter;
 using UnityEngine;
 using UnityEngine.InputSystem;
-using UnityEngine.UIElements;
 
 public class PlayerMovement : MonoBehaviour
 {
-    [SerializeField] float sprintMultiplier = 10f;
-   [SerializeField] float moveSpeed = 10f;
-   [SerializeField] float speed = 10f;
+    [SerializeField] float speed = 50f;
+    [SerializeField] float rotationSpeed = 5f;
 
-   private CharacterController controller;
-   private Transform playerBody;
-   private Vector3 moveInput;
-
-
-    private float horizontal;
+    private Rigidbody _rigidbody;
+    private Vector2 moveInput;
 
     void Start()
     {
-        controller = GetComponent<CharacterController>();
-        playerBody = GetComponent<Transform>();
+        _rigidbody = GetComponent<Rigidbody>();
     }
-    
-
 
     public void Movement(InputAction.CallbackContext context)
     {
-        //Debug.Log("We are doing the moving");
         moveInput = context.ReadValue<Vector2>();
-        
-
+        Debug.Log("We are doing Shmovement");
     }
 
-    // Update is called once per frame
-    void Update()
+    void FixedUpdate()
     {
         Vector3 move = new Vector3(moveInput.x, 0, moveInput.y);
-        controller.Move(move * speed * Time.deltaTime);
-        playerBody.Rotate(moveInput.x, 0, moveInput.y);
-        
+        _rigidbody.AddForce(move * speed, ForceMode.Acceleration);
     }
 
+    void Update()
+    {
+        Vector3 velocity = _rigidbody.linearVelocity;
+        velocity.y = 0;
 
+        if (velocity.sqrMagnitude > 0.01f)
+        {
+            Quaternion targetRot = Quaternion.LookRotation(velocity);
+
+            transform.rotation = Quaternion.Slerp(
+                transform.rotation,
+                Quaternion.Euler(0, targetRot.eulerAngles.y, 0),
+                rotationSpeed * Time.deltaTime
+            );
+        }
+    }
 }
