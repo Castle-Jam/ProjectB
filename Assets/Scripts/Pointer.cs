@@ -5,7 +5,7 @@ using UnityEngine.InputSystem;
 public class Pointer : MonoBehaviour
 {
     public RectTransform pointer;
-    private float speed = 200f;
+    private float speed = 400f;
     private bool movingRight = true;
     [SerializeField] private InputActionReference interaction;
     private bool active = true;
