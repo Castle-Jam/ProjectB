@@ -5,7 +5,6 @@ public class PlayerMovement : MonoBehaviour
 {
     [SerializeField] float speed = 50f;
     [SerializeField] float rotationSpeed = 5f;
-    [SerializeField] Transform meshTransform;
 
     private Rigidbody _rigidbody;
     private Rigidbody playerBody;
@@ -14,7 +13,6 @@ public class PlayerMovement : MonoBehaviour
     void Start()
     {
         _rigidbody = GetComponent<Rigidbody>();
-        playerBody = GetComponentInChildren<Rigidbody>();
     }
 
     public void Movement(InputAction.CallbackContext context)
@@ -38,7 +36,7 @@ public class PlayerMovement : MonoBehaviour
         {
             Quaternion targetRot = Quaternion.LookRotation(velocity);
 
-            meshTransform.rotation = Quaternion.Slerp(
+            transform.rotation = Quaternion.Slerp(
                 transform.rotation,
                 Quaternion.Euler(0, targetRot.eulerAngles.y, 0),
                 rotationSpeed * Time.deltaTime
