@@ -40,11 +40,8 @@ HUD:
 - Time (Day/Night)
 - Simple controls tutorial in corner
 
-Core mechanic (must be prototyped first)
-- Example: Momentum‑based movement with short dash and jump that interacts with level geometry.
-
 Win/Lose conditions
-- Win: Make 20 cheese wheels.
+- Win: Make 10 cheese wheels.
 - Lose: Time runs out OR player HP depletes OR all goats turned evil.
 
 Visual & audio style (brief)
