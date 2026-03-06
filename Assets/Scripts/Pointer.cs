@@ -1,6 +1,8 @@
 using System.ComponentModel.Design;
 using UnityEngine;
 using UnityEngine.InputSystem;
+using UnityEngine.UI;
+using TMPro;
 
 public class Pointer : MonoBehaviour
 {
@@ -10,8 +12,12 @@ public class Pointer : MonoBehaviour
     [SerializeField] private InputActionReference interaction;
     private bool active = true;
     private int finishedCheese = 0;
+    public  TextMeshProUGUI text;
 
-
+    void Start()
+    {
+        text.text = $"Finished Cheese {finishedCheese}%/100%";
+    }
     void Update()
     {
         if (!active) return;
@@ -51,28 +57,37 @@ public class Pointer : MonoBehaviour
         {
             Debug.Log("grüner Bereich 1 hehe");
             finishedCheese += 20;
+            text.text = $"Finished Cheese {finishedCheese}%/100%";
             Debug.Log($"grün 1 {finishedCheese}");
         }
         else if (greenBarLeftTwo <= pointerPosX && pointerPosX <= greenBarRightTwo)
         {
             Debug.Log("grüner Bereich 2 hehe");
             finishedCheese += 20;
+            text.text = $"Finished Cheese {finishedCheese}%/100%";
             Debug.Log($"grün 2 {finishedCheese}");
         }
         else if (redBarLeft <= pointerPosX && pointerPosX <= redBarRight)
         {
             Debug.Log("roter Bereich");
             finishedCheese += 40;
+            text.text = $"Finished Cheese {finishedCheese}%/100%";
             Debug.Log($"rot {finishedCheese}");
         }
         else if (pointerPosX < greenBarLeftOne || greenBarRightTwo > pointerPosX)
         {
             Debug.Log("verkackt");
+            text.text = $"YOu failed";
+            
         }
         if (finishedCheese == 100)
         {
             active = false;
             Debug.Log("Cheese finished");
         }
+    }
+    private void Die()
+    {
+        
     }
 }
