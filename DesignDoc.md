@@ -56,27 +56,27 @@ MUST (required for MVP - assign people)
     - Cheese making (interact with machines) - **Seli**   
     - Goat chases player - **?**
 - Level
-    - One complete playable 3D level and obstacles - **Viki?/Lea?/Nadine?, Seli**
+    - One complete playable 3D level and obstacles - **Artist?, Seli**
     - Level logic: spawn points, checkpoints, objective triggers - **Julian**
 - Enemies/Obstacles
     - One enemy type or obstacle with simple behavior (patrol/triggered) - **Julian?**
 - UI
-    - Main menu, pause, HUD with health/time/items - **Don, Lea, Viki**
+    - Main menu, HUD with health/time/items - **Don, Lea**
 - Audio
     - One looped background track integrated + 6 key SFX (jump, land, hit, enemy death, pickup, UI click) - **Philipp, Don?**
 - Build & submission
     - Exportable build, icon, 3 screenshots, short description - **Max, Lea**
 - Project infrastructure
-    - Repository, scene organization, input mapping, basic build pipeline - Owner: **Max**
+    - Repository, scene organization, input mapping, basic build pipeline - **Max**
 - 2D Assets:
-    - main menu background
+    - main menu background - **Viki**
     - main menu buttons design
-    - cheese piece
-    - milk
-    - heart
-    - grayed out heart
+    - cheese piece - **Lea**
+    - milk - **Lea**
+    - heart - **Lea**
+    - grayed out heart - **Lea**
 - 3D Assets:
-    - Farmer model
+    - Farmer model - **Lea**
     - Goat model
     - Evil Goat model
     - farmhouse model - **Julian**
@@ -91,7 +91,7 @@ MUST (required for MVP - assign people)
       - cheese wheel form
 
 SHOULD (important but cuttable)
-- Polished player model + basic animations (idle/run/jump) - **Nadine**
+- Polished player model + basic animations (idle/run/sprint) - **Nadine**
 - Extra goat behavior (charge attack) - **Nadine?, ?**
 - Simple environmental props and basic lighting polish - **Lea, Don**
 - Sound variations for enemy/player (hit, death) SFX - **Phlipp, ?**
@@ -101,6 +101,7 @@ SHOULD (important but cuttable)
   - farmer idle animation
   - goat walk animation
   - goat idle animation
+  - goat milking animation
   - evil goat walk animation
   - evil goat idle animation
   - cheese wheel model

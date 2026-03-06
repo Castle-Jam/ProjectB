@@ -12,11 +12,11 @@ Key rules to follow
 Branching:
 - main for release (do not touch!)
 - develop (from main) for merging in features 
-- _feature_ (from develop) for ongoing work
-- player (from develop) -> movement, camera, interact
+- player (from develop) -> movement, camera, interact - **Noah, Konstin**
+- cooking (from develop) -> cooking slider mini game - **Seli**
 - level (from develop) -> level scene, first assets, layout
-- menu (from develop) -> main menu scene
-- hud (from develop) -> into level scene
+- menu (from develop) -> main menu scene - **Don**
+- hud (from develop) -> overlay for level scene
 
 Day 1 — 17:00–23:00 (6h)
 - 17:00–18:00 — Kickoff & rapid concept (60 min): pick core mechanic, create 1‑page design doc, MUST/SHOULD/MAY list. Lead decides final scope.
