@@ -59,5 +59,9 @@ public class Pointer : MonoBehaviour
         {
             Debug.Log("roter Bereich");
         }
+        else if(pointerPosX < greenBarLeftOne || greenBarRightTwo > pointerPosX)
+        {
+            Debug.Log("verkackt");
+        }
     }
 }
