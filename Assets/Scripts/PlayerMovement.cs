@@ -10,6 +10,7 @@ public class PlayerMovement : MonoBehaviour
    [SerializeField] float speed = 10f;
 
    private CharacterController controller;
+   private Transform playerBody;
    private Vector3 moveInput;
 
 
@@ -18,6 +19,7 @@ public class PlayerMovement : MonoBehaviour
     void Start()
     {
         controller = GetComponent<CharacterController>();
+        playerBody = GetComponent<Transform>();
     }
     
 
@@ -35,6 +37,7 @@ public class PlayerMovement : MonoBehaviour
     {
         Vector3 move = new Vector3(moveInput.x, 0, moveInput.y);
         controller.Move(move * speed * Time.deltaTime);
+        
     }
 
 
