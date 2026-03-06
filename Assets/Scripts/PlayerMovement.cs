@@ -37,6 +37,7 @@ public class PlayerMovement : MonoBehaviour
     {
         Vector3 move = new Vector3(moveInput.x, 0, moveInput.y);
         controller.Move(move * speed * Time.deltaTime);
+        playerBody.Rotate(moveInput.x, 0, moveInput.y);
         
     }
 
