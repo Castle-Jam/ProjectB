@@ -5,23 +5,26 @@ public class PlayerMovement : MonoBehaviour
 {
     [SerializeField] float speed = 50f;
     [SerializeField] float rotationSpeed = 5f;
+    [SerializeField] Transform meshTransform;
 
     private Rigidbody _rigidbody;
+    private Rigidbody playerBody;
     private Vector2 moveInput;
 
     void Start()
     {
         _rigidbody = GetComponent<Rigidbody>();
+        playerBody = GetComponentInChildren<Rigidbody>();
     }
 
     public void Movement(InputAction.CallbackContext context)
     {
         moveInput = context.ReadValue<Vector2>();
-        Debug.Log("We are doing Shmovement");
     }
 
     void FixedUpdate()
     {
+        // --- Movement ---
         Vector3 move = new Vector3(moveInput.x, 0, moveInput.y);
         _rigidbody.AddForce(move * speed, ForceMode.Acceleration);
     }
@@ -35,7 +38,7 @@ public class PlayerMovement : MonoBehaviour
         {
             Quaternion targetRot = Quaternion.LookRotation(velocity);
 
-            transform.rotation = Quaternion.Slerp(
+            meshTransform.rotation = Quaternion.Slerp(
                 transform.rotation,
                 Quaternion.Euler(0, targetRot.eulerAngles.y, 0),
                 rotationSpeed * Time.deltaTime
