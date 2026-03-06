@@ -9,6 +9,15 @@ Key rules to follow
 - Audio works mainly after core mechanic is locked, with short deliverables early (SFX placeholders, one theme loop).
 - Freeze scope at 15:00. From 15:00–17:00 only fix critical bugs and submit.
 
+Branching:
+- main for release (do not touch!)
+- develop (from main) for merging in features 
+- _feature_ (from develop) for ongoing work
+- player (from develop) -> movement, camera, interact
+- level (from develop) -> level scene, first assets, layout
+- menu (from develop) -> main menu scene
+- hud (from develop) -> into level scene
+
 Day 1 — 17:00–23:00 (6h)
 - 17:00–18:00 — Kickoff & rapid concept (60 min): pick core mechanic, create 1‑page design doc, MUST/SHOULD/MAY list. Lead decides final scope.
 - 18:00–20:00 — High‑level prototyping & tech check (120 min): core mechanic prototype, repo/setup, placeholders; artists make rough level/character silhouettes; audio confirms placeholders.

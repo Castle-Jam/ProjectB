@@ -5,16 +5,17 @@ Tips for using this design doc
 - Use placeholders for art/audio until gameplay is locked; artists polish only owned assets.
 - When in doubt, ask: “Does this change the core loop?” If no, deprioritize.
 
-## Design Document — Draft
+## Design Document
 
-Title: Project B
+Title: Goat Slayer (Project B)
+Topic: Goat
 
 One‑line pitch
-A single sentence describing the core concept and player goal.
-Example: "A fast‑paced 3D parkour shooter where the player races through neon rooftops to deactivate time beacons."
+- "A 3D isometric goat cheese making game, with defending against evil devil goats at night."
 
 Core loop (what the player does, repeatedly)
-- Example loop: Run → Navigate obstacles → Engage simple enemy/obstacle → Reach checkpoint/collect item → Repeat with increasing challenge.
+- Make cheese with minigames during the day or optional at night.
+- Defend against evil devil goats at night.
 
 Target platforms
 - Primary: PC (Windows)
@@ -25,10 +26,17 @@ Players
 
 Controls (draft)
 - Movement: WASD
-- Look: Mouse
-- Jump: Space
 - Interact/Attack: Left click
-- Pause/Menu: Esc
+
+## UI
+Main menu:
+- Pretty
+- Play
+- Quit
+HUD:
+- Milk & Cheese counter
+- Time (Day/Night)
+- Simple controls tutorial in corner
 
 Core mechanic (must be prototyped first)
 - Example: Momentum‑based movement with short dash and jump that interacts with level geometry.
@@ -39,7 +47,7 @@ Win/Lose conditions
 
 Visual & audio style (brief)
 - Visual: Low‑poly + stylized lighting OR realistic with simple PBR (pick one).
-- Audio: One looping ambient theme + modular SFX for jump, dash, hit, UI.
+- Audio: Day looping theme and night looping theme.
 
 MUST (required for MVP — assign owners)
 - Core gameplay
