@@ -1,10 +1,10 @@
-using System.ComponentModel.Design;
 using UnityEngine;
 using UnityEngine.InputSystem;
-using UnityEngine.UI;
 using TMPro;
+using System.Numerics;
+using System.Collections;
 
-//delay spammer werden auf anfang pos zurück gesetzt
+
 public class Pointer : MonoBehaviour
 {
     public RectTransform pointer;
@@ -27,32 +27,31 @@ public class Pointer : MonoBehaviour
     }
     void Update()
     {
-        if (pointer != null)
+
+        if (!active || pointer == null) return;
+        if (Keyboard.current.eKey.wasPressedThisFrame)
         {
-            if (!active) return; 
-            if (Keyboard.current.eKey.wasPressedThisFrame)
-            {
-                Interacted();
-            }
-            float move = speed * Time.deltaTime;
-
-
-            if (movingRight)
-                pointer.anchoredPosition += Vector2.right * move;
-            else
-                pointer.anchoredPosition += Vector2.left * move;
-
-            if (pointer.anchoredPosition.x > 560)
-                movingRight = false;
-            if (pointer.anchoredPosition.x < -560)
-                movingRight = true;
+            Interacted();
         }
+        float move = speed * Time.deltaTime;
+
+
+        if (movingRight)
+            pointer.anchoredPosition += UnityEngine.Vector2.right * move;
+        else
+            pointer.anchoredPosition += UnityEngine.Vector2.left * move;
+
+        if (pointer.anchoredPosition.x > 560)
+            movingRight = false;
+        if (pointer.anchoredPosition.x < -560)
+            movingRight = true;
+
 
     }
 
     public void Interacted()
     {
-        Vector2 pointerPos = movingPointer.transform.position;
+        UnityEngine.Vector2 pointerPos = movingPointer.transform.position;
         Debug.Log(pointerPos);
         float pointerPosX = pointerPos.x;
         float greenBarLeftOne = 854.17f;
@@ -62,35 +61,29 @@ public class Pointer : MonoBehaviour
         float redBarLeft = 998.9f;
         float redBarRight = 1003.9f;
 
-        
-        if (greenBarLeftOne <= pointerPosX && pointerPosX <= greenBarRightOne)
+
+        if ((greenBarLeftOne <= pointerPosX && pointerPosX <= greenBarRightOne)
+        || (greenBarLeftTwo <= pointerPosX && pointerPosX <= greenBarRightTwo))
         {
-           
+
             finishedCheese += 20;
             text.text = $"Finished Cheese {finishedCheese}%/100%";
-            
-        }
-        else if (greenBarLeftTwo <= pointerPosX && pointerPosX <= greenBarRightTwo)
-        {
-            
-            finishedCheese += 20;
-            text.text = $"Finished Cheese {finishedCheese}%/100%";
-           
+
         }
         else if (redBarLeft <= pointerPosX && pointerPosX <= redBarRight)
         {
-            
+
             finishedCheese += 40;
             text.text = $"Finished Cheese {finishedCheese}%/100%";
-            
+
         }
-        else if (pointerPosX < greenBarLeftOne || greenBarRightTwo > pointerPosX)
+        else
         {
-            //pointer reset öh idk wie :(
-            text.text = $"YOu failed {finishedCheese}%";
-            pointerPosX = 403f;
+
+            movingPointer.transform.position = new UnityEngine.Vector2(403f, 185f);
             finishedCheese = 0;
-            
+            text.text = $"YOu failed {finishedCheese}%";
+            PauseMovement(1);
 
         }
         if (finishedCheese == 100)
@@ -103,5 +96,18 @@ public class Pointer : MonoBehaviour
     private void Die()
     {
         Destroy(miniGame);
+    }
+    public void PauseMovement(float durationSeconds)
+    {
+        if (durationSeconds <= 0f) return;
+        StopAllCoroutines();
+        StartCoroutine(PauseCoroutine(durationSeconds));
+    }
+
+    private IEnumerator PauseCoroutine(float duration)
+    {
+        active = false;
+        yield return new WaitForSeconds(duration);
+        active = true;
     }
 }
