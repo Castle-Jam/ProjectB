@@ -18,6 +18,9 @@ Branching:
 - menu (from develop) -> main menu scene - **Don**
 - hud (from develop) -> overlay for level scene
 
+Scenes.meta:
+guid = 5a0b833732b8f05439c497d57b8e3959
+
 Day 1 — 17:00–23:00 (6h)
 - 17:00–18:00 — Kickoff & rapid concept (60 min): pick core mechanic, create 1‑page design doc, MUST/SHOULD/MAY list. Lead decides final scope.
 - 18:00–20:00 — High‑level prototyping & tech check (120 min): core mechanic prototype, repo/setup, placeholders; artists make rough level/character silhouettes; audio confirms placeholders.
