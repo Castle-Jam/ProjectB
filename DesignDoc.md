@@ -77,11 +77,11 @@ MUST (required for MVP - assign people)
     - grayed out heart - **Lea**
 - 3D Assets:
     - Farmer model - **Lea**
-    - Goat model
-    - Evil Goat model
+    - Goat model - **Nadine**
+    - Evil Goat model - **Nadine**
     - farmhouse model - **Julian**
-    - 2 tree models
-    - fence models
+    - 2 tree models - **Julian**
+    - fence models - **Julian**
     - cheese making station - **Nadine**
       - big pot filled with milk
       - working station(cutting board)
@@ -104,7 +104,8 @@ SHOULD (important but cuttable)
   - goat milking animation
   - evil goat walk animation
   - evil goat idle animation
-  - cheese wheel model
-  - more tree models
+  - cheese wheel model - **Julian**
+  - more tree models - **Julian**
+  - bush models - **Julian**
 
 MAY (nice‑to‑have; defer early)
