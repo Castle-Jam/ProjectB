@@ -7,7 +7,24 @@ Tips for using this design doc
 
 ## Design Document
 
-Title: Goat Slayer (Project B)
+Title: **My little cheese goat**
+
+Logo: top down cheese wheel with cutesy typography
+
+Title Candidates:
+- Goat Slayer
+- Midnight Goat
+- Horns Up
+- Goat & Jam
+- Horns of Havoc
+- Bloodhorn Harvest
+- Horns of the Damned
+- Night of the Red Horns
+- Cheese of the Red Moon
+- Cheese of the Luciferine Flame
+- Bloodmoon Cheese
+- My little cheese goat
+
 Topic: Goat
 
 One‑line pitch
