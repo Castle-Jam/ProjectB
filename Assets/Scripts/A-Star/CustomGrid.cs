@@ -14,7 +14,7 @@ public class CustomGrid : MonoBehaviour
     float nodeDiameter;
     int gridSizeX, gridSizeY;
 
-    void Start()
+    void Awake()
     {
         //figure out how many nodes in grid
         nodeDiameter = nodeRadius * 2;
@@ -22,6 +22,14 @@ public class CustomGrid : MonoBehaviour
         gridSizeY = Mathf.RoundToInt(gridWorldSize.y/nodeDiameter);
         CreateGrid();
     } 
+
+    public int maxSize
+    {
+        get
+        {
+            return gridSizeX * gridSizeY;
+        }
+    }
 
     void CreateGrid()
     {
@@ -75,19 +83,14 @@ public class CustomGrid : MonoBehaviour
         return grid[x,y];
     }
 
-    public List<Node> path;
     void OnDrawGizmos()
     {
         Gizmos.DrawWireCube(transform.position, new Vector3(gridWorldSize.x, 1, gridWorldSize.y));       
         if (grid != null)
         {
-            Node playerNode = NodeFromWorldPoint(player.position);
             foreach (Node n in grid)
             {
                 Gizmos.color = (n.walkable)?Color.white:Color.red;
-                if (path != null)
-                    if (path.Contains(n))
-                        Gizmos.color = Color.black;
                 Gizmos.DrawCube(n.worldPosition, Vector3.one * (nodeDiameter -.1f));
             }
         }
