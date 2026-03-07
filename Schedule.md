@@ -30,13 +30,19 @@ Day 1 — 17:00–23:00 (6h)
 Night 1 Sleep — 23:00–06:00 (7h)
 
 Day 2 — 06:00–23:00 (17h)
-- 06:00–18:00 — Core implementation sprint A (12h):
+- 06:00–13:00 — Core implementation sprint A (8h):
   - Programmers: core mechanic polish, enemy/obstacle behavior, UI skeleton, build/pipeline tasks split as before.
   - Artists: blockout level and character sheets; produce low‑poly/placeholders.
+- 11:45 — Get Food - **Max, Viki**
+- 13:00–13:30 — Food
+- 13:30–14:00 — Team sync & merging & scope trim (30 min): cut SHOULD/MAY that threaten MVP.
+- 14:00–19:00 — Core implementation sprint B (5h):
+  - Programmers: features
   - Audio: draft theme loop + key SFX placeholders.
-  - Checkpoints every 4 hours; aim for 60–120s playable loop.
-- 18:00–18:30 — Team sync & scope trim (30 min): cut SHOULD/MAY that threaten MVP.
-- 18:30–23:00 — Core implementation sprint B (4.5h of this block before sleep):
+  - aim for playable prototype.
+- 19:00–19:30 — Team sync & merging & scope trim (30 min): cut SHOULD/MAY that threaten MVP.
+- 19:30–20:00 — Food
+- 20:00–23:00 — Core implementation sprint C (4.5h of this block before sleep):
   - Programmers: continue polish, integrate art, level logic.
   - Artists: finalize level concept art, start in‑engine assets prioritized for MVP.
   - Audio: refine loop and SFX bank.
