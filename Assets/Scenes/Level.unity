@@ -128,7 +128,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1023583}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: FenceLine1 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -164,7 +164,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3731252}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: obstacles_fance_6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -196,7 +196,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5163661}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: FenceCombiD
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -229,7 +229,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7188050}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: obstacles_fance_6 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -261,7 +261,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7814021}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: FenceCombiC
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -294,7 +294,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8517001}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: obstacles_fance_6 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -326,7 +326,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 21436632}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: FenceCombiB
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -359,7 +359,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 28996701}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: FenceCombiD
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -392,7 +392,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 30515781}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: FenceCombiD
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -425,7 +425,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 31886250}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: obstacles_fance_6 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -457,7 +457,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 36462365}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: FenceCombiD (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -492,7 +492,7 @@ GameObject:
   - component: {fileID: 37772086}
   - component: {fileID: 37772088}
   - component: {fileID: 37772087}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cube.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -584,7 +584,7 @@ GameObject:
   - component: {fileID: 41932689}
   - component: {fileID: 41932691}
   - component: {fileID: 41932690}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cube.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -676,7 +676,7 @@ GameObject:
   - component: {fileID: 43840452}
   - component: {fileID: 43840454}
   - component: {fileID: 43840453}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cube.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -766,7 +766,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 55922893}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: obstacles_fance_8 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -798,7 +798,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 56471854}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: FenceCombiD
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -833,7 +833,7 @@ GameObject:
   - component: {fileID: 57217413}
   - component: {fileID: 57217415}
   - component: {fileID: 57217414}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cube.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -923,7 +923,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 59116031}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: FenceCombiA
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -956,7 +956,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 68343811}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: FenceLine1 (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -992,7 +992,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 73551022}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: obstacles_fance_6 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1026,7 +1026,7 @@ GameObject:
   - component: {fileID: 77160480}
   - component: {fileID: 77160482}
   - component: {fileID: 77160481}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cube.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1116,7 +1116,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 82429175}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: obstacles_fance_6 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1148,7 +1148,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 90969530}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: obstacles_fance_8
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1180,7 +1180,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 91699094}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: obstacles_fance_6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1212,7 +1212,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 93073053}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: obstacles_fance_6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1244,7 +1244,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 93159965}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: FenceCombiC
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1282,7 +1282,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 115049319}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: FenceCombiA
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1317,7 +1317,7 @@ GameObject:
   - component: {fileID: 119628570}
   - component: {fileID: 119628572}
   - component: {fileID: 119628571}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cube.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1409,7 +1409,7 @@ GameObject:
   - component: {fileID: 121755744}
   - component: {fileID: 121755746}
   - component: {fileID: 121755745}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cube.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1499,7 +1499,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 122660639}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: obstacles_fance_8 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1531,7 +1531,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 130140703}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: FenceCombiD (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1564,7 +1564,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 146140454}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: obstacles_fance_6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1598,7 +1598,7 @@ GameObject:
   - component: {fileID: 158008662}
   - component: {fileID: 158008664}
   - component: {fileID: 158008663}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cube.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1679,76 +1679,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 158008661}
   m_Mesh: {fileID: 4493585093827132993, guid: c6f9de6c2cf496047883801a02b49369, type: 3}
---- !u!1001 &159324638
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 1478567614}
-    m_Modifications:
-    - target: {fileID: 546793040711557877, guid: 1c418ec42b6bc204b979122cc9e8eeed, type: 3}
-      propertyPath: m_Name
-      value: Bush (3)
-      objectReference: {fileID: 0}
-    - target: {fileID: 546793040711557877, guid: 1c418ec42b6bc204b979122cc9e8eeed, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 2147483647
-      objectReference: {fileID: 0}
-    - target: {fileID: 920999559814673645, guid: 1c418ec42b6bc204b979122cc9e8eeed, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 2147483647
-      objectReference: {fileID: 0}
-    - target: {fileID: 5729332879838434588, guid: 1c418ec42b6bc204b979122cc9e8eeed, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -6.661335
-      objectReference: {fileID: 0}
-    - target: {fileID: 5729332879838434588, guid: 1c418ec42b6bc204b979122cc9e8eeed, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5729332879838434588, guid: 1c418ec42b6bc204b979122cc9e8eeed, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -36.645706
-      objectReference: {fileID: 0}
-    - target: {fileID: 5729332879838434588, guid: 1c418ec42b6bc204b979122cc9e8eeed, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0.9732161
-      objectReference: {fileID: 0}
-    - target: {fileID: 5729332879838434588, guid: 1c418ec42b6bc204b979122cc9e8eeed, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5729332879838434588, guid: 1c418ec42b6bc204b979122cc9e8eeed, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0.22989202
-      objectReference: {fileID: 0}
-    - target: {fileID: 5729332879838434588, guid: 1c418ec42b6bc204b979122cc9e8eeed, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5729332879838434588, guid: 1c418ec42b6bc204b979122cc9e8eeed, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5729332879838434588, guid: 1c418ec42b6bc204b979122cc9e8eeed, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 26.581
-      objectReference: {fileID: 0}
-    - target: {fileID: 5729332879838434588, guid: 1c418ec42b6bc204b979122cc9e8eeed, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 1c418ec42b6bc204b979122cc9e8eeed, type: 3}
---- !u!4 &159324639 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 5729332879838434588, guid: 1c418ec42b6bc204b979122cc9e8eeed, type: 3}
-  m_PrefabInstance: {fileID: 159324638}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &160720845
 GameObject:
   m_ObjectHideFlags: 0
@@ -1758,7 +1688,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 160720846}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: FenceLine1 (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1794,7 +1724,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 163714119}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: FenceLine1 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1830,7 +1760,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 164657087}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: obstacles_fance_6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1864,7 +1794,7 @@ GameObject:
   - component: {fileID: 174056185}
   - component: {fileID: 174056187}
   - component: {fileID: 174056186}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cube.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1956,7 +1886,7 @@ GameObject:
   - component: {fileID: 177712399}
   - component: {fileID: 177712401}
   - component: {fileID: 177712400}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cube.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2046,7 +1976,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 179478412}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: FenceCombiD (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2081,7 +2011,7 @@ GameObject:
   - component: {fileID: 193007937}
   - component: {fileID: 193007939}
   - component: {fileID: 193007938}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cube.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2171,7 +2101,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 206926725}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: obstacles_fance_6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2205,7 +2135,7 @@ GameObject:
   - component: {fileID: 211687512}
   - component: {fileID: 211687514}
   - component: {fileID: 211687513}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cube.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2286,6 +2216,11 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 211687511}
   m_Mesh: {fileID: 4493585093827132993, guid: 0c2e6a15eeff9b74fb156c183626aa5c, type: 3}
+--- !u!4 &226839641 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5729332879838434588, guid: 1c418ec42b6bc204b979122cc9e8eeed, type: 3}
+  m_PrefabInstance: {fileID: 312239304}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &228828979
 GameObject:
   m_ObjectHideFlags: 0
@@ -2295,7 +2230,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 228828980}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: obstacles_fance_8
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2327,7 +2262,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 232962689}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: obstacles_fance_6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2362,7 +2297,7 @@ GameObject:
   - component: {fileID: 234251502}
   - component: {fileID: 234251501}
   - component: {fileID: 234251500}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: collidertwo
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2471,7 +2406,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 239179941}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: obstacles_fance_8
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2503,7 +2438,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 243702565}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: FenceCombiB
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2536,7 +2471,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 243922429}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: obstacles_fance_8
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2568,7 +2503,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 244823146}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: obstacles_fance_6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2600,7 +2535,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 261665199}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: obstacles_fance_6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2631,7 +2566,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 264658142}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: obstacles_fance_8 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2665,7 +2600,7 @@ GameObject:
   - component: {fileID: 267141817}
   - component: {fileID: 267141819}
   - component: {fileID: 267141818}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cube.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2746,6 +2681,11 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 267141816}
   m_Mesh: {fileID: 4493585093827132993, guid: c6f9de6c2cf496047883801a02b49369, type: 3}
+--- !u!4 &268396818 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5729332879838434588, guid: 1c418ec42b6bc204b979122cc9e8eeed, type: 3}
+  m_PrefabInstance: {fileID: 368259250}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &278005215
 GameObject:
   m_ObjectHideFlags: 0
@@ -2755,7 +2695,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 278005216}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: obstacles_fance_8
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2789,7 +2729,7 @@ GameObject:
   - component: {fileID: 279497768}
   - component: {fileID: 279497770}
   - component: {fileID: 279497769}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cube.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2879,7 +2819,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 279771974}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: obstacles_fance_6 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2911,6 +2851,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 1478567614}
     m_Modifications:
     - target: {fileID: 377137494229558837, guid: 703d04a0a0769da43bff848c2913951f, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 377137494229558837, guid: 703d04a0a0769da43bff848c2913951f, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
@@ -2919,8 +2863,16 @@ PrefabInstance:
       value: TreeSmall (3)
       objectReference: {fileID: 0}
     - target: {fileID: 5897353284468897724, guid: 703d04a0a0769da43bff848c2913951f, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 5897353284468897724, guid: 703d04a0a0769da43bff848c2913951f, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 6360163044842703196, guid: 703d04a0a0769da43bff848c2913951f, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 6360163044842703196, guid: 703d04a0a0769da43bff848c2913951f, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -2985,7 +2937,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 280694203}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: FenceCombiA
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3018,7 +2970,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 280885249}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: FenceCombiD
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3051,7 +3003,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 284678251}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: obstacles_fance_6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3085,7 +3037,7 @@ GameObject:
   - component: {fileID: 287625966}
   - component: {fileID: 287625968}
   - component: {fileID: 287625967}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cube.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3177,7 +3129,7 @@ GameObject:
   - component: {fileID: 292693709}
   - component: {fileID: 292693711}
   - component: {fileID: 292693710}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cube.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3267,7 +3219,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 302494758}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: FenceCombiD
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3302,7 +3254,7 @@ GameObject:
   - component: {fileID: 308306996}
   - component: {fileID: 308306998}
   - component: {fileID: 308306997}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cube.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3394,7 +3346,7 @@ GameObject:
   - component: {fileID: 310325484}
   - component: {fileID: 310325486}
   - component: {fileID: 310325485}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cube.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3475,6 +3427,63 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 310325483}
   m_Mesh: {fileID: 4493585093827132993, guid: c6f9de6c2cf496047883801a02b49369, type: 3}
+--- !u!1001 &312239304
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1478567614}
+    m_Modifications:
+    - target: {fileID: 546793040711557877, guid: 1c418ec42b6bc204b979122cc9e8eeed, type: 3}
+      propertyPath: m_Name
+      value: Bush (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5729332879838434588, guid: 1c418ec42b6bc204b979122cc9e8eeed, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -7.23
+      objectReference: {fileID: 0}
+    - target: {fileID: 5729332879838434588, guid: 1c418ec42b6bc204b979122cc9e8eeed, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5729332879838434588, guid: 1c418ec42b6bc204b979122cc9e8eeed, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -35.86
+      objectReference: {fileID: 0}
+    - target: {fileID: 5729332879838434588, guid: 1c418ec42b6bc204b979122cc9e8eeed, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5729332879838434588, guid: 1c418ec42b6bc204b979122cc9e8eeed, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5729332879838434588, guid: 1c418ec42b6bc204b979122cc9e8eeed, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5729332879838434588, guid: 1c418ec42b6bc204b979122cc9e8eeed, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5729332879838434588, guid: 1c418ec42b6bc204b979122cc9e8eeed, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5729332879838434588, guid: 1c418ec42b6bc204b979122cc9e8eeed, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5729332879838434588, guid: 1c418ec42b6bc204b979122cc9e8eeed, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 1c418ec42b6bc204b979122cc9e8eeed, type: 3}
 --- !u!1 &316225624
 GameObject:
   m_ObjectHideFlags: 0
@@ -3484,7 +3493,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 316225625}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: FenceCombiD
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3519,7 +3528,7 @@ GameObject:
   - component: {fileID: 319230073}
   - component: {fileID: 319230075}
   - component: {fileID: 319230074}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cube.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3609,7 +3618,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 325688666}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: obstacles_fance_6 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3643,7 +3652,7 @@ GameObject:
   - component: {fileID: 341893130}
   - component: {fileID: 341893132}
   - component: {fileID: 341893131}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cube.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3732,6 +3741,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1478567614}
     m_Modifications:
+    - target: {fileID: 1188538003065257573, guid: f83011719d26da647982653f91543b90, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 5404890735584280647, guid: f83011719d26da647982653f91543b90, type: 3}
       propertyPath: m_LocalPosition.x
       value: -43.431496
@@ -3776,6 +3789,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: TreeBig
       objectReference: {fileID: 0}
+    - target: {fileID: 6186517862533370857, guid: f83011719d26da647982653f91543b90, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6762441992772489118, guid: f83011719d26da647982653f91543b90, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3795,7 +3816,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 355931753}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: FenceCombiB
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3830,7 +3851,7 @@ GameObject:
   - component: {fileID: 365365191}
   - component: {fileID: 365365193}
   - component: {fileID: 365365192}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cube.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3911,6 +3932,79 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 365365190}
   m_Mesh: {fileID: 4493585093827132993, guid: c6f9de6c2cf496047883801a02b49369, type: 3}
+--- !u!1001 &368259250
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1478567614}
+    m_Modifications:
+    - target: {fileID: 546793040711557877, guid: 1c418ec42b6bc204b979122cc9e8eeed, type: 3}
+      propertyPath: m_Name
+      value: Bush (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5729332879838434588, guid: 1c418ec42b6bc204b979122cc9e8eeed, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.67
+      objectReference: {fileID: 0}
+    - target: {fileID: 5729332879838434588, guid: 1c418ec42b6bc204b979122cc9e8eeed, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.67
+      objectReference: {fileID: 0}
+    - target: {fileID: 5729332879838434588, guid: 1c418ec42b6bc204b979122cc9e8eeed, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.67
+      objectReference: {fileID: 0}
+    - target: {fileID: 5729332879838434588, guid: 1c418ec42b6bc204b979122cc9e8eeed, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -5.64
+      objectReference: {fileID: 0}
+    - target: {fileID: 5729332879838434588, guid: 1c418ec42b6bc204b979122cc9e8eeed, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5729332879838434588, guid: 1c418ec42b6bc204b979122cc9e8eeed, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -34.85
+      objectReference: {fileID: 0}
+    - target: {fileID: 5729332879838434588, guid: 1c418ec42b6bc204b979122cc9e8eeed, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5729332879838434588, guid: 1c418ec42b6bc204b979122cc9e8eeed, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5729332879838434588, guid: 1c418ec42b6bc204b979122cc9e8eeed, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5729332879838434588, guid: 1c418ec42b6bc204b979122cc9e8eeed, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5729332879838434588, guid: 1c418ec42b6bc204b979122cc9e8eeed, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5729332879838434588, guid: 1c418ec42b6bc204b979122cc9e8eeed, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5729332879838434588, guid: 1c418ec42b6bc204b979122cc9e8eeed, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5729332879838434588, guid: 1c418ec42b6bc204b979122cc9e8eeed, type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 1c418ec42b6bc204b979122cc9e8eeed, type: 3}
 --- !u!1 &368692814
 GameObject:
   m_ObjectHideFlags: 0
@@ -3920,7 +4014,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 368692815}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: obstacles_fance_6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3952,7 +4046,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 379428102}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: obstacles_fance_8
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3986,7 +4080,7 @@ GameObject:
   - component: {fileID: 381438291}
   - component: {fileID: 381438293}
   - component: {fileID: 381438292}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cube.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4076,7 +4170,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 383934385}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: FenceCombiC
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4111,7 +4205,7 @@ GameObject:
   - component: {fileID: 384607591}
   - component: {fileID: 384607593}
   - component: {fileID: 384607592}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cube.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4201,7 +4295,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 391550709}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: FenceLine1 (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4237,7 +4331,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 398964169}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: obstacles_fance_6 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4270,7 +4364,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 5522291095124901323, guid: 9369ce6247342a44b8fe49217862724b, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 47.66
+      value: 25.27327
       objectReference: {fileID: 0}
     - target: {fileID: 5522291095124901323, guid: 9369ce6247342a44b8fe49217862724b, type: 3}
       propertyPath: m_LocalPosition.y
@@ -4278,7 +4372,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5522291095124901323, guid: 9369ce6247342a44b8fe49217862724b, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 6.32
+      value: 12.619999
       objectReference: {fileID: 0}
     - target: {fileID: 5522291095124901323, guid: 9369ce6247342a44b8fe49217862724b, type: 3}
       propertyPath: m_LocalRotation.w
@@ -4341,7 +4435,7 @@ GameObject:
   - component: {fileID: 426750316}
   - component: {fileID: 426750318}
   - component: {fileID: 426750317}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cube.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4433,7 +4527,7 @@ GameObject:
   - component: {fileID: 429877530}
   - component: {fileID: 429877532}
   - component: {fileID: 429877531}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cube.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4523,7 +4617,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 432193393}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: FenceCombiD
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4556,6 +4650,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 1478567614}
     m_Modifications:
     - target: {fileID: 377137494229558837, guid: 703d04a0a0769da43bff848c2913951f, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 377137494229558837, guid: 703d04a0a0769da43bff848c2913951f, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
@@ -4564,8 +4662,16 @@ PrefabInstance:
       value: TreeSmall (2)
       objectReference: {fileID: 0}
     - target: {fileID: 5897353284468897724, guid: 703d04a0a0769da43bff848c2913951f, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 5897353284468897724, guid: 703d04a0a0769da43bff848c2913951f, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 6360163044842703196, guid: 703d04a0a0769da43bff848c2913951f, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 6360163044842703196, guid: 703d04a0a0769da43bff848c2913951f, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -4630,7 +4736,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 442081781}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: obstacles_fance_8
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4662,7 +4768,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 444159070}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: obstacles_fance_8
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4694,7 +4800,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 446947791}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: obstacles_fance_6 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4726,7 +4832,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 448615833}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: FenceCombiA
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4759,7 +4865,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 449449045}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: obstacles_fance_8
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4793,7 +4899,7 @@ GameObject:
   - component: {fileID: 466651591}
   - component: {fileID: 466651593}
   - component: {fileID: 466651592}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cube.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4883,7 +4989,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 474359402}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: obstacles_fance_6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4917,7 +5023,7 @@ GameObject:
   - component: {fileID: 484538103}
   - component: {fileID: 484538105}
   - component: {fileID: 484538104}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cube.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5007,8 +5113,16 @@ PrefabInstance:
     m_TransformParent: {fileID: 1478567614}
     m_Modifications:
     - target: {fileID: 3467310172580739335, guid: 7f3bcf193334ac242a0baec01fbf8747, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 3467310172580739335, guid: 7f3bcf193334ac242a0baec01fbf8747, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 3592546236826395370, guid: 7f3bcf193334ac242a0baec01fbf8747, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 3592546236826395370, guid: 7f3bcf193334ac242a0baec01fbf8747, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -5017,6 +5131,10 @@ PrefabInstance:
     - target: {fileID: 6462040472746244472, guid: 7f3bcf193334ac242a0baec01fbf8747, type: 3}
       propertyPath: m_Name
       value: TreeOther (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6462040472746244472, guid: 7f3bcf193334ac242a0baec01fbf8747, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 6462040472746244472, guid: 7f3bcf193334ac242a0baec01fbf8747, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -5099,7 +5217,7 @@ GameObject:
   - component: {fileID: 495210472}
   - component: {fileID: 495210474}
   - component: {fileID: 495210473}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cube.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5189,7 +5307,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 504262242}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: obstacles_fance_6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5221,7 +5339,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 504857099}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: obstacles_fance_6 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5253,7 +5371,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 504939711}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: obstacles_fance_6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5285,6 +5403,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 1478567614}
     m_Modifications:
     - target: {fileID: 377137494229558837, guid: 703d04a0a0769da43bff848c2913951f, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 377137494229558837, guid: 703d04a0a0769da43bff848c2913951f, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
@@ -5293,8 +5415,16 @@ PrefabInstance:
       value: TreeSmall
       objectReference: {fileID: 0}
     - target: {fileID: 5897353284468897724, guid: 703d04a0a0769da43bff848c2913951f, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 5897353284468897724, guid: 703d04a0a0769da43bff848c2913951f, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 6360163044842703196, guid: 703d04a0a0769da43bff848c2913951f, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 6360163044842703196, guid: 703d04a0a0769da43bff848c2913951f, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -5359,7 +5489,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 508670361}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: obstacles_fance_6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5391,7 +5521,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 509489610}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: obstacles_fance_8
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5423,7 +5553,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 511163587}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: FenceCombiB
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5456,7 +5586,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 512843326}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: obstacles_fance_8
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5488,7 +5618,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 522993485}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: obstacles_fance_8
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5522,7 +5652,7 @@ GameObject:
   - component: {fileID: 526492236}
   - component: {fileID: 526492238}
   - component: {fileID: 526492237}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cube.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5612,7 +5742,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 530119547}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: obstacles_fance_6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5644,7 +5774,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 530170134}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: obstacles_fance_8
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5676,7 +5806,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 533541014}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: obstacles_fance_6 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5708,7 +5838,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 537683553}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Lamps
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5723,14 +5853,14 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 537683552}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 28.90169, y: 0, z: -8.26235}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 5.9605093, y: -3.58342, z: 36.243896}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 2249216722196106533}
   - {fileID: 109434474}
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1586080153}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &537982816
 GameObject:
@@ -5741,7 +5871,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 537982817}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: obstacles_fance_8 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5775,7 +5905,7 @@ GameObject:
   - component: {fileID: 540368284}
   - component: {fileID: 540368286}
   - component: {fileID: 540368285}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cube.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5865,7 +5995,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 541535517}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: FenceCombiC
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5900,7 +6030,7 @@ GameObject:
   - component: {fileID: 545888898}
   - component: {fileID: 545888900}
   - component: {fileID: 545888899}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cube.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5992,7 +6122,7 @@ GameObject:
   - component: {fileID: 547203959}
   - component: {fileID: 547203961}
   - component: {fileID: 547203960}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cube.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6082,7 +6212,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 554364089}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: FenceSide (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6118,7 +6248,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 561958357}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: obstacles_fance_6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6150,7 +6280,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 562666602}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: obstacles_fance_6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6182,7 +6312,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 576613425}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: FenceCombiD (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6215,7 +6345,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 589201655}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: FenceCombiC
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6250,7 +6380,7 @@ GameObject:
   - component: {fileID: 596620357}
   - component: {fileID: 596620359}
   - component: {fileID: 596620358}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cube.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6342,7 +6472,7 @@ GameObject:
   - component: {fileID: 599095030}
   - component: {fileID: 599095032}
   - component: {fileID: 599095031}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cube.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6434,7 +6564,7 @@ GameObject:
   - component: {fileID: 613590501}
   - component: {fileID: 613590503}
   - component: {fileID: 613590502}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cube.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6524,7 +6654,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 618902592}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: obstacles_fance_6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6558,7 +6688,7 @@ GameObject:
   - component: {fileID: 628506483}
   - component: {fileID: 628506485}
   - component: {fileID: 628506484}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cube.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6648,7 +6778,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 629961697}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: FenceCombiA
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6683,7 +6813,7 @@ GameObject:
   - component: {fileID: 639401228}
   - component: {fileID: 639401230}
   - component: {fileID: 639401229}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cube.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6773,7 +6903,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 644536789}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: obstacles_fance_8
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6807,7 +6937,7 @@ GameObject:
   - component: {fileID: 646918344}
   - component: {fileID: 646918346}
   - component: {fileID: 646918345}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cube.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6897,7 +7027,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 654298759}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: FenceCombiD (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6932,7 +7062,7 @@ GameObject:
   - component: {fileID: 663685417}
   - component: {fileID: 663685419}
   - component: {fileID: 663685418}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cube.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7024,7 +7154,7 @@ GameObject:
   - component: {fileID: 670454821}
   - component: {fileID: 670454823}
   - component: {fileID: 670454822}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cube.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7114,7 +7244,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 677924628}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: FenceCombiC
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7147,7 +7277,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 682112511}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: FenceCombiA
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7180,7 +7310,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 687780048}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: obstacles_fance_8
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7214,7 +7344,7 @@ GameObject:
   - component: {fileID: 690794885}
   - component: {fileID: 690794887}
   - component: {fileID: 690794886}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cube.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7306,7 +7436,7 @@ GameObject:
   - component: {fileID: 701822851}
   - component: {fileID: 701822853}
   - component: {fileID: 701822852}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cube.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7396,7 +7526,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 704434467}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: obstacles_fance_8
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7428,7 +7558,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 721238829}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: obstacles_fance_8
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7460,7 +7590,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 722156777}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: obstacles_fance_6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7494,7 +7624,7 @@ GameObject:
   - component: {fileID: 722611780}
   - component: {fileID: 722611782}
   - component: {fileID: 722611781}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cube.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7584,7 +7714,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 734915166}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: obstacles_fance_8
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7616,7 +7746,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 739603308}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: FenceCombiD (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7649,7 +7779,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 750521379}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: obstacles_fance_6 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7683,7 +7813,7 @@ GameObject:
   - component: {fileID: 751614240}
   - component: {fileID: 751614242}
   - component: {fileID: 751614241}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cube.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7773,7 +7903,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 754413906}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: FenceLine1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7809,7 +7939,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 756066471}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: obstacles_fance_6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7841,7 +7971,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 758282384}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: FenceLine1 (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7877,7 +8007,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 765743488}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: FenceLine1 (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7914,7 +8044,7 @@ GameObject:
   - component: {fileID: 775895843}
   - component: {fileID: 775895845}
   - component: {fileID: 775895844}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cube.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8004,7 +8134,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 780684472}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: obstacles_fance_6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8036,7 +8166,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 783309241}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: obstacles_fance_6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8068,7 +8198,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 795261840}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: obstacles_fance_6 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8100,7 +8230,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 796242971}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: obstacles_fance_6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8132,7 +8262,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 800121452}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: FenceLine1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8170,7 +8300,7 @@ GameObject:
   - component: {fileID: 808009192}
   - component: {fileID: 808009194}
   - component: {fileID: 808009193}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cube.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8260,7 +8390,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 813376702}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: obstacles_fance_6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8294,7 +8424,7 @@ GameObject:
   - component: {fileID: 827216856}
   - component: {fileID: 827216858}
   - component: {fileID: 827216857}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cube.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8386,7 +8516,7 @@ GameObject:
   - component: {fileID: 829761710}
   - component: {fileID: 829761712}
   - component: {fileID: 829761711}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cube.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8476,7 +8606,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 834644838}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: FenceSide (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8514,7 +8644,7 @@ GameObject:
   - component: {fileID: 834809523}
   - component: {fileID: 834809525}
   - component: {fileID: 834809524}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cube.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8606,7 +8736,7 @@ GameObject:
   - component: {fileID: 836214671}
   - component: {fileID: 836214673}
   - component: {fileID: 836214672}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cube.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8698,7 +8828,7 @@ GameObject:
   - component: {fileID: 840106754}
   - component: {fileID: 840106756}
   - component: {fileID: 840106755}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cube.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8788,7 +8918,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 843745481}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: obstacles_fance_8 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8820,7 +8950,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 847491878}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: obstacles_fance_6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8852,7 +8982,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 852840095}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: FenceCombiB
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8887,7 +9017,7 @@ GameObject:
   - component: {fileID: 854047410}
   - component: {fileID: 854047412}
   - component: {fileID: 854047411}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cube.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8977,7 +9107,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 862377691}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: obstacles_fance_8
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9009,7 +9139,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 866878500}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: obstacles_fance_6 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9041,7 +9171,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 867620368}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: FenceCombiB
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9076,7 +9206,7 @@ GameObject:
   - component: {fileID: 870655816}
   - component: {fileID: 870655818}
   - component: {fileID: 870655817}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cube.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9166,7 +9296,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 877289590}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: obstacles_fance_8
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9198,7 +9328,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 878288902}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: obstacles_fance_8
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9230,7 +9360,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 881236796}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: obstacles_fance_6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9262,7 +9392,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 887064245}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: FenceCombiC
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9297,7 +9427,7 @@ GameObject:
   - component: {fileID: 893362187}
   - component: {fileID: 893362189}
   - component: {fileID: 893362188}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cube.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9389,7 +9519,7 @@ GameObject:
   - component: {fileID: 896986353}
   - component: {fileID: 896986355}
   - component: {fileID: 896986354}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cube.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9470,88 +9600,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 896986352}
   m_Mesh: {fileID: 4493585093827132993, guid: 0c2e6a15eeff9b74fb156c183626aa5c, type: 3}
---- !u!1001 &898240799
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 1478567614}
-    m_Modifications:
-    - target: {fileID: 546793040711557877, guid: 1c418ec42b6bc204b979122cc9e8eeed, type: 3}
-      propertyPath: m_Name
-      value: Bush (2)
-      objectReference: {fileID: 0}
-    - target: {fileID: 546793040711557877, guid: 1c418ec42b6bc204b979122cc9e8eeed, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 2147483647
-      objectReference: {fileID: 0}
-    - target: {fileID: 920999559814673645, guid: 1c418ec42b6bc204b979122cc9e8eeed, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 2147483647
-      objectReference: {fileID: 0}
-    - target: {fileID: 5729332879838434588, guid: 1c418ec42b6bc204b979122cc9e8eeed, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 1.3477
-      objectReference: {fileID: 0}
-    - target: {fileID: 5729332879838434588, guid: 1c418ec42b6bc204b979122cc9e8eeed, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 1.3477
-      objectReference: {fileID: 0}
-    - target: {fileID: 5729332879838434588, guid: 1c418ec42b6bc204b979122cc9e8eeed, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 1.3477
-      objectReference: {fileID: 0}
-    - target: {fileID: 5729332879838434588, guid: 1c418ec42b6bc204b979122cc9e8eeed, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -2.17169
-      objectReference: {fileID: 0}
-    - target: {fileID: 5729332879838434588, guid: 1c418ec42b6bc204b979122cc9e8eeed, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -0.47698
-      objectReference: {fileID: 0}
-    - target: {fileID: 5729332879838434588, guid: 1c418ec42b6bc204b979122cc9e8eeed, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -35.86965
-      objectReference: {fileID: 0}
-    - target: {fileID: 5729332879838434588, guid: 1c418ec42b6bc204b979122cc9e8eeed, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5729332879838434588, guid: 1c418ec42b6bc204b979122cc9e8eeed, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5729332879838434588, guid: 1c418ec42b6bc204b979122cc9e8eeed, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5729332879838434588, guid: 1c418ec42b6bc204b979122cc9e8eeed, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5729332879838434588, guid: 1c418ec42b6bc204b979122cc9e8eeed, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5729332879838434588, guid: 1c418ec42b6bc204b979122cc9e8eeed, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5729332879838434588, guid: 1c418ec42b6bc204b979122cc9e8eeed, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 1c418ec42b6bc204b979122cc9e8eeed, type: 3}
---- !u!4 &898240800 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 5729332879838434588, guid: 1c418ec42b6bc204b979122cc9e8eeed, type: 3}
-  m_PrefabInstance: {fileID: 898240799}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &898750877
 GameObject:
   m_ObjectHideFlags: 0
@@ -9563,7 +9611,7 @@ GameObject:
   - component: {fileID: 898750878}
   - component: {fileID: 898750880}
   - component: {fileID: 898750879}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cube.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9653,7 +9701,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 903943270}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: obstacles_fance_6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9685,7 +9733,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 909130593}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: FenceCombiD (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9720,7 +9768,7 @@ GameObject:
   - component: {fileID: 920809789}
   - component: {fileID: 920809791}
   - component: {fileID: 920809790}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cube.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9812,7 +9860,7 @@ GameObject:
   - component: {fileID: 933104715}
   - component: {fileID: 933104717}
   - component: {fileID: 933104716}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cube.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9904,7 +9952,7 @@ GameObject:
   - component: {fileID: 943053337}
   - component: {fileID: 943053339}
   - component: {fileID: 943053338}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cube.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9994,12 +10042,20 @@ PrefabInstance:
     m_TransformParent: {fileID: 1478567614}
     m_Modifications:
     - target: {fileID: 1503791277476364328, guid: 7e0327f52ac78874e944dfc1e2d838cd, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1503791277476364328, guid: 7e0327f52ac78874e944dfc1e2d838cd, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 3850869569320701801, guid: 7e0327f52ac78874e944dfc1e2d838cd, type: 3}
       propertyPath: m_Name
       value: Tree (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3850869569320701801, guid: 7e0327f52ac78874e944dfc1e2d838cd, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 3850869569320701801, guid: 7e0327f52ac78874e944dfc1e2d838cd, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -10046,8 +10102,16 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6800264479068372814, guid: 7e0327f52ac78874e944dfc1e2d838cd, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6800264479068372814, guid: 7e0327f52ac78874e944dfc1e2d838cd, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 6928549206052670495, guid: 7e0327f52ac78874e944dfc1e2d838cd, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 6928549206052670495, guid: 7e0327f52ac78874e944dfc1e2d838cd, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -10074,7 +10138,7 @@ GameObject:
   - component: {fileID: 947498707}
   - component: {fileID: 947498709}
   - component: {fileID: 947498708}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cube.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10164,7 +10228,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 954935623}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: FenceCombiC
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10197,8 +10261,16 @@ PrefabInstance:
     m_TransformParent: {fileID: 1478567614}
     m_Modifications:
     - target: {fileID: 3467310172580739335, guid: 7f3bcf193334ac242a0baec01fbf8747, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 3467310172580739335, guid: 7f3bcf193334ac242a0baec01fbf8747, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 3592546236826395370, guid: 7f3bcf193334ac242a0baec01fbf8747, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 3592546236826395370, guid: 7f3bcf193334ac242a0baec01fbf8747, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -10207,6 +10279,10 @@ PrefabInstance:
     - target: {fileID: 6462040472746244472, guid: 7f3bcf193334ac242a0baec01fbf8747, type: 3}
       propertyPath: m_Name
       value: TreeOther (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6462040472746244472, guid: 7f3bcf193334ac242a0baec01fbf8747, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 6462040472746244472, guid: 7f3bcf193334ac242a0baec01fbf8747, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -10287,6 +10363,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 1478567614}
     m_Modifications:
     - target: {fileID: 377137494229558837, guid: 703d04a0a0769da43bff848c2913951f, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 377137494229558837, guid: 703d04a0a0769da43bff848c2913951f, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
@@ -10295,8 +10375,16 @@ PrefabInstance:
       value: TreeSmall (1)
       objectReference: {fileID: 0}
     - target: {fileID: 5897353284468897724, guid: 703d04a0a0769da43bff848c2913951f, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 5897353284468897724, guid: 703d04a0a0769da43bff848c2913951f, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 6360163044842703196, guid: 703d04a0a0769da43bff848c2913951f, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 6360163044842703196, guid: 703d04a0a0769da43bff848c2913951f, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -10361,7 +10449,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 982665094}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: FenceCombiA
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10394,7 +10482,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 984192139}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: FenceCombiC
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10429,7 +10517,7 @@ GameObject:
   - component: {fileID: 984433946}
   - component: {fileID: 984433948}
   - component: {fileID: 984433947}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cube.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10521,7 +10609,7 @@ GameObject:
   - component: {fileID: 985562509}
   - component: {fileID: 985562511}
   - component: {fileID: 985562510}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cube.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10613,7 +10701,7 @@ GameObject:
   - component: {fileID: 991263828}
   - component: {fileID: 991263830}
   - component: {fileID: 991263829}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cube.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10703,7 +10791,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1004277061}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: obstacles_fance_6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10735,8 +10823,16 @@ PrefabInstance:
     m_TransformParent: {fileID: 1478567614}
     m_Modifications:
     - target: {fileID: 3467310172580739335, guid: 7f3bcf193334ac242a0baec01fbf8747, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 3467310172580739335, guid: 7f3bcf193334ac242a0baec01fbf8747, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 3592546236826395370, guid: 7f3bcf193334ac242a0baec01fbf8747, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 3592546236826395370, guid: 7f3bcf193334ac242a0baec01fbf8747, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -10745,6 +10841,10 @@ PrefabInstance:
     - target: {fileID: 6462040472746244472, guid: 7f3bcf193334ac242a0baec01fbf8747, type: 3}
       propertyPath: m_Name
       value: TreeOther (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6462040472746244472, guid: 7f3bcf193334ac242a0baec01fbf8747, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 6462040472746244472, guid: 7f3bcf193334ac242a0baec01fbf8747, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -10827,7 +10927,7 @@ GameObject:
   - component: {fileID: 1008242703}
   - component: {fileID: 1008242705}
   - component: {fileID: 1008242704}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cube.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10919,7 +11019,7 @@ GameObject:
   - component: {fileID: 1008334285}
   - component: {fileID: 1008334287}
   - component: {fileID: 1008334286}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cube.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11009,7 +11109,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1011222923}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: obstacles_fance_6 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11041,7 +11141,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1011974280}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: obstacles_fance_6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11073,7 +11173,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1012136675}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: obstacles_fance_6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11114,15 +11214,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3204274824001796454, guid: f7cab184108976343991849172b653e3, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 11.46875
+      value: -10.91798
       objectReference: {fileID: 0}
     - target: {fileID: 3204274824001796454, guid: f7cab184108976343991849172b653e3, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3204274824001796454, guid: f7cab184108976343991849172b653e3, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 8.44823
+      value: 14.74823
       objectReference: {fileID: 0}
     - target: {fileID: 3204274824001796454, guid: f7cab184108976343991849172b653e3, type: 3}
       propertyPath: m_LocalRotation.w
@@ -11157,6 +11257,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f7cab184108976343991849172b653e3, type: 3}
+--- !u!4 &1025605982 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5729332879838434588, guid: 1c418ec42b6bc204b979122cc9e8eeed, type: 3}
+  m_PrefabInstance: {fileID: 1145193614}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1036119806
 GameObject:
   m_ObjectHideFlags: 0
@@ -11168,7 +11273,7 @@ GameObject:
   - component: {fileID: 1036119807}
   - component: {fileID: 1036119809}
   - component: {fileID: 1036119808}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cube.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11258,7 +11363,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1036283173}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: obstacles_fance_8
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11290,7 +11395,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1038868211}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: FenceCombiD (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11325,7 +11430,7 @@ GameObject:
   - component: {fileID: 1046706124}
   - component: {fileID: 1046706126}
   - component: {fileID: 1046706125}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cube.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11415,7 +11520,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1054319001}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: obstacles_fance_6 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11449,7 +11554,7 @@ GameObject:
   - component: {fileID: 1056959861}
   - component: {fileID: 1056959863}
   - component: {fileID: 1056959862}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cube.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11539,7 +11644,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1059524200}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: FenceCombiC
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11572,7 +11677,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1064307870}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: obstacles_fance_6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11604,7 +11709,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1070183490}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: obstacles_fance_8
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11638,7 +11743,7 @@ GameObject:
   - component: {fileID: 1074769776}
   - component: {fileID: 1074769778}
   - component: {fileID: 1074769777}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cube.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11728,7 +11833,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1075651547}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: FenceCombiD (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11763,7 +11868,7 @@ GameObject:
   - component: {fileID: 1076986479}
   - component: {fileID: 1076986481}
   - component: {fileID: 1076986480}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cube.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11855,7 +11960,7 @@ GameObject:
   - component: {fileID: 1080047225}
   - component: {fileID: 1080047227}
   - component: {fileID: 1080047226}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cube.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11947,7 +12052,7 @@ GameObject:
   - component: {fileID: 1095207253}
   - component: {fileID: 1095207255}
   - component: {fileID: 1095207254}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cube.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12037,7 +12142,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1101474935}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: obstacles_fance_6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12069,7 +12174,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1103998746}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: FenceCombiA
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12102,7 +12207,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1110576302}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: obstacles_fance_6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12134,7 +12239,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1112648784}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: obstacles_fance_6 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12166,7 +12271,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1114804559}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: obstacles_fance_8
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12198,7 +12303,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1131314678}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: obstacles_fance_8
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12232,7 +12337,7 @@ GameObject:
   - component: {fileID: 1131448832}
   - component: {fileID: 1131448834}
   - component: {fileID: 1131448833}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cube.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12313,6 +12418,79 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1131448831}
   m_Mesh: {fileID: 4493585093827132993, guid: 0c2e6a15eeff9b74fb156c183626aa5c, type: 3}
+--- !u!1001 &1145193614
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1478567614}
+    m_Modifications:
+    - target: {fileID: 546793040711557877, guid: 1c418ec42b6bc204b979122cc9e8eeed, type: 3}
+      propertyPath: m_Name
+      value: Bush (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5729332879838434588, guid: 1c418ec42b6bc204b979122cc9e8eeed, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.79
+      objectReference: {fileID: 0}
+    - target: {fileID: 5729332879838434588, guid: 1c418ec42b6bc204b979122cc9e8eeed, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.79
+      objectReference: {fileID: 0}
+    - target: {fileID: 5729332879838434588, guid: 1c418ec42b6bc204b979122cc9e8eeed, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1.79
+      objectReference: {fileID: 0}
+    - target: {fileID: 5729332879838434588, guid: 1c418ec42b6bc204b979122cc9e8eeed, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 1.49
+      objectReference: {fileID: 0}
+    - target: {fileID: 5729332879838434588, guid: 1c418ec42b6bc204b979122cc9e8eeed, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5729332879838434588, guid: 1c418ec42b6bc204b979122cc9e8eeed, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -34.28
+      objectReference: {fileID: 0}
+    - target: {fileID: 5729332879838434588, guid: 1c418ec42b6bc204b979122cc9e8eeed, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5729332879838434588, guid: 1c418ec42b6bc204b979122cc9e8eeed, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5729332879838434588, guid: 1c418ec42b6bc204b979122cc9e8eeed, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5729332879838434588, guid: 1c418ec42b6bc204b979122cc9e8eeed, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5729332879838434588, guid: 1c418ec42b6bc204b979122cc9e8eeed, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5729332879838434588, guid: 1c418ec42b6bc204b979122cc9e8eeed, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5729332879838434588, guid: 1c418ec42b6bc204b979122cc9e8eeed, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5729332879838434588, guid: 1c418ec42b6bc204b979122cc9e8eeed, type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 1c418ec42b6bc204b979122cc9e8eeed, type: 3}
 --- !u!1 &1146306997
 GameObject:
   m_ObjectHideFlags: 0
@@ -12322,7 +12500,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1146306998}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: FenceCombiA
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12355,7 +12533,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1153834260}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: obstacles_fance_6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12389,7 +12567,7 @@ GameObject:
   - component: {fileID: 1153851697}
   - component: {fileID: 1153851699}
   - component: {fileID: 1153851698}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cube.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12484,7 +12662,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1176136399}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: obstacles_fance_8 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12516,7 +12694,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1200509615}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: obstacles_fance_8
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12548,7 +12726,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1204482394}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: FenceCombiD
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12583,7 +12761,7 @@ GameObject:
   - component: {fileID: 1216144532}
   - component: {fileID: 1216144534}
   - component: {fileID: 1216144533}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cube.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12673,7 +12851,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1218223938}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: obstacles_fance_8
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12696,88 +12874,6 @@ Transform:
   - {fileID: 933104715}
   m_Father: {fileID: 1263239650}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1001 &1218678151
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 1478567614}
-    m_Modifications:
-    - target: {fileID: 546793040711557877, guid: 1c418ec42b6bc204b979122cc9e8eeed, type: 3}
-      propertyPath: m_Name
-      value: Bush (1)
-      objectReference: {fileID: 0}
-    - target: {fileID: 546793040711557877, guid: 1c418ec42b6bc204b979122cc9e8eeed, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 2147483647
-      objectReference: {fileID: 0}
-    - target: {fileID: 920999559814673645, guid: 1c418ec42b6bc204b979122cc9e8eeed, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 2147483647
-      objectReference: {fileID: 0}
-    - target: {fileID: 5729332879838434588, guid: 1c418ec42b6bc204b979122cc9e8eeed, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 0.78786993
-      objectReference: {fileID: 0}
-    - target: {fileID: 5729332879838434588, guid: 1c418ec42b6bc204b979122cc9e8eeed, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 0.78787
-      objectReference: {fileID: 0}
-    - target: {fileID: 5729332879838434588, guid: 1c418ec42b6bc204b979122cc9e8eeed, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 0.78786993
-      objectReference: {fileID: 0}
-    - target: {fileID: 5729332879838434588, guid: 1c418ec42b6bc204b979122cc9e8eeed, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -3.8494911
-      objectReference: {fileID: 0}
-    - target: {fileID: 5729332879838434588, guid: 1c418ec42b6bc204b979122cc9e8eeed, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0.29103994
-      objectReference: {fileID: 0}
-    - target: {fileID: 5729332879838434588, guid: 1c418ec42b6bc204b979122cc9e8eeed, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -33.772682
-      objectReference: {fileID: 0}
-    - target: {fileID: 5729332879838434588, guid: 1c418ec42b6bc204b979122cc9e8eeed, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0.99837947
-      objectReference: {fileID: 0}
-    - target: {fileID: 5729332879838434588, guid: 1c418ec42b6bc204b979122cc9e8eeed, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5729332879838434588, guid: 1c418ec42b6bc204b979122cc9e8eeed, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0.05690722
-      objectReference: {fileID: 0}
-    - target: {fileID: 5729332879838434588, guid: 1c418ec42b6bc204b979122cc9e8eeed, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5729332879838434588, guid: 1c418ec42b6bc204b979122cc9e8eeed, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5729332879838434588, guid: 1c418ec42b6bc204b979122cc9e8eeed, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: -6.525
-      objectReference: {fileID: 0}
-    - target: {fileID: 5729332879838434588, guid: 1c418ec42b6bc204b979122cc9e8eeed, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 1c418ec42b6bc204b979122cc9e8eeed, type: 3}
---- !u!4 &1218678152 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 5729332879838434588, guid: 1c418ec42b6bc204b979122cc9e8eeed, type: 3}
-  m_PrefabInstance: {fileID: 1218678151}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1219260172
 GameObject:
   m_ObjectHideFlags: 0
@@ -12789,7 +12885,7 @@ GameObject:
   - component: {fileID: 1219260173}
   - component: {fileID: 1219260175}
   - component: {fileID: 1219260174}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cube.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12879,7 +12975,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1222389457}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: obstacles_fance_6 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12911,7 +13007,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1233053050}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: FenceCombiB
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12944,7 +13040,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1235471760}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: obstacles_fance_8 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12978,7 +13074,7 @@ GameObject:
   - component: {fileID: 1237393215}
   - component: {fileID: 1237393217}
   - component: {fileID: 1237393216}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cube.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13070,7 +13166,7 @@ GameObject:
   - component: {fileID: 1239422646}
   - component: {fileID: 1239422648}
   - component: {fileID: 1239422647}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cube.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13162,7 +13258,7 @@ GameObject:
   - component: {fileID: 1245088463}
   - component: {fileID: 1245088465}
   - component: {fileID: 1245088464}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cube.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13254,7 +13350,7 @@ GameObject:
   - component: {fileID: 1249491179}
   - component: {fileID: 1249491181}
   - component: {fileID: 1249491180}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cube.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13346,7 +13442,7 @@ GameObject:
   - component: {fileID: 1249508948}
   - component: {fileID: 1249508950}
   - component: {fileID: 1249508949}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cube.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13438,7 +13534,7 @@ GameObject:
   - component: {fileID: 1256075768}
   - component: {fileID: 1256075770}
   - component: {fileID: 1256075769}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cube.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13528,7 +13624,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1263239650}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: FenceCombiB
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13563,7 +13659,7 @@ GameObject:
   - component: {fileID: 1275590481}
   - component: {fileID: 1275590483}
   - component: {fileID: 1275590482}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cube.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13655,7 +13751,7 @@ GameObject:
   - component: {fileID: 1285257227}
   - component: {fileID: 1285257229}
   - component: {fileID: 1285257228}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cube.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13747,7 +13843,7 @@ GameObject:
   - component: {fileID: 1286183932}
   - component: {fileID: 1286183934}
   - component: {fileID: 1286183933}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cube.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13837,7 +13933,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1290181047}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: FenceCombiD
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13870,6 +13966,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 1478567614}
     m_Modifications:
     - target: {fileID: 377137494229558837, guid: 703d04a0a0769da43bff848c2913951f, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 377137494229558837, guid: 703d04a0a0769da43bff848c2913951f, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
@@ -13878,8 +13978,16 @@ PrefabInstance:
       value: TreeSmall (4)
       objectReference: {fileID: 0}
     - target: {fileID: 5897353284468897724, guid: 703d04a0a0769da43bff848c2913951f, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 5897353284468897724, guid: 703d04a0a0769da43bff848c2913951f, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 6360163044842703196, guid: 703d04a0a0769da43bff848c2913951f, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 6360163044842703196, guid: 703d04a0a0769da43bff848c2913951f, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -13944,7 +14052,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1296006016}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: obstacles_fance_6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13978,7 +14086,7 @@ GameObject:
   - component: {fileID: 1299041117}
   - component: {fileID: 1299041119}
   - component: {fileID: 1299041118}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cube.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14068,7 +14176,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1305653841}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: FenceCombiB
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14100,6 +14208,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1478567614}
     m_Modifications:
+    - target: {fileID: 1188538003065257573, guid: f83011719d26da647982653f91543b90, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 1188538003065257573, guid: f83011719d26da647982653f91543b90, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
@@ -14149,8 +14261,16 @@ PrefabInstance:
       value: TreeBig (1)
       objectReference: {fileID: 0}
     - target: {fileID: 6186517862533370857, guid: f83011719d26da647982653f91543b90, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6186517862533370857, guid: f83011719d26da647982653f91543b90, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 6762441992772489118, guid: f83011719d26da647982653f91543b90, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 6762441992772489118, guid: f83011719d26da647982653f91543b90, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -14175,8 +14295,16 @@ PrefabInstance:
     m_TransformParent: {fileID: 1478567614}
     m_Modifications:
     - target: {fileID: 3467310172580739335, guid: 7f3bcf193334ac242a0baec01fbf8747, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 3467310172580739335, guid: 7f3bcf193334ac242a0baec01fbf8747, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 3592546236826395370, guid: 7f3bcf193334ac242a0baec01fbf8747, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 3592546236826395370, guid: 7f3bcf193334ac242a0baec01fbf8747, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -14185,6 +14313,10 @@ PrefabInstance:
     - target: {fileID: 6462040472746244472, guid: 7f3bcf193334ac242a0baec01fbf8747, type: 3}
       propertyPath: m_Name
       value: TreeOther
+      objectReference: {fileID: 0}
+    - target: {fileID: 6462040472746244472, guid: 7f3bcf193334ac242a0baec01fbf8747, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 6462040472746244472, guid: 7f3bcf193334ac242a0baec01fbf8747, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -14251,7 +14383,7 @@ GameObject:
   - component: {fileID: 1322247044}
   - component: {fileID: 1322247046}
   - component: {fileID: 1322247045}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cube.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14341,7 +14473,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1326457014}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: FenceLine1 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14377,7 +14509,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1333913055}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: FenceCombiC
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14410,7 +14542,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1338363341}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: obstacles_fance_6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14442,7 +14574,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1342151299}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: obstacles_fance_6 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14474,7 +14606,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1342728578}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: obstacles_fance_8
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14497,6 +14629,11 @@ Transform:
   - {fileID: 2066375109}
   m_Father: {fileID: 59116031}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &1346294467 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6551780913142793054, guid: b48be873dd143424a87f50049adf9dd0, type: 3}
+  m_PrefabInstance: {fileID: 6796715205360772393}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1352889354
 GameObject:
   m_ObjectHideFlags: 0
@@ -14506,7 +14643,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1352889355}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: obstacles_fance_8
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14541,7 +14678,7 @@ GameObject:
   - component: {fileID: 1354929943}
   - component: {fileID: 1354929942}
   - component: {fileID: 1354929941}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: colliderfour
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14652,7 +14789,7 @@ GameObject:
   - component: {fileID: 1354978204}
   - component: {fileID: 1354978206}
   - component: {fileID: 1354978205}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cube.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14744,7 +14881,7 @@ GameObject:
   - component: {fileID: 1360850437}
   - component: {fileID: 1360850439}
   - component: {fileID: 1360850438}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cube.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14836,7 +14973,7 @@ GameObject:
   - component: {fileID: 1363606258}
   - component: {fileID: 1363606260}
   - component: {fileID: 1363606259}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cube.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14926,7 +15063,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1370263250}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: obstacles_fance_6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14958,7 +15095,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1372400691}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: obstacles_fance_6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14990,7 +15127,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1376610146}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: obstacles_fance_6 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15022,7 +15159,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1378740420}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: obstacles_fance_6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15054,7 +15191,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1382712145}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: FenceCombiB
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15087,7 +15224,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1383899675}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: obstacles_fance_8
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15119,7 +15256,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1387781538}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: FenceCombiD
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15154,7 +15291,7 @@ GameObject:
   - component: {fileID: 1388950802}
   - component: {fileID: 1388950804}
   - component: {fileID: 1388950803}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cube.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15244,7 +15381,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1393756689}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: FenceCombiD (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15277,7 +15414,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1401812527}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: FenceCombiC
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15310,7 +15447,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1409499755}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: obstacles_fance_8
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15342,7 +15479,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1412421397}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: FenceCombiB
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15375,7 +15512,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1420610405}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: FenceLine1 (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15411,7 +15548,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1421138382}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: obstacles_fance_6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15443,7 +15580,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1425263605}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: FenceCombiD (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15477,7 +15614,7 @@ GameObject:
   - component: {fileID: 1431128046}
   - component: {fileID: 1431128048}
   - component: {fileID: 1431128047}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cube.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15567,7 +15704,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1435948136}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: obstacles_fance_8 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15601,7 +15738,7 @@ GameObject:
   - component: {fileID: 1439919479}
   - component: {fileID: 1439919481}
   - component: {fileID: 1439919480}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cube.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15693,7 +15830,7 @@ GameObject:
   - component: {fileID: 1444643737}
   - component: {fileID: 1444643739}
   - component: {fileID: 1444643738}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cube.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15785,7 +15922,7 @@ GameObject:
   - component: {fileID: 1445289985}
   - component: {fileID: 1445289987}
   - component: {fileID: 1445289986}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cube.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15875,6 +16012,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 1478567614}
     m_Modifications:
     - target: {fileID: 1188538003065257573, guid: f83011719d26da647982653f91543b90, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1188538003065257573, guid: f83011719d26da647982653f91543b90, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
@@ -15923,8 +16064,16 @@ PrefabInstance:
       value: TreeBig
       objectReference: {fileID: 0}
     - target: {fileID: 6186517862533370857, guid: f83011719d26da647982653f91543b90, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6186517862533370857, guid: f83011719d26da647982653f91543b90, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 6762441992772489118, guid: f83011719d26da647982653f91543b90, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 6762441992772489118, guid: f83011719d26da647982653f91543b90, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -15951,7 +16100,7 @@ GameObject:
   - component: {fileID: 1452236684}
   - component: {fileID: 1452236686}
   - component: {fileID: 1452236685}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cube.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16043,7 +16192,7 @@ GameObject:
   - component: {fileID: 1462761366}
   - component: {fileID: 1462761368}
   - component: {fileID: 1462761367}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cube.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16133,7 +16282,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1473128287}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: obstacles_fance_6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16294,7 +16443,7 @@ GameObject:
   - component: {fileID: 1478338751}
   - component: {fileID: 1478338753}
   - component: {fileID: 1478338752}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cube.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16384,7 +16533,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1478567614}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Plants
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16399,8 +16548,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1478567613}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 28.90169, y: 0, z: -8.26235}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 5.9605093, y: -3.58342, z: 36.243896}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -16425,11 +16574,12 @@ Transform:
   - {fileID: 1006930004}
   - {fileID: 1716025815}
   - {fileID: 6814386811953692309}
-  - {fileID: 1218678152}
-  - {fileID: 898240800}
-  - {fileID: 159324639}
+  - {fileID: 1025605982}
+  - {fileID: 268396818}
+  - {fileID: 226839641}
+  - {fileID: 1982812075}
   - {fileID: 342893522}
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1586080153}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1482561654
 GameObject:
@@ -16442,7 +16592,7 @@ GameObject:
   - component: {fileID: 1482561655}
   - component: {fileID: 1482561657}
   - component: {fileID: 1482561656}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cube.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16532,7 +16682,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1484523933}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: FenceCombiC
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16567,7 +16717,7 @@ GameObject:
   - component: {fileID: 1484983528}
   - component: {fileID: 1484983530}
   - component: {fileID: 1484983529}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cube.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16659,7 +16809,7 @@ GameObject:
   - component: {fileID: 1485368495}
   - component: {fileID: 1485368497}
   - component: {fileID: 1485368496}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cube.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16748,6 +16898,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 537683553}
     m_Modifications:
+    - target: {fileID: 191714767650584613, guid: 972990190c17cce4983ddea15e211e70, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 3772609639069901361, guid: 972990190c17cce4983ddea15e211e70, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 4274624870306847176, guid: 972990190c17cce4983ddea15e211e70, type: 3}
       propertyPath: m_LocalPosition.x
       value: 17.83
@@ -16812,6 +16970,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: LampCheese
       objectReference: {fileID: 0}
+    - target: {fileID: 8072990891894664971, guid: 972990190c17cce4983ddea15e211e70, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 8191697974334534482, guid: 972990190c17cce4983ddea15e211e70, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -16826,7 +16992,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1505169206}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: FenceCombiA
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16850,6 +17016,79 @@ Transform:
   - {fileID: 508670361}
   m_Father: {fileID: 163714119}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &1516416573
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1478567614}
+    m_Modifications:
+    - target: {fileID: 546793040711557877, guid: 1c418ec42b6bc204b979122cc9e8eeed, type: 3}
+      propertyPath: m_Name
+      value: Bush (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5729332879838434588, guid: 1c418ec42b6bc204b979122cc9e8eeed, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.93
+      objectReference: {fileID: 0}
+    - target: {fileID: 5729332879838434588, guid: 1c418ec42b6bc204b979122cc9e8eeed, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.93
+      objectReference: {fileID: 0}
+    - target: {fileID: 5729332879838434588, guid: 1c418ec42b6bc204b979122cc9e8eeed, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.93
+      objectReference: {fileID: 0}
+    - target: {fileID: 5729332879838434588, guid: 1c418ec42b6bc204b979122cc9e8eeed, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -6.99
+      objectReference: {fileID: 0}
+    - target: {fileID: 5729332879838434588, guid: 1c418ec42b6bc204b979122cc9e8eeed, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5729332879838434588, guid: 1c418ec42b6bc204b979122cc9e8eeed, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -34.39
+      objectReference: {fileID: 0}
+    - target: {fileID: 5729332879838434588, guid: 1c418ec42b6bc204b979122cc9e8eeed, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5729332879838434588, guid: 1c418ec42b6bc204b979122cc9e8eeed, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5729332879838434588, guid: 1c418ec42b6bc204b979122cc9e8eeed, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5729332879838434588, guid: 1c418ec42b6bc204b979122cc9e8eeed, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5729332879838434588, guid: 1c418ec42b6bc204b979122cc9e8eeed, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5729332879838434588, guid: 1c418ec42b6bc204b979122cc9e8eeed, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5729332879838434588, guid: 1c418ec42b6bc204b979122cc9e8eeed, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5729332879838434588, guid: 1c418ec42b6bc204b979122cc9e8eeed, type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 1c418ec42b6bc204b979122cc9e8eeed, type: 3}
 --- !u!1 &1521470838
 GameObject:
   m_ObjectHideFlags: 0
@@ -16859,7 +17098,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1521470839}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: FenceCombiD
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16894,7 +17133,7 @@ GameObject:
   - component: {fileID: 1531234640}
   - component: {fileID: 1531234642}
   - component: {fileID: 1531234641}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cube.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16986,7 +17225,7 @@ GameObject:
   - component: {fileID: 1531663271}
   - component: {fileID: 1531663273}
   - component: {fileID: 1531663272}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cube.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17076,7 +17315,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1538656966}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: obstacles_fance_8 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17108,7 +17347,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1543208279}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: obstacles_fance_8 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17140,7 +17379,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1551659567}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: obstacles_fance_6 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17172,7 +17411,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1556305888}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: FenceLine1 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17208,12 +17447,20 @@ PrefabInstance:
     m_TransformParent: {fileID: 1478567614}
     m_Modifications:
     - target: {fileID: 1503791277476364328, guid: 7e0327f52ac78874e944dfc1e2d838cd, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1503791277476364328, guid: 7e0327f52ac78874e944dfc1e2d838cd, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 3850869569320701801, guid: 7e0327f52ac78874e944dfc1e2d838cd, type: 3}
       propertyPath: m_Name
       value: Tree (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3850869569320701801, guid: 7e0327f52ac78874e944dfc1e2d838cd, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 3850869569320701801, guid: 7e0327f52ac78874e944dfc1e2d838cd, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -17260,8 +17507,16 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6800264479068372814, guid: 7e0327f52ac78874e944dfc1e2d838cd, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6800264479068372814, guid: 7e0327f52ac78874e944dfc1e2d838cd, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 6928549206052670495, guid: 7e0327f52ac78874e944dfc1e2d838cd, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 6928549206052670495, guid: 7e0327f52ac78874e944dfc1e2d838cd, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -17286,7 +17541,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1562556844}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: obstacles_fance_6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17320,7 +17575,7 @@ GameObject:
   - component: {fileID: 1574180958}
   - component: {fileID: 1574180960}
   - component: {fileID: 1574180959}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cube.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17410,7 +17665,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1576202008}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: obstacles_fance_8
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17433,6 +17688,40 @@ Transform:
   - {fileID: 896986353}
   m_Father: {fileID: 1484523933}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1586080152
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1586080153}
+  m_Layer: 0
+  m_Name: Obstacles
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1586080153
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1586080152}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.55445, y: 3.58342, z: -38.20625}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1478567614}
+  - {fileID: 537683553}
+  - {fileID: 1346294467}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1586394757
 GameObject:
   m_ObjectHideFlags: 0
@@ -17444,7 +17733,7 @@ GameObject:
   - component: {fileID: 1586394758}
   - component: {fileID: 1586394760}
   - component: {fileID: 1586394759}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cube.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17536,7 +17825,7 @@ GameObject:
   - component: {fileID: 1589267238}
   - component: {fileID: 1589267240}
   - component: {fileID: 1589267239}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cube.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17628,7 +17917,7 @@ GameObject:
   - component: {fileID: 1590738479}
   - component: {fileID: 1590738481}
   - component: {fileID: 1590738480}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cube.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17816,8 +18105,8 @@ Transform:
   m_GameObject: {fileID: 1597845817}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 22, y: 0, z: -7.12624}
-  m_LocalScale: {x: 8.41, y: 8.41, z: 8.41}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 8.5, y: 8.5, z: 8.5}
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 0}
@@ -17831,7 +18120,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1602462420}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: FenceCombiB
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17864,7 +18153,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1605224508}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: obstacles_fance_6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17896,7 +18185,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1608954100}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: obstacles_fance_6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17930,7 +18219,7 @@ GameObject:
   - component: {fileID: 1618712928}
   - component: {fileID: 1618712930}
   - component: {fileID: 1618712929}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cube.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18020,7 +18309,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1633316171}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: obstacles_fance_8
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18052,7 +18341,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1634061014}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: obstacles_fance_6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18086,7 +18375,7 @@ GameObject:
   - component: {fileID: 1644240422}
   - component: {fileID: 1644240424}
   - component: {fileID: 1644240423}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cube.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18176,7 +18465,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1644271961}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: FenceCombiC
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18209,7 +18498,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1644287391}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: obstacles_fance_6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18241,7 +18530,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1645766820}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: obstacles_fance_8 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18273,7 +18562,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1653637691}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: obstacles_fance_6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18305,7 +18594,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1659884044}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: obstacles_fance_8
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18339,7 +18628,7 @@ GameObject:
   - component: {fileID: 1667862899}
   - component: {fileID: 1667862901}
   - component: {fileID: 1667862900}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cube.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18429,7 +18718,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1669829840}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: obstacles_fance_8
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18463,7 +18752,7 @@ GameObject:
   - component: {fileID: 1674553062}
   - component: {fileID: 1674553064}
   - component: {fileID: 1674553063}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cube.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18555,7 +18844,7 @@ GameObject:
   - component: {fileID: 1675108560}
   - component: {fileID: 1675108562}
   - component: {fileID: 1675108561}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cube.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18647,7 +18936,7 @@ GameObject:
   - component: {fileID: 1679314490}
   - component: {fileID: 1679314492}
   - component: {fileID: 1679314491}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cube.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18739,7 +19028,7 @@ GameObject:
   - component: {fileID: 1686082939}
   - component: {fileID: 1686082941}
   - component: {fileID: 1686082940}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cube.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18829,7 +19118,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1689604460}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: obstacles_fance_8
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18861,7 +19150,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1691448690}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: obstacles_fance_6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18893,7 +19182,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1700436485}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: FenceCombiA
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18926,7 +19215,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1714912580}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: obstacles_fance_8
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18958,8 +19247,16 @@ PrefabInstance:
     m_TransformParent: {fileID: 1478567614}
     m_Modifications:
     - target: {fileID: 3467310172580739335, guid: 7f3bcf193334ac242a0baec01fbf8747, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 3467310172580739335, guid: 7f3bcf193334ac242a0baec01fbf8747, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 3592546236826395370, guid: 7f3bcf193334ac242a0baec01fbf8747, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 3592546236826395370, guid: 7f3bcf193334ac242a0baec01fbf8747, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -18968,6 +19265,10 @@ PrefabInstance:
     - target: {fileID: 6462040472746244472, guid: 7f3bcf193334ac242a0baec01fbf8747, type: 3}
       propertyPath: m_Name
       value: TreeOther (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6462040472746244472, guid: 7f3bcf193334ac242a0baec01fbf8747, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 6462040472746244472, guid: 7f3bcf193334ac242a0baec01fbf8747, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -19050,7 +19351,7 @@ GameObject:
   - component: {fileID: 1736599313}
   - component: {fileID: 1736599315}
   - component: {fileID: 1736599314}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cube.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19140,7 +19441,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1738664353}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: FenceCombiA
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19173,7 +19474,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1742315643}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: FenceSide (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19209,7 +19510,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1745358303}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: obstacles_fance_6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19243,7 +19544,7 @@ GameObject:
   - component: {fileID: 1746245094}
   - component: {fileID: 1746245096}
   - component: {fileID: 1746245095}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cube.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19335,7 +19636,7 @@ GameObject:
   - component: {fileID: 1750813457}
   - component: {fileID: 1750813459}
   - component: {fileID: 1750813458}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cube.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19425,8 +19726,16 @@ PrefabInstance:
     m_TransformParent: {fileID: 1478567614}
     m_Modifications:
     - target: {fileID: 3467310172580739335, guid: 7f3bcf193334ac242a0baec01fbf8747, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 3467310172580739335, guid: 7f3bcf193334ac242a0baec01fbf8747, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 3592546236826395370, guid: 7f3bcf193334ac242a0baec01fbf8747, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 3592546236826395370, guid: 7f3bcf193334ac242a0baec01fbf8747, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -19435,6 +19744,10 @@ PrefabInstance:
     - target: {fileID: 6462040472746244472, guid: 7f3bcf193334ac242a0baec01fbf8747, type: 3}
       propertyPath: m_Name
       value: TreeOther (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6462040472746244472, guid: 7f3bcf193334ac242a0baec01fbf8747, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 6462040472746244472, guid: 7f3bcf193334ac242a0baec01fbf8747, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -19501,7 +19814,7 @@ GameObject:
   - component: {fileID: 1755807562}
   - component: {fileID: 1755807564}
   - component: {fileID: 1755807563}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cube.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19593,7 +19906,7 @@ GameObject:
   - component: {fileID: 1755860177}
   - component: {fileID: 1755860179}
   - component: {fileID: 1755860178}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cube.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19683,7 +19996,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1756420148}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: obstacles_fance_8
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19715,7 +20028,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1757107027}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: obstacles_fance_6 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19747,7 +20060,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1757272226}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: obstacles_fance_6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19779,7 +20092,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1761115695}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: FenceCombiB
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19812,7 +20125,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1761416615}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: FenceCombiD
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19847,7 +20160,7 @@ GameObject:
   - component: {fileID: 1763857308}
   - component: {fileID: 1763857310}
   - component: {fileID: 1763857309}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cube.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19939,7 +20252,7 @@ GameObject:
   - component: {fileID: 1773173279}
   - component: {fileID: 1773173281}
   - component: {fileID: 1773173280}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cube.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20029,7 +20342,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1773308711}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: FenceCombiD (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20064,7 +20377,7 @@ GameObject:
   - component: {fileID: 1777134507}
   - component: {fileID: 1777134509}
   - component: {fileID: 1777134508}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cube.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20154,7 +20467,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1781159056}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: FenceLine1 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20190,7 +20503,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1795607183}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: obstacles_fance_8
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20222,7 +20535,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1798083431}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Fence
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20238,7 +20551,7 @@ Transform:
   m_GameObject: {fileID: 1798083430}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 22.4, y: -1.8, z: -8.4}
+  m_LocalPosition: {x: 0, y: -1.8, z: -1.5}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -20263,7 +20576,7 @@ GameObject:
   - component: {fileID: 1798795949}
   - component: {fileID: 1798795951}
   - component: {fileID: 1798795950}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cube.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20355,7 +20668,7 @@ GameObject:
   - component: {fileID: 1798872826}
   - component: {fileID: 1798872828}
   - component: {fileID: 1798872827}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cube.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20445,7 +20758,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1807622060}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: FenceCombiA
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20478,7 +20791,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1815339035}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: obstacles_fance_8
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20510,7 +20823,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1818692530}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: obstacles_fance_8
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20544,7 +20857,7 @@ GameObject:
   - component: {fileID: 1822451778}
   - component: {fileID: 1822451780}
   - component: {fileID: 1822451779}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cube.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20636,7 +20949,7 @@ GameObject:
   - component: {fileID: 1823506793}
   - component: {fileID: 1823506795}
   - component: {fileID: 1823506794}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cube.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20729,7 +21042,7 @@ GameObject:
   - component: {fileID: 1826165494}
   - component: {fileID: 1826165493}
   - component: {fileID: 1826165492}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: collidertree
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20840,7 +21153,7 @@ GameObject:
   - component: {fileID: 1839292157}
   - component: {fileID: 1839292159}
   - component: {fileID: 1839292158}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cube.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20932,7 +21245,7 @@ GameObject:
   - component: {fileID: 1846936202}
   - component: {fileID: 1846936204}
   - component: {fileID: 1846936203}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cube.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21024,7 +21337,7 @@ GameObject:
   - component: {fileID: 1849076448}
   - component: {fileID: 1849076450}
   - component: {fileID: 1849076449}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cube.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21116,7 +21429,7 @@ GameObject:
   - component: {fileID: 1853499691}
   - component: {fileID: 1853499693}
   - component: {fileID: 1853499692}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cube.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21208,7 +21521,7 @@ GameObject:
   - component: {fileID: 1854242816}
   - component: {fileID: 1854242818}
   - component: {fileID: 1854242817}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cube.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21298,7 +21611,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1854367079}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: obstacles_fance_6 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21332,7 +21645,7 @@ GameObject:
   - component: {fileID: 1860133589}
   - component: {fileID: 1860133591}
   - component: {fileID: 1860133590}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cube.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21424,7 +21737,7 @@ GameObject:
   - component: {fileID: 1874592303}
   - component: {fileID: 1874592305}
   - component: {fileID: 1874592304}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cube.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21516,7 +21829,7 @@ GameObject:
   - component: {fileID: 1884614335}
   - component: {fileID: 1884614337}
   - component: {fileID: 1884614336}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cube.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21609,7 +21922,7 @@ GameObject:
   - component: {fileID: 1885922128}
   - component: {fileID: 1885922127}
   - component: {fileID: 1885922126}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: colliderone
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21718,7 +22031,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1890645713}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: obstacles_fance_8
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21750,7 +22063,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1897089724}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: FenceCombiD
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21785,7 +22098,7 @@ GameObject:
   - component: {fileID: 1909358926}
   - component: {fileID: 1909358928}
   - component: {fileID: 1909358927}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cube.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21875,7 +22188,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1912059046}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: obstacles_fance_6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21909,7 +22222,7 @@ GameObject:
   - component: {fileID: 1926385065}
   - component: {fileID: 1926385067}
   - component: {fileID: 1926385066}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cube.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22042,6 +22355,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: A*
       objectReference: {fileID: 0}
+    - target: {fileID: 8826821078198981073, guid: 127121b699c492c48939fd5e1901a119, type: 3}
+      propertyPath: gridWorldSize.x
+      value: 85
+      objectReference: {fileID: 0}
+    - target: {fileID: 8826821078198981073, guid: 127121b699c492c48939fd5e1901a119, type: 3}
+      propertyPath: gridWorldSize.y
+      value: 85
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -22056,7 +22377,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1927742956}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: obstacles_fance_6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22088,7 +22409,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1928048986}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: FenceCombiA
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22123,7 +22444,7 @@ GameObject:
   - component: {fileID: 1937812464}
   - component: {fileID: 1937812466}
   - component: {fileID: 1937812465}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cube.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22213,12 +22534,20 @@ PrefabInstance:
     m_TransformParent: {fileID: 1478567614}
     m_Modifications:
     - target: {fileID: 1503791277476364328, guid: 7e0327f52ac78874e944dfc1e2d838cd, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1503791277476364328, guid: 7e0327f52ac78874e944dfc1e2d838cd, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 3850869569320701801, guid: 7e0327f52ac78874e944dfc1e2d838cd, type: 3}
       propertyPath: m_Name
       value: Tree
+      objectReference: {fileID: 0}
+    - target: {fileID: 3850869569320701801, guid: 7e0327f52ac78874e944dfc1e2d838cd, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 3850869569320701801, guid: 7e0327f52ac78874e944dfc1e2d838cd, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -22265,8 +22594,16 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6800264479068372814, guid: 7e0327f52ac78874e944dfc1e2d838cd, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6800264479068372814, guid: 7e0327f52ac78874e944dfc1e2d838cd, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 6928549206052670495, guid: 7e0327f52ac78874e944dfc1e2d838cd, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 6928549206052670495, guid: 7e0327f52ac78874e944dfc1e2d838cd, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -22291,7 +22628,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1938727680}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: obstacles_fance_8
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22323,7 +22660,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1952881289}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: FenceCombiD (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22357,7 +22694,7 @@ GameObject:
   - component: {fileID: 1956662153}
   - component: {fileID: 1956662155}
   - component: {fileID: 1956662154}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cube.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22447,7 +22784,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1959391144}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: FenceCombiD
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22480,7 +22817,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1962763870}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: FenceCombiB
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22513,7 +22850,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1964735277}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: obstacles_fance_6 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22545,7 +22882,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1965659895}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: obstacles_fance_8 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22577,7 +22914,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1966380264}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: FenceLine1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22613,7 +22950,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1967242047}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: obstacles_fance_6 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22647,7 +22984,7 @@ GameObject:
   - component: {fileID: 1973389318}
   - component: {fileID: 1973389320}
   - component: {fileID: 1973389319}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cube.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22737,7 +23074,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1978887902}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: obstacles_fance_6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22760,6 +23097,11 @@ Transform:
   - {fileID: 365365191}
   m_Father: {fileID: 432193393}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &1982812075 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5729332879838434588, guid: 1c418ec42b6bc204b979122cc9e8eeed, type: 3}
+  m_PrefabInstance: {fileID: 1516416573}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1990617230
 GameObject:
   m_ObjectHideFlags: 0
@@ -22769,7 +23111,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1990617231}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: obstacles_fance_6 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22801,7 +23143,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2007456617}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: obstacles_fance_8 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22833,7 +23175,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2012258023}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: obstacles_fance_6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22865,7 +23207,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2013767998}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: obstacles_fance_6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22897,7 +23239,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2017557861}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: FenceCombiA
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22930,7 +23272,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2018843248}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: obstacles_fance_6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22962,7 +23304,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2032783866}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: obstacles_fance_8 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22994,7 +23336,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2044469581}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: obstacles_fance_6 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23026,7 +23368,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2054818756}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: FenceLine1 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23062,7 +23404,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2059150355}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: FenceCombiC
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23097,7 +23439,7 @@ GameObject:
   - component: {fileID: 2066375109}
   - component: {fileID: 2066375111}
   - component: {fileID: 2066375110}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cube.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23187,7 +23529,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2070135110}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: FenceCombiB
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23220,7 +23562,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2070174456}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: FenceCombiD (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23253,7 +23595,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2073543256}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: obstacles_fance_8
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23287,7 +23629,7 @@ GameObject:
   - component: {fileID: 2076378267}
   - component: {fileID: 2076378269}
   - component: {fileID: 2076378268}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cube.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23379,7 +23721,7 @@ GameObject:
   - component: {fileID: 2081497218}
   - component: {fileID: 2081497220}
   - component: {fileID: 2081497219}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cube.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23471,7 +23813,7 @@ GameObject:
   - component: {fileID: 2092612068}
   - component: {fileID: 2092612070}
   - component: {fileID: 2092612069}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cube.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23563,7 +23905,7 @@ GameObject:
   - component: {fileID: 2102383457}
   - component: {fileID: 2102383459}
   - component: {fileID: 2102383458}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cube.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23653,7 +23995,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2104143483}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: obstacles_fance_6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23685,7 +24027,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2125912189}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: obstacles_fance_8
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23717,7 +24059,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2140465147}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: obstacles_fance_8 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23749,7 +24091,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2142333299}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: obstacles_fance_6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23783,7 +24125,7 @@ GameObject:
   - component: {fileID: 2142592112}
   - component: {fileID: 2142592114}
   - component: {fileID: 2142592113}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cube.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23924,7 +24266,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5485960806761566639}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: obstacles_fance_8
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24007,7 +24349,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8753936998139469232}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: FenceCombiD (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24075,7 +24417,7 @@ GameObject:
   - component: {fileID: 3679226975546992257}
   - component: {fileID: 3871658578426796913}
   - component: {fileID: 7091128444779815039}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cube.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24379,7 +24721,7 @@ GameObject:
   - component: {fileID: 3747221162453219085}
   - component: {fileID: 3653848994261748477}
   - component: {fileID: 7306896314168390131}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cube.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24403,7 +24745,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8497683504025737786}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: FenceCombiC
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24421,7 +24763,7 @@ GameObject:
   - component: {fileID: 5075510805694666610}
   - component: {fileID: 6018038239539213663}
   - component: {fileID: 1548167756443036878}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cube.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24447,7 +24789,7 @@ GameObject:
   - component: {fileID: 7036183998610895464}
   - component: {fileID: 4675180312789696327}
   - component: {fileID: 2458247779364165875}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cube.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24522,7 +24864,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4733255090548321441}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: obstacles_fance_6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24538,7 +24880,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 236432614403708016}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: obstacles_fance_6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24605,7 +24947,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3434443521430238904}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: FenceCombiB
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24686,7 +25028,7 @@ GameObject:
   - component: {fileID: 5908451416033298525}
   - component: {fileID: 2927708996360538547}
   - component: {fileID: 390927358160778361}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cube.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24810,7 +25152,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3504180043402992618}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: obstacles_fance_6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24991,7 +25333,7 @@ GameObject:
   - component: {fileID: 5710358606238617343}
   - component: {fileID: 6545083958501534930}
   - component: {fileID: 2030174094861071683}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cube.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -25042,7 +25384,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3591326302652610266}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: obstacles_fance_8
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -25058,12 +25400,20 @@ PrefabInstance:
     m_TransformParent: {fileID: 1478567614}
     m_Modifications:
     - target: {fileID: 1503791277476364328, guid: 7e0327f52ac78874e944dfc1e2d838cd, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1503791277476364328, guid: 7e0327f52ac78874e944dfc1e2d838cd, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 3850869569320701801, guid: 7e0327f52ac78874e944dfc1e2d838cd, type: 3}
       propertyPath: m_Name
       value: Tree
+      objectReference: {fileID: 0}
+    - target: {fileID: 3850869569320701801, guid: 7e0327f52ac78874e944dfc1e2d838cd, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 3850869569320701801, guid: 7e0327f52ac78874e944dfc1e2d838cd, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -25110,8 +25460,16 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6800264479068372814, guid: 7e0327f52ac78874e944dfc1e2d838cd, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6800264479068372814, guid: 7e0327f52ac78874e944dfc1e2d838cd, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 6928549206052670495, guid: 7e0327f52ac78874e944dfc1e2d838cd, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 6928549206052670495, guid: 7e0327f52ac78874e944dfc1e2d838cd, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -25230,7 +25588,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 118867605803132901}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: obstacles_fance_6 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -25246,7 +25604,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7623147096807191882}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: FenceCombiD
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -25264,7 +25622,7 @@ GameObject:
   - component: {fileID: 5897118606246948356}
   - component: {fileID: 4917172043374906409}
   - component: {fileID: 199603486539929016}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cube.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -25288,7 +25646,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7085505889129653068}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: FenceCombiC
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -25392,7 +25750,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7056697389231427376}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: FenceCombiA
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -25410,7 +25768,7 @@ GameObject:
   - component: {fileID: 2574332496480947835}
   - component: {fileID: 2669513361397887883}
   - component: {fileID: 8277158121138964613}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cube.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -25502,7 +25860,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5946699720032389904}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: FenceLine1 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -25569,7 +25927,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4198503094476286536}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: obstacles_fance_8
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -25837,7 +26195,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7981833600547218630}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: FenceCombiD (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -25853,7 +26211,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2138779848617309323}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: obstacles_fance_8
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -25869,7 +26227,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8662543019236108440}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: FenceCombiA
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -25919,7 +26277,7 @@ GameObject:
   - component: {fileID: 7046101175197669163}
   - component: {fileID: 4642671818135405337}
   - component: {fileID: 7388050962881757116}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cube.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -26048,7 +26406,7 @@ GameObject:
   - component: {fileID: 769569081215961610}
   - component: {fileID: 812270094024500008}
   - component: {fileID: 5299657623396650768}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cube.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -26299,7 +26657,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5727068139697336792}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: obstacles_fance_8 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -26317,7 +26675,7 @@ GameObject:
   - component: {fileID: 5063762650500297003}
   - component: {fileID: 4546489226713985221}
   - component: {fileID: 1357213322239528207}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cube.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -26350,7 +26708,7 @@ GameObject:
   - component: {fileID: 2837034107488280790}
   - component: {fileID: 4246383232832351680}
   - component: {fileID: 7099676271304174808}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cube.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -26407,7 +26765,7 @@ GameObject:
   - component: {fileID: 7048932016278234458}
   - component: {fileID: 7371959243652968127}
   - component: {fileID: 6736545428530456482}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cube.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -26425,7 +26783,7 @@ GameObject:
   - component: {fileID: 7737286807874235074}
   - component: {fileID: 2431032249414292458}
   - component: {fileID: 6131064495138168343}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cube.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -26440,6 +26798,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 537683553}
     m_Modifications:
+    - target: {fileID: 191714767650584613, guid: 972990190c17cce4983ddea15e211e70, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 3772609639069901361, guid: 972990190c17cce4983ddea15e211e70, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 4274624870306847176, guid: 972990190c17cce4983ddea15e211e70, type: 3}
       propertyPath: m_LocalPosition.x
       value: -32.79169
@@ -26500,6 +26866,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: LampHouse
       objectReference: {fileID: 0}
+    - target: {fileID: 8072990891894664971, guid: 972990190c17cce4983ddea15e211e70, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 8191697974334534482, guid: 972990190c17cce4983ddea15e211e70, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -26519,7 +26893,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1512904062935100678}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: obstacles_fance_6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -26537,7 +26911,7 @@ GameObject:
   - component: {fileID: 6861708071560642180}
   - component: {fileID: 6387525592278807905}
   - component: {fileID: 7176060566371302524}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cube.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -26581,7 +26955,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4743136145194902218}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: FenceCombiA
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -26724,7 +27098,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 793704479697626381}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: obstacles_fance_8
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -26806,7 +27180,7 @@ GameObject:
   - component: {fileID: 9197072296379300729}
   - component: {fileID: 503512649474947735}
   - component: {fileID: 3112343138177386333}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cube.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -26873,7 +27247,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3250019970067605332}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: obstacles_fance_6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -26960,7 +27334,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5777645731381640984}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: FenceCombiD
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -26978,7 +27352,7 @@ GameObject:
   - component: {fileID: 5762379728017867084}
   - component: {fileID: 7979264172362632291}
   - component: {fileID: 882963435270400983}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cube.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -27002,7 +27376,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 261382065689255962}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: obstacles_fance_8
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -27176,7 +27550,7 @@ GameObject:
   - component: {fileID: 2112932270667257253}
   - component: {fileID: 2010713414974744661}
   - component: {fileID: 5491337120508498779}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cube.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -27295,7 +27669,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7097555974821159563}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: obstacles_fance_8
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -27362,7 +27736,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6278478118618869396}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: FenceCombiD (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -27395,7 +27769,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4561359196273736763}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: obstacles_fance_6 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -27646,7 +28020,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6226808395312929724}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: FenceCombiA
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -27697,6 +28071,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 1478567614}
     m_Modifications:
     - target: {fileID: 377137494229558837, guid: 703d04a0a0769da43bff848c2913951f, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 377137494229558837, guid: 703d04a0a0769da43bff848c2913951f, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
@@ -27705,8 +28083,16 @@ PrefabInstance:
       value: TreeSmall
       objectReference: {fileID: 0}
     - target: {fileID: 5897353284468897724, guid: 703d04a0a0769da43bff848c2913951f, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 5897353284468897724, guid: 703d04a0a0769da43bff848c2913951f, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 6360163044842703196, guid: 703d04a0a0769da43bff848c2913951f, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 6360163044842703196, guid: 703d04a0a0769da43bff848c2913951f, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -27779,6 +28165,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 1478567614}
     m_Modifications:
     - target: {fileID: 1188538003065257573, guid: f83011719d26da647982653f91543b90, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1188538003065257573, guid: f83011719d26da647982653f91543b90, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
@@ -27827,8 +28217,16 @@ PrefabInstance:
       value: TreeBig
       objectReference: {fileID: 0}
     - target: {fileID: 6186517862533370857, guid: f83011719d26da647982653f91543b90, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6186517862533370857, guid: f83011719d26da647982653f91543b90, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 6762441992772489118, guid: f83011719d26da647982653f91543b90, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 6762441992772489118, guid: f83011719d26da647982653f91543b90, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -27879,7 +28277,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 9170629692407428991}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: obstacles_fance_6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -27895,7 +28293,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5670588017723350215}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: FenceCombiC
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -27911,7 +28309,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8486617345313135613}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: obstacles_fance_8
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -28063,7 +28461,7 @@ GameObject:
   - component: {fileID: 786921277761826003}
   - component: {fileID: 891269887510106403}
   - component: {fileID: 6596706976161802797}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cube.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -28094,8 +28492,16 @@ PrefabInstance:
     m_TransformParent: {fileID: 1478567614}
     m_Modifications:
     - target: {fileID: 3467310172580739335, guid: 7f3bcf193334ac242a0baec01fbf8747, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 3467310172580739335, guid: 7f3bcf193334ac242a0baec01fbf8747, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 3592546236826395370, guid: 7f3bcf193334ac242a0baec01fbf8747, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 3592546236826395370, guid: 7f3bcf193334ac242a0baec01fbf8747, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -28104,6 +28510,10 @@ PrefabInstance:
     - target: {fileID: 6462040472746244472, guid: 7f3bcf193334ac242a0baec01fbf8747, type: 3}
       propertyPath: m_Name
       value: TreeOther
+      objectReference: {fileID: 0}
+    - target: {fileID: 6462040472746244472, guid: 7f3bcf193334ac242a0baec01fbf8747, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 6462040472746244472, guid: 7f3bcf193334ac242a0baec01fbf8747, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -28209,7 +28619,7 @@ GameObject:
   - component: {fileID: 1000999785792699743}
   - component: {fileID: 815606208048136367}
   - component: {fileID: 6666390335711476641}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cube.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -28294,7 +28704,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1448344428693723500}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: obstacles_fance_8
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -28371,7 +28781,7 @@ GameObject:
   - component: {fileID: 6359370582782294074}
   - component: {fileID: 8720405331106690325}
   - component: {fileID: 2015917873265316513}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cube.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -28387,7 +28797,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5158664609718699630}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: FenceCombiD
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -28519,7 +28929,7 @@ GameObject:
   - component: {fileID: 7205474345305340489}
   - component: {fileID: 9204653008644157437}
   m_Layer: 5
-  m_Name: Canvas
+  m_Name: UI
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -28534,7 +28944,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5479015788118888552}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: FenceCombiC
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -28552,7 +28962,7 @@ GameObject:
   - component: {fileID: 9190544899679034656}
   - component: {fileID: 7665359866776551181}
   - component: {fileID: 3213524580357629596}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cube.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -28667,7 +29077,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1332712415321941557}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: obstacles_fance_8 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -28700,7 +29110,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5663654603003929664}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: obstacles_fance_6 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -28777,7 +29187,7 @@ GameObject:
   - component: {fileID: 4383914016448049847}
   - component: {fileID: 4272342782415092050}
   - component: {fileID: 34085549280030799}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cube.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -28795,7 +29205,7 @@ GameObject:
   - component: {fileID: 3919329713397529903}
   - component: {fileID: 8987177367575331847}
   - component: {fileID: 581516774644763130}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cube.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -28837,7 +29247,7 @@ GameObject:
   - component: {fileID: 4312542069633000251}
   - component: {fileID: 4343046345453791454}
   - component: {fileID: 537872410722279875}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cube.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -28853,7 +29263,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2680649182611652469}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: FenceCombiA
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -28879,7 +29289,7 @@ GameObject:
   - component: {fileID: 2794586716130948868}
   - component: {fileID: 2637160377393935668}
   - component: {fileID: 249538830657641854}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cube.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -28928,9 +29338,21 @@ PrefabInstance:
       propertyPath: m_Name
       value: Kitchen
       objectReference: {fileID: 0}
+    - target: {fileID: 385914486951437679, guid: b1b875a6c1044684c869d993bbd035ac, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 2705987372100233244, guid: b1b875a6c1044684c869d993bbd035ac, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 3829244272868975110, guid: b1b875a6c1044684c869d993bbd035ac, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4391489527303784178, guid: b1b875a6c1044684c869d993bbd035ac, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 54.2
+      value: 31.81327
       objectReference: {fileID: 0}
     - target: {fileID: 4391489527303784178, guid: b1b875a6c1044684c869d993bbd035ac, type: 3}
       propertyPath: m_LocalPosition.y
@@ -28938,7 +29360,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4391489527303784178, guid: b1b875a6c1044684c869d993bbd035ac, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 17
+      value: 23.3
       objectReference: {fileID: 0}
     - target: {fileID: 4391489527303784178, guid: b1b875a6c1044684c869d993bbd035ac, type: 3}
       propertyPath: m_LocalRotation.w
@@ -29030,7 +29452,7 @@ GameObject:
   - component: {fileID: 6316883145985220071}
   - component: {fileID: 6215494807093605573}
   - component: {fileID: 1479492159813327101}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cube.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -29046,7 +29468,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8845674834724191587}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: obstacles_fance_6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -29168,7 +29590,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 872882601492616118}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: obstacles_fance_6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -29204,7 +29626,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6606113312548659588}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: obstacles_fance_6 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -29237,7 +29659,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4659646924096316262}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: obstacles_fance_8
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -29302,7 +29724,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6674987437345468424}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: obstacles_fance_6 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -29369,7 +29791,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3805197698909840039}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: FenceCombiD
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -29415,7 +29837,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7439956005942377893}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: obstacles_fance_8
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -29490,7 +29912,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1756636175513725895}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: FenceCombiD
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -29521,7 +29943,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7834208732850595378}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: obstacles_fance_6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -29572,7 +29994,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1117727388016024829}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: FenceLine1 (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -29697,7 +30119,7 @@ GameObject:
   - component: {fileID: 1313740634542774546}
   - component: {fileID: 563182975052610367}
   - component: {fileID: 4695209686880576174}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cube.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -29743,7 +30165,7 @@ GameObject:
   - component: {fileID: 3197602081682971213}
   - component: {fileID: 3169559605553435048}
   - component: {fileID: 1211459592239831221}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cube.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -29820,7 +30242,7 @@ GameObject:
   - component: {fileID: 2175636943913975408}
   - component: {fileID: 991841282280124212}
   - component: {fileID: 4850848464172086947}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cube.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -29920,7 +30342,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7900798012951481351}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: obstacles_fance_6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -29936,7 +30358,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4397713898336424365}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: FenceCombiB
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -29952,7 +30374,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8263407057351483733}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: FenceCombiB
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -30100,7 +30522,7 @@ GameObject:
   - component: {fileID: 4368932340905600389}
   - component: {fileID: 2154285747369355434}
   - component: {fileID: 9158474002891362078}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cube.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -30124,7 +30546,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2066020475274312524}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: obstacles_fance_6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -30266,7 +30688,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5482201266766829810}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: obstacles_fance_6 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -30345,7 +30767,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1235693332427212354}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: obstacles_fance_8
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -30412,7 +30834,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1991728028974213824}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: obstacles_fance_6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -30425,7 +30847,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 1586080153}
     m_Modifications:
     - target: {fileID: 1400874931892648262, guid: b48be873dd143424a87f50049adf9dd0, type: 3}
       propertyPath: m_Name
@@ -30433,15 +30855,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6551780913142793054, guid: b48be873dd143424a87f50049adf9dd0, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 45.00523
+      value: 22.06405
       objectReference: {fileID: 0}
     - target: {fileID: 6551780913142793054, guid: b48be873dd143424a87f50049adf9dd0, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.0000000021470328
+      value: -3.58342
       objectReference: {fileID: 0}
     - target: {fileID: 6551780913142793054, guid: b48be873dd143424a87f50049adf9dd0, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 30.7
+      value: 75.20625
       objectReference: {fileID: 0}
     - target: {fileID: 6551780913142793054, guid: b48be873dd143424a87f50049adf9dd0, type: 3}
       propertyPath: m_LocalRotation.w
@@ -30449,15 +30871,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6551780913142793054, guid: b48be873dd143424a87f50049adf9dd0, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 6551780913142793054, guid: b48be873dd143424a87f50049adf9dd0, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 6551780913142793054, guid: b48be873dd143424a87f50049adf9dd0, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 6551780913142793054, guid: b48be873dd143424a87f50049adf9dd0, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -30485,7 +30907,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7189028807821685159}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: FenceLine1 (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -30534,14 +30956,6 @@ PrefabInstance:
     - target: {fileID: 546793040711557877, guid: 1c418ec42b6bc204b979122cc9e8eeed, type: 3}
       propertyPath: m_Name
       value: Bush
-      objectReference: {fileID: 0}
-    - target: {fileID: 546793040711557877, guid: 1c418ec42b6bc204b979122cc9e8eeed, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 2147483647
-      objectReference: {fileID: 0}
-    - target: {fileID: 920999559814673645, guid: 1c418ec42b6bc204b979122cc9e8eeed, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 5729332879838434588, guid: 1c418ec42b6bc204b979122cc9e8eeed, type: 3}
       propertyPath: m_LocalPosition.x
@@ -30602,7 +31016,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5236289699538321113}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: obstacles_fance_8 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -30662,7 +31076,7 @@ GameObject:
   - component: {fileID: 7929468611358028140}
   - component: {fileID: 7547742938791447708}
   - component: {fileID: 4570206943475234706}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cube.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -30710,7 +31124,7 @@ GameObject:
   - component: {fileID: 1236268030414628135}
   - component: {fileID: 7829818600581231801}
   - component: {fileID: 6321829665565961190}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cube.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -30728,7 +31142,7 @@ GameObject:
   - component: {fileID: 5827755500220181170}
   - component: {fileID: 6221020598521927490}
   - component: {fileID: 110296894595689548}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cube.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -30744,7 +31158,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2440791463093350361}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: FenceLine1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -30925,7 +31339,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8286562227666567980}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: obstacles_fance_6 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -31008,7 +31422,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1228712029901866885}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: FenceCombiC
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -31026,7 +31440,7 @@ GameObject:
   - component: {fileID: 2490282944174492365}
   - component: {fileID: 3991536102318663904}
   - component: {fileID: 8186602202696675697}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cube.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -31042,7 +31456,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2688494385726451998}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: obstacles_fance_6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -31145,7 +31559,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2468117584206209170}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: obstacles_fance_6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -31262,7 +31676,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7996138891182018626}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: obstacles_fance_8
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -31368,9 +31782,13 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 834918621123639602, guid: 1b778fda817a39b48a86b70b15efd78c, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 5045629953822024511, guid: 1b778fda817a39b48a86b70b15efd78c, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -33.61327
+      value: -56
       objectReference: {fileID: 0}
     - target: {fileID: 5045629953822024511, guid: 1b778fda817a39b48a86b70b15efd78c, type: 3}
       propertyPath: m_LocalPosition.y
@@ -31378,7 +31796,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5045629953822024511, guid: 1b778fda817a39b48a86b70b15efd78c, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -44
+      value: -37.7
       objectReference: {fileID: 0}
     - target: {fileID: 5045629953822024511, guid: 1b778fda817a39b48a86b70b15efd78c, type: 3}
       propertyPath: m_LocalRotation.w
@@ -31408,9 +31826,25 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5134937967189280770, guid: 1b778fda817a39b48a86b70b15efd78c, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 5819284124271990262, guid: 1b778fda817a39b48a86b70b15efd78c, type: 3}
       propertyPath: m_Name
       value: House
+      objectReference: {fileID: 0}
+    - target: {fileID: 5819284124271990262, guid: 1b778fda817a39b48a86b70b15efd78c, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6410919935899583322, guid: 1b778fda817a39b48a86b70b15efd78c, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 8459869687629514412, guid: 1b778fda817a39b48a86b70b15efd78c, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -31455,7 +31889,7 @@ GameObject:
   - component: {fileID: 8788644949937516227}
   - component: {fileID: 8654869948575696865}
   - component: {fileID: 4239487603959770073}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cube.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -31608,7 +32042,7 @@ GameObject:
   - component: {fileID: 3161476287031726912}
   - component: {fileID: 4482306647678333293}
   - component: {fileID: 8704391133508053244}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cube.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -31626,7 +32060,7 @@ GameObject:
   - component: {fileID: 2801549645583350922}
   - component: {fileID: 911036161192410388}
   - component: {fileID: 1300288485649756327}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cube.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -31735,7 +32169,7 @@ GameObject:
   - component: {fileID: 1745664235576675851}
   - component: {fileID: 5973259608332285731}
   - component: {fileID: 2759703441729551070}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cube.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -31753,7 +32187,7 @@ GameObject:
   - component: {fileID: 1336253344924713363}
   - component: {fileID: 1519948225847069302}
   - component: {fileID: 3324924692188939115}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cube.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -31847,7 +32281,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5424881677255568135}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: FenceCombiB
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -31930,7 +32364,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6071358236163180117}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: obstacles_fance_6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -31954,7 +32388,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4333350307285423377}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: obstacles_fance_8 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -32056,7 +32490,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8741185592541538612}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: obstacles_fance_8
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -32072,7 +32506,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6015871168208248690}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: obstacles_fance_6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -32088,7 +32522,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 731199790126119289}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: FenceCombiD (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -32129,7 +32563,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7082236719260691414}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: obstacles_fance_6 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -32231,7 +32665,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3672231849888778344}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: obstacles_fance_6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -32278,7 +32712,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7297758282642897498}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: obstacles_fance_6 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -32341,7 +32775,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3919960062329116335}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: FenceLine1 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -32416,7 +32850,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4897906671772401443}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: obstacles_fance_6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -32449,7 +32883,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3141884344406617191}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: obstacles_fance_8 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -32467,7 +32901,7 @@ GameObject:
   - component: {fileID: 2496837276762352788}
   - component: {fileID: 6627269872210881914}
   - component: {fileID: 8517819103449813168}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cube.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -32485,7 +32919,7 @@ GameObject:
   - component: {fileID: 5336798763113385456}
   - component: {fileID: 7448977209868370560}
   - component: {fileID: 7889270640919431862}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cube.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -32576,7 +33010,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6696884719137821297}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: FenceCombiB
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -32626,7 +33060,7 @@ GameObject:
   - component: {fileID: 1117112956094691197}
   - component: {fileID: 4997966410638544469}
   - component: {fileID: 3599923835225375656}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cube.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -32644,7 +33078,7 @@ GameObject:
   - component: {fileID: 374435770344028389}
   - component: {fileID: 193339038218711808}
   - component: {fileID: 4151634320898701853}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cube.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -32676,7 +33110,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8079034633281843385}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: obstacles_fance_6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -32692,7 +33126,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5291776874432495339}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: obstacles_fance_8
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -32710,7 +33144,7 @@ GameObject:
   - component: {fileID: 4352379265350412854}
   - component: {fileID: 2994130875238139931}
   - component: {fileID: 8031366816031494538}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cube.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -32736,7 +33170,7 @@ GameObject:
   - component: {fileID: 161482947547162985}
   - component: {fileID: 405623511464747660}
   - component: {fileID: 4508773726441335697}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cube.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -32770,7 +33204,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5405761955585752070}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: FenceSide
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -32788,7 +33222,7 @@ GameObject:
   - component: {fileID: 7948459766583007157}
   - component: {fileID: 8044931227451047575}
   - component: {fileID: 3273201639876842159}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cube.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -32806,7 +33240,7 @@ GameObject:
   - component: {fileID: 8405603973383198058}
   - component: {fileID: 7714997697407950020}
   - component: {fileID: 2038160000419264163}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cube.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -32964,8 +33398,6 @@ SceneRoots:
   - {fileID: 405348971}
   - {fileID: 1022360331}
   - {fileID: 1798083431}
-  - {fileID: 1478567614}
-  - {fileID: 537683553}
   - {fileID: 4391000111955186427}
-  - {fileID: 6796715205360772393}
   - {fileID: 1927366733}
+  - {fileID: 1586080153}
