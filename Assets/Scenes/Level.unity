@@ -27950,6 +27950,7 @@ GameObject:
   - component: {fileID: 7931678312379889669}
   - component: {fileID: 9204653008644157436}
   - component: {fileID: 7205474345305340489}
+  - component: {fileID: 9204653008644157437}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -32246,6 +32247,18 @@ MonoBehaviour:
   m_DefaultSpriteDPI: 96
   m_DynamicPixelsPerUnit: 1
   m_PresetInfoIsWorld: 0
+--- !u!114 &9204653008644157437
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4598667967139442201}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d25c835e207db8e46bac88b120df3575, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::EscapeMinigame
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

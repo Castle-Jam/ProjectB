@@ -78,7 +78,7 @@ public class GoatDayBehaviour : MonoBehaviour
 
     private void HandleWander()
     {
-
+        
     }
 
     private void HandleMilking()

@@ -81,7 +81,7 @@ public class Pointer : MonoBehaviour
             PauseMovement(1);
 
         }
-        if (finishedCheese == 100)
+        if (finishedCheese >= 100)
         {
             active = false;
             Die();
