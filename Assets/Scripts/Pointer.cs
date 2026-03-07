@@ -52,7 +52,6 @@ public class Pointer : MonoBehaviour
     public void Interacted()
     {
         UnityEngine.Vector2 pointerPos = movingPointer.transform.position;
-        Debug.Log(pointerPos);
         float pointerPosX = pointerPos.x;
         float greenBarLeftOne = 854.17f;
         float greenBarRightOne = 998f;
