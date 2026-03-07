@@ -582,4 +582,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::PlayerMovement
   speed: 20
   rotationSpeed: 15
-  dashMultiplier: 1.2
+  playerState: 0
+  sprintMultiplier: 2
+  sprintCounter: 0
+  sprintExhausted: 0
