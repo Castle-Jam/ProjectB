@@ -12,11 +12,12 @@ Key rules to follow
 Branching:
 - main for release (do not touch!)
 - develop (from main) for merging in features 
-- player (from develop) -> movement, camera, interact - **Noah, Konstin**
-- cooking (from develop) -> cooking slider mini game - **Seli**
 - level (from develop) -> level scene, first assets, layout - **Seli**
-- menu (from develop) -> main menu scene - **Don**
 - hud (from develop) -> overlay for level scene - **Don**
+- goat (from develop) -> goat follows player - **Noah**
+- ~~player (from develop) -> movement, camera, interact - **Noah, Konstin**~~
+- ~~cooking (from develop) -> cooking slider mini game - **Seli**~~
+- ~~menu (from develop) -> main menu scene - **Don**~~
 
 Scenes.meta:
 guid = 5a0b833732b8f05439c497d57b8e3959
