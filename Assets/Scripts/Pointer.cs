@@ -17,11 +17,7 @@ public class Pointer : MonoBehaviour
     private int finishedCheese = 0;
     public TextMeshProUGUI text;
 
-    void Invoke()
-    {
-        //mini game create
-    }
-    void Start()
+    void Awake()
     {
         text.text = $"Finished Cheese {finishedCheese}%/100%";
     }
@@ -88,13 +84,15 @@ public class Pointer : MonoBehaviour
         if (finishedCheese == 100)
         {
             active = false;
-            Debug.Log("Cheese finished");
             Die();
         }
     }
     private void Die()
     {
-        Destroy(miniGame);
+        finishedCheese = 0;
+        active = true;
+        Awake();
+        gameObject.SetActive(false);
     }
     public void PauseMovement(float durationSeconds)
     {

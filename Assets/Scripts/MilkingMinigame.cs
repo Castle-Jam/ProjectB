@@ -12,7 +12,6 @@ public class MilkingMinigame : MonoBehaviour
     [SerializeField] private GameObject keyD;   // D-Taste GameObject (leuchtet auf)
 
     [Header("Settings")]
-    [SerializeField] private float timeLimit = 15f;
     [SerializeField] private float inputWindow = 1.5f;  // Sekunden um die Taste zu drücken
 
     private bool expectingA = true;
@@ -22,9 +21,6 @@ public class MilkingMinigame : MonoBehaviour
 
     void Start()
     {
-        Debug.Log("MilkingMinigame Start()");
-        Debug.Log($"keyA: {keyA}, keyD: {keyD}, text: {text}, miniGame: {miniGame}");
-
         finishedMilk = 0;
         UpdateText();
         ShowNextKey();
