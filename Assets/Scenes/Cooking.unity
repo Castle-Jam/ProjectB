@@ -661,6 +661,7 @@ GameObject:
   - component: {fileID: 1082815069}
   - component: {fileID: 1082815068}
   - component: {fileID: 1082815067}
+  - component: {fileID: 1082815071}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -751,6 +752,23 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!114 &1082815071
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1082815066}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e23966600637d6541a88101b7b540273, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Pointer
+  pointer: {fileID: 1349787939}
+  interaction: {fileID: 1781555164194001046, guid: 052faaac586de48259a63d0c4782560b, type: 3}
+  miniGame: {fileID: 1245198075}
+  movingPointer: {fileID: 1349787938}
+  text: {fileID: 387217038}
 --- !u!1 &1245198075
 GameObject:
   m_ObjectHideFlags: 0
@@ -842,7 +860,6 @@ GameObject:
   - component: {fileID: 1349787939}
   - component: {fileID: 1349787941}
   - component: {fileID: 1349787940}
-  - component: {fileID: 1349787942}
   m_Layer: 5
   m_Name: Pointer
   m_TagString: Untagged
@@ -907,21 +924,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1349787938}
   m_CullTransparentMesh: 1
---- !u!114 &1349787942
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1349787938}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e23966600637d6541a88101b7b540273, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::Pointer
-  pointer: {fileID: 1349787939}
-  interaction: {fileID: 1781555164194001046, guid: 052faaac586de48259a63d0c4782560b, type: 3}
-  text: {fileID: 387217038}
 --- !u!1 &1520273557
 GameObject:
   m_ObjectHideFlags: 0
@@ -956,8 +958,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -248}
-  m_SizeDelta: {x: 200, y: 50}
+  m_AnchoredPosition: {x: 29, y: -248}
+  m_SizeDelta: {x: 336.1246, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1520273559
 MonoBehaviour:
