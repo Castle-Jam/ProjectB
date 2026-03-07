@@ -6,26 +6,18 @@ public class GoatDayBehaviour : MonoBehaviour
 {
     [SerializeField] GameObject MilkingMinigame;
 
-    [SerializeField] GoatState goatState;
+    [SerializeField] GoatState goatDayState;
+    [SerializeField] public float wanderRadius = 10f;
     bool isMilkable = true;
 
     float WaitingCounter = 0f;
-    enum GoatState
-    {
-        IDLE,
-        WANDER,
-        MILKING,
-    }
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
-    {
+    enum GoatState{IDLE, WANDER, MILKING,}
 
-    }
+    private Unit otherScript;
 
-    // Update is called once per frame
-    void Update()
+    void Awake()
     {
-
+        otherScript = GetComponent<Unit>();
     }
 
     public void Do()
@@ -36,7 +28,7 @@ public class GoatDayBehaviour : MonoBehaviour
             return;
         }
         HandleState();
-        switch (goatState)
+        switch (goatDayState)
         {
             default:
             case GoatState.IDLE:
@@ -68,12 +60,20 @@ public class GoatDayBehaviour : MonoBehaviour
         float rnd = Random.Range(0.0f, 1.0f);
         if(rnd < 0.3)
         {
-            //Find wander spot
+            Vector3 randomPosVec3 = GetRandomPosition();
+            PathRequestManager.RequestPath(transform.position, randomPosVec3, otherScript.OnPathFound);
         }
         else
         {
             WaitingCounter = 2f;
         }
+    }
+
+    Vector3 GetRandomPosition()
+    {
+        // create a random position within a radius around object
+        Vector2 random = Random.insideUnitCircle * wanderRadius;
+        return transform.position + new Vector3(random.x, 0, random.y);
     }
 
     private void HandleWander()
@@ -84,17 +84,5 @@ public class GoatDayBehaviour : MonoBehaviour
     private void HandleMilking()
     {
 
-    }
-
-    public void Wait(float durationSeconds)
-    {
-        if (durationSeconds <= 0f) return;
-        StopAllCoroutines();
-        StartCoroutine(PauseCoroutine(durationSeconds));
-    }
-
-    private IEnumerator PauseCoroutine(float duration)
-    {
-        yield return new WaitForSeconds(duration);
     }
 }

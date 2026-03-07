@@ -3,14 +3,16 @@ using UnityEngine;
 
 public class Unit : MonoBehaviour
 {
-    public Transform target;
-    float speed = 0.05f;
+    [SerializeField] public Transform target;
+    [SerializeField] float speed = 0.05f;
     Vector3[] path;
     int targetIndex;
 
+    public Vector3 targetPos;
+
     void Start()
     {
-        PathRequestManager.RequestPath(transform.position, target.position, OnPathFound);
+        //PathRequestManager.RequestPath(transform.position, target.position, this.OnPathFound);
     }
 
     public void OnPathFound(Vector3[] newPath, bool pathSuccess)
@@ -18,6 +20,7 @@ public class Unit : MonoBehaviour
         if (pathSuccess)
         {
             path = newPath;
+            targetIndex = 0;
             StopCoroutine("FollowPath");
             StartCoroutine("FollowPath");
         }
