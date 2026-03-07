@@ -1,3 +1,5 @@
+using System;
+using System.Diagnostics;
 using UnityEditor.Rendering.LookDev;
 using UnityEngine;
 using UnityEngine.InputSystem;
@@ -13,7 +15,11 @@ public class PlayerMovement : MonoBehaviour
     private Rigidbody _rigidbody;
     private Rigidbody playerBody;
     private Vector2 moveInput;
+
+    // --- Dashing ---
+    [SerializeField] public float dashMultiplier = 1.2f;
     private bool dashInput;
+    private float dashNum;
 
 
     void Start()
@@ -43,9 +49,16 @@ public class PlayerMovement : MonoBehaviour
                 HandleDash();
                 break;
             case PlayerState.INTERACTING:
+                HandleInteract();
                 break;
         }
 
+        if (playerState == PlayerState.SPRINTING)
+        {
+            dashNum++;
+        }
+        else if (dashNum >= 0 && playerState != PlayerState.SPRINTING)
+            dashNum--;
 
 
         // --- Rotation ---
@@ -85,22 +98,36 @@ public class PlayerMovement : MonoBehaviour
     
     public void OnDash(InputAction.CallbackContext context)
     {
-        if (context.performed)
+        if (context.performed && dashNum <= 100)
             playerState = PlayerState.SPRINTING;
 
         if (context.canceled)
             playerState = moveInput.sqrMagnitude > 0.01f ? PlayerState.WALKING : PlayerState.IDLE;
+
     }
+
 
     private void HandleDash()
     {
-        Debug.Log("Dashing");
         Vector3 move = new Vector3(moveInput.x, 0, moveInput.y);
-        _rigidbody.AddForce(move * speed * 2f, ForceMode.Acceleration);
+        _rigidbody.AddForce(move * speed * dashMultiplier, ForceMode.Acceleration);
     }
 
     public void Idle()
     {
-        //Debug.Log("Idling");
+    }
+
+    public void OnInteract(InputAction.CallbackContext context)
+    {
+        if (context.performed)
+            playerState = PlayerState.INTERACTING;
+        
+        if (context.canceled)
+            playerState = moveInput.sqrMagnitude > 0.01f ? PlayerState.WALKING : PlayerState.IDLE;
+    }
+
+    public void HandleInteract()
+    {
+        
     }
 }
