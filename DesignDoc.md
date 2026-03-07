@@ -71,7 +71,7 @@ MUST (required for MVP - assign people)
     - Player camera (third‑person isometric) - **Noah, Konsti**
     - Goat milking - **Konsti**
     - Cheese making (interact with machines) - **Seli**   
-    - Goat chases player - **?**
+    - Goat chases player - **Noah**
 - Level
     - One complete playable 3D level and obstacles - **Seli, Nadine, Lea, Julian**
     - Level logic: spawn points, checkpoints, objective triggers - **Julian**
@@ -79,8 +79,23 @@ MUST (required for MVP - assign people)
     - One enemy type or obstacle with simple behavior (patrol/triggered) - **Julian?**
 - UI
     - Main menu, HUD with health/time/items - **Don, Lea**
+    - win screen - **Viki**
 - Audio
     - One looped background track integrated + 6 key SFX (jump, land, hit, enemy death, pickup, UI click) - **Philipp, Don?**
+    - SFX:
+      - player running loop (grass)
+      - player take damage
+      - goat bleat sound
+      - goat milking sound (repeated)
+      - cheese making background loop (bubbles?, stirring, fire place sounds)
+      - day start sound (krähender hahn or rising melody)
+      - night start sound (falling melody or spooky)
+      - generic interact sound (button click, start minigame)
+      - generic success sound (minigame hit, minigame success)
+      - generic fail sound (minigame miss, minigame failed)
+      - angry goat sound (chasing player)
+      
+      - konsti win whole game voice line
 - Build & submission
     - Exportable build, icon, 3 screenshots, short description - **Max, Lea**
 - Project infrastructure
