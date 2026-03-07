@@ -2,7 +2,6 @@ using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
 
-using System.Collections.Generic;
 
 public class Pathfinding : MonoBehaviour
 {
@@ -40,7 +39,7 @@ public class Pathfinding : MonoBehaviour
                 }
             }
             openSet.Remove(currentNode);
-            openSet.Add(currentNode);
+            closedSet.Add(currentNode);
 
             if (currentNode == targetNode)
             {
