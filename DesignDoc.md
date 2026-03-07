@@ -56,7 +56,7 @@ MUST (required for MVP - assign people)
     - Cheese making (interact with machines) - **Seli**   
     - Goat chases player - **?**
 - Level
-    - One complete playable 3D level and obstacles - **Artist?, Seli**
+    - One complete playable 3D level and obstacles - **Seli, Nadine, Lea, Julian**
     - Level logic: spawn points, checkpoints, objective triggers - **Julian**
 - Enemies/Obstacles
     - One enemy type or obstacle with simple behavior (patrol/triggered) - **Julian?**
