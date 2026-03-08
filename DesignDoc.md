@@ -9,7 +9,7 @@ Tips for using this design doc
 
 Title: **My little cheese goat**
 
-Logo: top down cheese wheel with cutesy typography
+Logo: ![](Assets/Image/Logo.png)
 
 Title Candidates:
 - Goat Slayer
