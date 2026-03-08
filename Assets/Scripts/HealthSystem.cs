@@ -5,9 +5,9 @@ using UnityEngine.SceneManagement;
 
 public class HealthSystem : MonoBehaviour
 {
-    private int health = 3;
+    public int health;
     private int maxHealth = 3;
-    [SerializeField] public Collider collider;
+    [SerializeField] public new Collider collider;
 
     public Sprite emptyHeart;
     public Sprite fullHeart;
@@ -15,7 +15,7 @@ public class HealthSystem : MonoBehaviour
 
         private void Start()
         {
-
+            health = maxHealth;
         }
 
         void Update()
@@ -42,18 +42,13 @@ public class HealthSystem : MonoBehaviour
             // OnTriggerEnter(collider);
         }
 
-        private void OnTriggerEnter(Collider other)
-        {
-            if(!other.CompareTag("Enemy")) 
-                return;
-            else
-            {
-            Debug.Log("enemy tag erkannt");
-            if((health -= 1) == 0) SceneManager.LoadScene("Lose Scene");
-            health -= 1;
-            Debug.Log(health);
-            }
-        }
+        public void TakeDamage(int amount)
+    {
+        health -= amount;
+        Debug.Log(health);
+        if(health <= 0) SceneManager.LoadScene("Lose Scene");
+    }
+
 }
 
 
