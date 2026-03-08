@@ -18,7 +18,6 @@ public class GoatAnimator : MonoBehaviour
 
         bool isMoving = delta.sqrMagnitude > 0.00001f;
         
-        Debug.Log("isMoving: " + isMoving + " | delta: " + delta.sqrMagnitude); // ← NACH den Variablen!
         
         animator.SetBool("IsWalking", isMoving);
         lastPosition = transform.position;
