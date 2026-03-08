@@ -39,13 +39,12 @@ public class HealthSystem : MonoBehaviour
                     hearts[i].enabled = false;
                 }
             } 
-            // OnTriggerEnter(collider);
+        
         }
 
         public void TakeDamage(int amount)
     {
         health -= amount;
-        Debug.Log(health);
         if(health <= 0) SceneManager.LoadScene("Lose Scene");
     }
 

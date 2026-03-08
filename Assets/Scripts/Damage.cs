@@ -8,7 +8,6 @@ public class Damage : MonoBehaviour
 {
     if(other.CompareTag("Player"))
     {
-        Debug.Log("Goat found player");
         playerHp.TakeDamage(1);
     }
 }
