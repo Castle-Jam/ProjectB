@@ -11,20 +11,6 @@ Title: **My little cheese goat**
 
 Logo: ![](Assets/Image/Logo.png)
 
-Title Candidates:
-- Goat Slayer
-- Midnight Goat
-- Horns Up
-- Goat & Jam
-- Horns of Havoc
-- Bloodhorn Harvest
-- Horns of the Damned
-- Night of the Red Horns
-- Cheese of the Red Moon
-- Cheese of the Luciferine Flame
-- Bloodmoon Cheese
-- My little cheese goat
-
 Topic: Goat
 
 One‑line pitch
