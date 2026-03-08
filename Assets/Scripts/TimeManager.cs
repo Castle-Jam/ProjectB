@@ -2,58 +2,62 @@ using UnityEngine;
 
 public class TimeManager : MonoBehaviour
 {
+    // Konstanten und Einstellungen
+    public const int HoursInDay = 24;
+    public const int MinutesInHour = 60;
 
-    public const int hoursInDay = 24, minutesInHour = 60;
+    [Header("Einstellungen")]
+    public float dayDuration = 0.6f;
+    public float nightDuration = 0.4f;
+    public float sunriseHour = 6.0f; // In Stunden angegeben (z.B. 6 Uhr morgens)
 
-    public float dayDuration = .6f;
+    private float _currentTime = 0;
 
-    float totalTime = 0;
-    float currentTime = 0;
-
-    public float nightDuration = .4f;
-    public float sunriseHour = .6f;
-
-    // Update is called once per frame
     void Update()
     {
-        totalTime = Time.deltaTime;
-        currentTime = totalTime % dayDuration;
+        // Kontinuierliche Zeitberechnung
+        _currentTime = (_currentTime + Time.deltaTime) % dayDuration;
     }
 
-    public float GetHour() // Gibt uns die jetzige Zeit in Stunden
+    public float GetHour()
     {
-        return currentTime * hoursInDay / dayDuration;
+        return (_currentTime / dayDuration) * HoursInDay;
     }
 
-    public float GetMinute() // Gibt uns die jetztige Zeit in Minuten
-    {
-        return (currentTime * hoursInDay * minutesInHour / dayDuration)% minutesInHour;
-    }
+    // Properties zur Kapselung der Berechnungslogik (analog zur Struktur in [3])
+    public float CurrentHour => (_currentTime / dayDuration) * HoursInDay;
+    public float CurrentMinute => (CurrentHour * MinutesInHour) % MinutesInHour;
 
+    /// <summary>
+    /// Gibt die Zeit im 24-Stunden-Format zurück (00:00).
+    /// </summary>
     public string Clock24Hour()
     {
-        //00:00
-        return Mathf.FloorToInt(GetHour()).ToString("00") + ":" + Mathf.FloorToInt(GetMinute()).ToString("00");
+        // Nutzung von String-Formatierung für führende Nullen [2]
+        return $"{Mathf.FloorToInt(CurrentHour):00}:{Mathf.FloorToInt(CurrentMinute):00}";
     }
 
+    /// <summary>
+    /// Gibt die Zeit im 12-Stunden-Format zurück (12:00 AM/PM).
+    /// </summary>
     public string Clock12Hour()
     {
-        int hour = Mathf.FloorToInt(GetHour());
-        string abbreviation = "AM";
+        int hour = Mathf.FloorToInt(CurrentHour);
+        string suffix = hour < 12 ? "AM" : "PM";
 
-        if (hour >= 12)
-        {
-            abbreviation = "PM";
-            hour -= 12;
-        }
+        // Umwandlung in 12-Stunden-Zählung
+        int displayHour = hour % 12;
+        if (displayHour == 0) displayHour = 12;
 
-        if (hour == 0) hour = 12;
-
-        return hour.ToString("00") + ":" + Mathf.FloorToInt(GetMinute()).ToString("00") + " " + abbreviation;
+        return $"{displayHour:00}:{Mathf.FloorToInt(CurrentMinute):00} {suffix}";
     }
 
+    /// <summary>
+    /// Berechnet den Zeitpunkt des Sonnenuntergangs.
+    /// </summary>
     public float GetSunsetHour()
     {
-        return (sunriseHour + (1 - nightDuration) * hoursInDay) % hoursInDay;
+        // Berechnung basierend auf der Tageslänge (1 - Nachtdauer)
+        return (sunriseHour + (1 - nightDuration) * HoursInDay) % HoursInDay;
     }
 }
