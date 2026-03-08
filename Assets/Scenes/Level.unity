@@ -4528,8 +4528,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CheeseManagerOriginal
   CheeseMinigame: {fileID: 7634142894217876696}
-  MilkCounter: {fileID: 2079887366}
-  CheeseCounter: {fileID: 701719821}
+  MilkCounter: {fileID: 0}
+  CheeseCounter: {fileID: 0}
 --- !u!1 &298995510
 GameObject:
   m_ObjectHideFlags: 0
@@ -6216,15 +6216,15 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7968207114872724104, guid: 9369ce6247342a44b8fe49217862724b, type: 3}
-      propertyPath: hearts.Array.data[0]
+      propertyPath: 'hearts.Array.data[0]'
       value: 
       objectReference: {fileID: 4969876070023807071}
     - target: {fileID: 7968207114872724104, guid: 9369ce6247342a44b8fe49217862724b, type: 3}
-      propertyPath: hearts.Array.data[1]
+      propertyPath: 'hearts.Array.data[1]'
       value: 
       objectReference: {fileID: 7323846602947086614}
     - target: {fileID: 7968207114872724104, guid: 9369ce6247342a44b8fe49217862724b, type: 3}
-      propertyPath: hearts.Array.data[2]
+      propertyPath: 'hearts.Array.data[2]'
       value: 
       objectReference: {fileID: 4697650863290798474}
     - target: {fileID: 9107385271224973018, guid: 9369ce6247342a44b8fe49217862724b, type: 3}
@@ -10748,17 +10748,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 690794884}
   m_Mesh: {fileID: 4493585093827132993, guid: 0c2e6a15eeff9b74fb156c183626aa5c, type: 3}
---- !u!114 &701719821 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 8936662314355262113, guid: 0f31c23637146e34294b44934065b980, type: 3}
-  m_PrefabInstance: {fileID: 8879580659296564292}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f99e18aadcf2c234392d4bd75255e8e4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::CheeseCounter
 --- !u!1 &701822850
 GameObject:
   m_ObjectHideFlags: 0
@@ -22670,7 +22659,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4274624870306847176, guid: 972990190c17cce4983ddea15e211e70, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 19.69
+      value: 22.46
       objectReference: {fileID: 0}
     - target: {fileID: 4274624870306847176, guid: 972990190c17cce4983ddea15e211e70, type: 3}
       propertyPath: m_LocalPosition.y
@@ -22678,7 +22667,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4274624870306847176, guid: 972990190c17cce4983ddea15e211e70, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -26.02
+      value: -25.54
       objectReference: {fileID: 0}
     - target: {fileID: 4274624870306847176, guid: 972990190c17cce4983ddea15e211e70, type: 3}
       propertyPath: m_LocalRotation.w
@@ -26338,11 +26327,6 @@ PrefabInstance:
 Transform:
   m_CorrespondingSourceObject: {fileID: 8653282050136942506, guid: 7f3bcf193334ac242a0baec01fbf8747, type: 3}
   m_PrefabInstance: {fileID: 1716025814}
-  m_PrefabAsset: {fileID: 0}
---- !u!224 &1721440169 stripped
-RectTransform:
-  m_CorrespondingSourceObject: {fileID: 881217411736669574, guid: 0f31c23637146e34294b44934065b980, type: 3}
-  m_PrefabInstance: {fileID: 8879580659296564292}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &1736599312
 GameObject:
@@ -32044,17 +32028,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2076378266}
   m_Mesh: {fileID: 4493585093827132993, guid: c6f9de6c2cf496047883801a02b49369, type: 3}
---- !u!114 &2079887366 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 375931283665546010, guid: 0f31c23637146e34294b44934065b980, type: 3}
-  m_PrefabInstance: {fileID: 8879580659296564292}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bb2a90ed18a21154daf52cc46758cf35, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::MilkCounter
 --- !u!1 &2081497217
 GameObject:
   m_ObjectHideFlags: 0
@@ -33008,43 +32981,43 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4391489527303784178, guid: b1b875a6c1044684c869d993bbd035ac, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 25.9
+      value: 28.11336
       objectReference: {fileID: 0}
     - target: {fileID: 4391489527303784178, guid: b1b875a6c1044684c869d993bbd035ac, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 0.19472805
       objectReference: {fileID: 0}
     - target: {fileID: 4391489527303784178, guid: b1b875a6c1044684c869d993bbd035ac, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -33.8
+      value: -37.427437
       objectReference: {fileID: 0}
     - target: {fileID: 4391489527303784178, guid: b1b875a6c1044684c869d993bbd035ac, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 1
+      value: 0.9763294
       objectReference: {fileID: 0}
     - target: {fileID: 4391489527303784178, guid: b1b875a6c1044684c869d993bbd035ac, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: 0.013937857
       objectReference: {fileID: 0}
     - target: {fileID: 4391489527303784178, guid: b1b875a6c1044684c869d993bbd035ac, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: -0.21581745
       objectReference: {fileID: 0}
     - target: {fileID: 4391489527303784178, guid: b1b875a6c1044684c869d993bbd035ac, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0.003080961
       objectReference: {fileID: 0}
     - target: {fileID: 4391489527303784178, guid: b1b875a6c1044684c869d993bbd035ac, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
+      value: 1.483
       objectReference: {fileID: 0}
     - target: {fileID: 4391489527303784178, guid: b1b875a6c1044684c869d993bbd035ac, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
+      value: -24.938
       objectReference: {fileID: 0}
     - target: {fileID: 4391489527303784178, guid: b1b875a6c1044684c869d993bbd035ac, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
+      value: -0.69
       objectReference: {fileID: 0}
     - target: {fileID: 6876970865390839359, guid: b1b875a6c1044684c869d993bbd035ac, type: 3}
       propertyPath: CheeseMinigame
@@ -33078,7 +33051,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6551780913142793054, guid: b48be873dd143424a87f50049adf9dd0, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 35
+      value: 35.21
       objectReference: {fileID: 0}
     - target: {fileID: 6551780913142793054, guid: b48be873dd143424a87f50049adf9dd0, type: 3}
       propertyPath: m_LocalPosition.y
@@ -33086,7 +33059,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6551780913142793054, guid: b48be873dd143424a87f50049adf9dd0, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 16.5
+      value: 13.36
       objectReference: {fileID: 0}
     - target: {fileID: 6551780913142793054, guid: b48be873dd143424a87f50049adf9dd0, type: 3}
       propertyPath: m_LocalRotation.w
@@ -33412,7 +33385,7 @@ PrefabInstance:
     - target: {fileID: 785991368062719943, guid: 94bdc2c167a9ead4fb3f76c2400f2ce4, type: 3}
       propertyPath: milkCounter
       value: 
-      objectReference: {fileID: 2079887366}
+      objectReference: {fileID: 0}
     - target: {fileID: 785991368062719943, guid: 94bdc2c167a9ead4fb3f76c2400f2ce4, type: 3}
       propertyPath: MilkingMinigame
       value: 
@@ -33452,11 +33425,11 @@ PrefabInstance:
     - target: {fileID: 7953185842335333325, guid: 94bdc2c167a9ead4fb3f76c2400f2ce4, type: 3}
       propertyPath: milkCounter
       value: 
-      objectReference: {fileID: 2079887366}
+      objectReference: {fileID: 0}
     - target: {fileID: 7953185842335333325, guid: 94bdc2c167a9ead4fb3f76c2400f2ce4, type: 3}
       propertyPath: cheeseCounter
       value: 
-      objectReference: {fileID: 701719821}
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
