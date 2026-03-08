@@ -1,7 +1,6 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
 using TMPro;
-using System.Numerics;
 using System.Collections;
 
 
@@ -16,10 +15,12 @@ public class Pointer : MonoBehaviour
     private bool active = true;
     private int finishedCheese = 0;
     public TextMeshProUGUI text;
+    AudioManager audioManager;
 
     void Awake()
-    {
+    {audioManager = GameObject.FindGameObjectWithTag("AudioManager").GetComponent<AudioManager>();
         text.text = $"Finished Cheese {finishedCheese}%/100%";
+        
     }
     void Update()
     {
@@ -46,7 +47,7 @@ public class Pointer : MonoBehaviour
     }
 
     public void Interacted()
-    {
+    {   audioManager.PlaySFX(audioManager.cheeseMaking);
         UnityEngine.Vector2 pointerPos = movingPointer.transform.position;
         float pointerPosX = pointerPos.x;
         float greenBarLeftOne = 854.17f;
@@ -74,16 +75,18 @@ public class Pointer : MonoBehaviour
         }
         else
         {
-
+            audioManager.StopSFX();
             movingPointer.transform.position = new UnityEngine.Vector2(403f, 185f);
             finishedCheese = 0;
-            text.text = $"YOu failed {finishedCheese}%";
+            text.text = $"You failed {finishedCheese}%";
             PauseMovement(1);
 
         }
         if (finishedCheese >= 100)
         {
+            audioManager.StopSFX();
             active = false;
+            audioManager.PlaySFX(audioManager.cheeseDone);
             Die();
         }
     }
