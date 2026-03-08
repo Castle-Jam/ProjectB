@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class CheeseCounter : MonoBehaviour
 {
@@ -30,5 +31,13 @@ public class CheeseCounter : MonoBehaviour
             return true;
         else
             return false;
+    }
+
+    void Update()
+    {
+        if (checkGoal())
+        {
+            SceneManager.LoadSceneAsync(2);
+        }
     }
 }
