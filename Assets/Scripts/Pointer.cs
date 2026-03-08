@@ -17,12 +17,19 @@ public class Pointer : MonoBehaviour
     public TextMeshProUGUI text;
     AudioManager audioManager;
     private PlayerMovement playerMovement;
+    private CheeseManagerOriginal cheeseManager;
 
     void Awake()
     {audioManager = GameObject.FindGameObjectWithTag("AudioManager").GetComponent<AudioManager>();
         text.text = $"Finished Cheese {finishedCheese}%/100%";
         
     }
+
+    void Start()
+    {
+        cheeseManager = GetComponentInParent<CheeseManagerOriginal>();
+    }
+
     void Update()
     {
 
@@ -93,11 +100,13 @@ public class Pointer : MonoBehaviour
     }
     private void Die()
     {
+        Debug.Log("Die called - playerMovement: " + (playerMovement != null));
         finishedCheese = 0;
         active = true;
         playerMovement?.SetInteracting(false);
         playerMovement = null;
-        Awake();
+        cheeseManager?.NotifyFinished();
+        ResetMinigame();
         gameObject.SetActive(false);
     }
     public void PauseMovement(float durationSeconds)

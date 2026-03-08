@@ -1,11 +1,14 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
+using System.Collections;
+using Unity.VisualScripting;
 
 public class CheeseManagerOriginal : MonoBehaviour
 {
     [SerializeField] GameObject CheeseMinigame;
     private PlayerMovement playerMovement;
     private Pointer pointer;
+    private bool onCooldown = false;
 
     void Start()
     {
@@ -16,13 +19,26 @@ public class CheeseManagerOriginal : MonoBehaviour
 
     void OnTriggerStay(Collider other)
     {
-        if (Keyboard.current.eKey.wasPressedThisFrame && other.gameObject.CompareTag("Player"))
+        if (Keyboard.current.eKey.wasPressedThisFrame && other.gameObject.CompareTag("Player") && !CheeseMinigame.activeSelf && !onCooldown)
         {
-            playerMovement = other.GetComponent<PlayerMovement>();
-            playerMovement?.SetInteracting(true);
-            pointer?.SetPlayer(playerMovement);
-            CheeseMinigame.SetActive(true);
+
+                playerMovement = other.GetComponent<PlayerMovement>();
+                playerMovement?.SetInteracting(true);
+                pointer?.SetPlayer(playerMovement);
+                CheeseMinigame.SetActive(true);
         }
+    }
+
+    public void NotifyFinished()
+    {
+        StartCoroutine(Cooldown());
+    }
+
+    IEnumerator Cooldown()
+    {
+        onCooldown = true;
+        yield return new WaitForSeconds(2.5f);
+        onCooldown = false;
     }
 
     void OnTriggerExit(Collider other)

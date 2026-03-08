@@ -141,13 +141,12 @@ public class PlayerMovement : MonoBehaviour
 
     public void OnInteract(InputAction.CallbackContext context)
     {
-        _rigidbody.constraints = RigidbodyConstraints.FreezeAll;
-        HandleState();
+
     }
 
     public void HandleInteract()
     {
-        _rigidbody.constraints = RigidbodyConstraints.FreezePosition;
+        // _rigidbody.constraints = RigidbodyConstraints.FreezePosition;
     }
 
     public void SetInteracting(bool interacting)
@@ -160,7 +159,12 @@ public class PlayerMovement : MonoBehaviour
         }
         else
         {
+            playerState = PlayerState.IDLE;
+            _rigidbody.linearVelocity = Vector3.zero;
+            _rigidbody.constraints = RigidbodyConstraints.None;
             _rigidbody.constraints = RigidbodyConstraints.FreezeRotation | RigidbodyConstraints.FreezePositionY;
+            HandleState();
+            Debug.Log("State afer release: " + playerState + " constraints: " + _rigidbody.constraints);
         }
     }
 }

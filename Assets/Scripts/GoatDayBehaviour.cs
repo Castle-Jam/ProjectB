@@ -82,11 +82,9 @@ public class GoatDayBehaviour : MonoBehaviour
 
         WaitingCounter = 3f;
         float rnd = Random.Range(0.0f, 1.0f);
-        Debug.Log("Idle rolled: " + rnd);
         if(rnd < 0.3)
         {
             Vector3 candidate = GetRandomPosition();
-            Debug.Log("Requesting path to: " + goalPos);
             if (candidate == FlatPosition)
             {
                 WaitingCounter = 2f;
@@ -119,7 +117,6 @@ public class GoatDayBehaviour : MonoBehaviour
             Node node = gridScript.NodeFromWorldPoint(candidate);
             if (node != null && node.walkable)
             {
-                Debug.Log("Good Area to Walk to");
                 return candidate;
             }
         }
@@ -156,7 +153,6 @@ public class GoatDayBehaviour : MonoBehaviour
     {
         playerMovement?.SetInteracting(false);
         playerMovement = null;
-        Debug.Log("Milking Finished - returning to IDLE");
         //unfreeze
         milkingStarted = false;
         goatRB.constraints = RigidbodyConstraints.FreezePositionY | RigidbodyConstraints.FreezeRotation;
@@ -178,7 +174,6 @@ public class GoatDayBehaviour : MonoBehaviour
 
     public void OnPathFailed()
     {
-        Debug.Log("Path failed, returning to IDLE");
         goatDayState = GoatState.IDLE;
         WaitingCounter = 2f;
     }
