@@ -9,6 +9,8 @@ public class CheeseManagerOriginal : MonoBehaviour
     private PlayerMovement playerMovement;
     private Pointer pointer;
     private bool onCooldown = false;
+    public MilkCounter MilkCounter;
+    public CheeseCounter CheeseCounter;
 
     void Start()
     {
@@ -19,9 +21,10 @@ public class CheeseManagerOriginal : MonoBehaviour
 
     void OnTriggerStay(Collider other)
     {
-        if (Keyboard.current.eKey.wasPressedThisFrame && other.gameObject.CompareTag("Player") && !CheeseMinigame.activeSelf && !onCooldown)
+        int tempCounter = MilkCounter.GetScore();
+        if (Keyboard.current.eKey.wasPressedThisFrame && other.gameObject.CompareTag("Player") && !CheeseMinigame.activeSelf && !onCooldown && tempCounter >= 3)
         {
-
+                MilkCounter.RemoveMilkAmmount();
                 playerMovement = other.GetComponent<PlayerMovement>();
                 playerMovement?.SetInteracting(true);
                 pointer?.SetPlayer(playerMovement);
@@ -31,6 +34,7 @@ public class CheeseManagerOriginal : MonoBehaviour
 
     public void NotifyFinished()
     {
+        CheeseCounter.AddCheeseAmount();
         StartCoroutine(Cooldown());
     }
 

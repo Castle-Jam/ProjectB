@@ -1220,7 +1220,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::MilkCounter
   scoreText: {fileID: 319593913}
-  GoalText: {fileID: 0}
+  GoalText: {fileID: 67425827}
 --- !u!222 &67425829
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -4622,6 +4622,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CheeseManagerOriginal
   CheeseMinigame: {fileID: 7634142894217876696}
+  MilkCounter: {fileID: 2079887366}
+  CheeseCounter: {fileID: 701719821}
 --- !u!1 &298995510
 GameObject:
   m_ObjectHideFlags: 0
@@ -33556,10 +33558,15 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: [{fileID: 5954550242733043200, guid: b1b875a6c1044684c869d993bbd035ac, type: 3}]
+    m_RemovedComponents:
+    - {fileID: 5954550242733043200, guid: b1b875a6c1044684c869d993bbd035ac, type: 3}
+    - {fileID: 6876970865390839359, guid: b1b875a6c1044684c869d993bbd035ac, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: [{targetCorrespondingSourceObject: {fileID: 3829244272868975110, guid: b1b875a6c1044684c869d993bbd035ac, type: 3}, insertIndex: -1, addedObject: {fileID: 293005398}}]
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 3829244272868975110, guid: b1b875a6c1044684c869d993bbd035ac, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 293005398}
   m_SourcePrefab: {fileID: 100100000, guid: b1b875a6c1044684c869d993bbd035ac, type: 3}
 --- !u!1001 &6796715205360772393
 PrefabInstance:
@@ -33859,10 +33866,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
-    m_AddedGameObjects: [{targetCorrespondingSourceObject: {fileID: 4368527684712538559, guid: 0f31c23637146e34294b44934065b980, type: 3}, insertIndex: -1, addedObject: {fileID: 1250931524}},
-      {targetCorrespondingSourceObject: {fileID: 1555873708133181469, guid: 0f31c23637146e34294b44934065b980, type: 3}, insertIndex: -1, addedObject: {fileID: 920593690}},
-      {targetCorrespondingSourceObject: {fileID: 881217411736669574, guid: 0f31c23637146e34294b44934065b980, type: 3}, insertIndex: -1, addedObject: {fileID: 2079887365}},
-      {targetCorrespondingSourceObject: {fileID: 881217411736669574, guid: 0f31c23637146e34294b44934065b980, type: 3}, insertIndex: -1, addedObject: {fileID: 701719820}}]
+    m_AddedGameObjects:
+    - {targetCorrespondingSourceObject: {fileID: 4368527684712538559, guid: 0f31c23637146e34294b44934065b980, type: 3}, insertIndex: -1, addedObject: {fileID: 1250931524}}
+    - {targetCorrespondingSourceObject: {fileID: 1555873708133181469, guid: 0f31c23637146e34294b44934065b980, type: 3}, insertIndex: -1, addedObject: {fileID: 920593690}}
+    - targetCorrespondingSourceObject: {fileID: 881217411736669574, guid: 0f31c23637146e34294b44934065b980, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2079887365}
+    - targetCorrespondingSourceObject: {fileID: 881217411736669574, guid: 0f31c23637146e34294b44934065b980, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 701719820}
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 8736784159347700588, guid: 0f31c23637146e34294b44934065b980, type: 3}
       insertIndex: -1
@@ -33927,6 +33939,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 785991368062719943, guid: 94bdc2c167a9ead4fb3f76c2400f2ce4, type: 3}
+      propertyPath: milkCounter
+      value: 
+      objectReference: {fileID: 2079887366}
+    - target: {fileID: 785991368062719943, guid: 94bdc2c167a9ead4fb3f76c2400f2ce4, type: 3}
       propertyPath: MilkingMinigame
       value: 
       objectReference: {fileID: 1968100921}
@@ -33945,7 +33961,15 @@ PrefabInstance:
     - target: {fileID: 7953185842335333325, guid: 94bdc2c167a9ead4fb3f76c2400f2ce4, type: 3}
       propertyPath: Minigame
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1968100921}
+    - target: {fileID: 7953185842335333325, guid: 94bdc2c167a9ead4fb3f76c2400f2ce4, type: 3}
+      propertyPath: milkCounter
+      value: 
+      objectReference: {fileID: 2079887366}
+    - target: {fileID: 7953185842335333325, guid: 94bdc2c167a9ead4fb3f76c2400f2ce4, type: 3}
+      propertyPath: cheeseCounter
+      value: 
+      objectReference: {fileID: 701719821}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []

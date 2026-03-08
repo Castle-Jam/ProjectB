@@ -5,10 +5,10 @@ using UnityEngine.UI;
 
 public class MilkCounter : MonoBehaviour
 {
-    public Text scoreText;
+    [SerializeField] public Text scoreText;
     public Text GoalText;
 
-    int score = 0;
+    int score = 5;
     int goal = 10;
 
 
@@ -18,9 +18,32 @@ public class MilkCounter : MonoBehaviour
         GoalText.text = "GOAL: " + goal.ToString();
     }
 
+    public void Update()
+    {
+        scoreText.text = score.ToString() + " AMOUNT";
+        //Debug.Log(scoreText.text);
+    }
+
     public void AddMilkAmount()
     {
         score += 1;
         scoreText.text = score.ToString() + " AMOUNT";
+    }
+
+    public void RemoveMilkAmmount()
+    {
+        score -= 3;
+        scoreText.text = score.ToString() + " AMOUNT";
+    }
+    public int GetScore()
+    {
+        return score;
+    }
+    public bool IsMilkMax()
+    {
+        if (score == goal)
+            return true;
+        else
+            return false;
     }
 }

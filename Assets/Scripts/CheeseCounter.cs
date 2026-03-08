@@ -7,7 +7,7 @@ public class CheeseCounter : MonoBehaviour
 {
     public Text scoreText;
 
-    int score = 3;
+    int score = 0;
 
     public void Start()
     {

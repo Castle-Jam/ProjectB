@@ -25,6 +25,7 @@ public class GoatDayBehaviour : MonoBehaviour
     private CustomGrid gridScript;
     private Rigidbody goatRB;
     private PlayerMovement playerMovement;
+    [SerializeField] public MilkCounter milkCounter;
 
     void Awake()
     {
@@ -151,6 +152,8 @@ public class GoatDayBehaviour : MonoBehaviour
 
     public void OnMilkingFinished()
     {
+        Debug.Log("OnMilkingFinished called - milkCounter: " + (milkCounter != null));
+        milkCounter?.AddMilkAmount();
         playerMovement?.SetInteracting(false);
         playerMovement = null;
         //unfreeze
