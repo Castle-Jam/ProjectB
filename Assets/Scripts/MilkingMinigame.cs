@@ -16,11 +16,33 @@ public class MilkingMinigame : MonoBehaviour
 
     private bool expectingA = true;
     public bool active = true;
+    private bool isFinished = false;
     private float windowTimer = 0f;
     private int finishedMilk = 0;
+    private GoatDayBehaviour goatDayBehaviour;
+
+    void Awake()
+    {
+        goatDayBehaviour = FindFirstObjectByType<GoatDayBehaviour>();
+        if (goatDayBehaviour == null)
+            Debug.LogError("No GoatDayBehaviour found in parent");
+    } 
 
     void Start()
     {
+        Reset();
+    }
+
+    void OnEnable()
+    {
+        if (text != null)
+            Reset();
+    }
+
+    private void Reset()
+    {
+        isFinished = false;
+        active = true;
         finishedMilk = 0;
         UpdateText();
         ShowNextKey();
@@ -97,9 +119,11 @@ public class MilkingMinigame : MonoBehaviour
     private void EndGame()
     {
         active = false;
+        isFinished = true;
         HideAllKeys();
         text.text = "🥛 Fertig gemolken!";
         miniGame.SetActive(false);
+        goatDayBehaviour.OnMilkingFinished();
     }
 
     public void PauseMovement(float durationSeconds)
@@ -120,6 +144,6 @@ public class MilkingMinigame : MonoBehaviour
 
     public bool GetStatus()
     {
-        return active;
+        return isFinished;
     }
 }

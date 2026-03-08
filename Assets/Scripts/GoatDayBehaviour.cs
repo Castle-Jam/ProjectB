@@ -23,11 +23,14 @@ public class GoatDayBehaviour : MonoBehaviour
 
     private Unit unitScript;
     private CustomGrid gridScript;
+    private Rigidbody goatRB;
 
     void Awake()
     {
         unitScript = GetComponent<Unit>();
         gridScript = GetComponent<CustomGrid>();
+        milkingMini = MilkingMinigame.GetComponent<MilkingMinigame>();
+        goatRB = GetComponent<Rigidbody>();
 
         if (gridScript == null)
             gridScript = FindFirstObjectByType<CustomGrid>();
@@ -35,7 +38,11 @@ public class GoatDayBehaviour : MonoBehaviour
             Debug.LogError("No Unit component found on " + gameObject.name);
         if (gridScript == null)
             Debug.LogError("No CustomGrid found anywhere in scene");
+        if (milkingMini == null)
+            Debug.LogError("No MilkingMinigame component found on MilkingMinigame object");
     }
+
+    bool milkingStarted = false;
 
     public void Do()
     {
@@ -55,7 +62,10 @@ public class GoatDayBehaviour : MonoBehaviour
                 break;
             case GoatState.MILKING:
                 if (isMilkable)
+                {
                     HandleMilking();
+                    isMilkable = false;
+                }
                 break;
 
         }
@@ -64,6 +74,12 @@ public class GoatDayBehaviour : MonoBehaviour
 
     private void Idle()
     {
+        //freeze Position when idling
+
+        goatRB.constraints = RigidbodyConstraints.FreezeAll;
+
+
+        WaitingCounter = 3f;
         float rnd = Random.Range(0.0f, 1.0f);
         Debug.Log("Idle rolled: " + rnd);
         if(rnd < 0.3)
@@ -76,6 +92,7 @@ public class GoatDayBehaviour : MonoBehaviour
                 return;
             }
             goalPos = candidate;
+            goatRB.constraints = RigidbodyConstraints.FreezePositionY | RigidbodyConstraints.FreezeRotation;
             PathRequestManager.RequestPath(transform.position, goalPos, unitScript.OnPathFound);
             goatDayState = GoatState.WANDER;
         }
@@ -112,15 +129,37 @@ public class GoatDayBehaviour : MonoBehaviour
     private void HandleWander()
     {
         float dist = Vector3.Distance(FlatPosition, goalPos);
-        Debug.Log("Distance to goal: " + dist + " | FlatPos: " + FlatPosition + " | Goal: " + goalPos);
+        //Debug.Log("Distance to goal: " + dist + " | FlatPos: " + FlatPosition + " | Goal: " + goalPos);
 
         if (UnityEngine.Vector3.Distance(FlatPosition, goalPos) < 2.0f)
             goatDayState = GoatState.IDLE;
     }
 
+    public void TriggerMilking()
+    {
+        goatDayState = GoatState.MILKING;
+        isMilkable = true;
+    }
+
     private void HandleMilking()
     {
         goatDayState = GoatState.MILKING;
+        unitScript.StopAllCoroutines();
+        goatRB.linearVelocity = Vector3.zero;
+        goatRB.constraints = RigidbodyConstraints.FreezeAll;
+        MilkingMinigame.SetActive(true);
+    }
+
+    public void OnMilkingFinished()
+    {
+        Debug.Log("Milking Finished - returning to IDLE");
+        //unfreeze
+        milkingStarted = false;
+        goatRB.constraints = RigidbodyConstraints.FreezePositionY | RigidbodyConstraints.FreezeRotation;
+        MilkingMinigame.SetActive(false);
+        isMilkable = false;
+        goatDayState = GoatState.IDLE;
+        WaitingCounter = 2f;
     }
 
     private void Milking()
@@ -128,11 +167,8 @@ public class GoatDayBehaviour : MonoBehaviour
         MilkingMinigame.SetActive(true);
         bool minigameRunning = true;
 
-        while (minigameRunning)
-        {
-            transform.position = transform.position;
             minigameRunning = milkingMini.GetStatus();
-        }
+        
 
     }
 
