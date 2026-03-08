@@ -6367,18 +6367,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 3435733144677212127, guid: 9369ce6247342a44b8fe49217862724b, type: 3}
-      propertyPath: m_ActionEvents.Array.data[3].m_PersistentCalls.m_Calls.Array.size
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3435733144677212127, guid: 9369ce6247342a44b8fe49217862724b, type: 3}
-      propertyPath: m_ActionEvents.Array.data[3].m_PersistentCalls.m_Calls.Array.data[0].m_Mode
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3435733144677212127, guid: 9369ce6247342a44b8fe49217862724b, type: 3}
-      propertyPath: m_ActionEvents.Array.data[3].m_PersistentCalls.m_Calls.Array.data[0].m_CallState
-      value: 2
-      objectReference: {fileID: 0}
     - target: {fileID: 5522291095124901323, guid: 9369ce6247342a44b8fe49217862724b, type: 3}
       propertyPath: m_LocalPosition.x
       value: -35.84
@@ -6419,18 +6407,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 6776652364440665054, guid: 9369ce6247342a44b8fe49217862724b, type: 3}
-      propertyPath: sprintExhausted
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7968207114872724104, guid: 9369ce6247342a44b8fe49217862724b, type: 3}
-      propertyPath: m_Enabled
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7968207114872724104, guid: 9369ce6247342a44b8fe49217862724b, type: 3}
-      propertyPath: hearts.Array.size
-      value: 3
-      objectReference: {fileID: 0}
     - target: {fileID: 7968207114872724104, guid: 9369ce6247342a44b8fe49217862724b, type: 3}
       propertyPath: 'hearts.Array.data[0]'
       value: 
@@ -6443,18 +6419,6 @@ PrefabInstance:
       propertyPath: 'hearts.Array.data[2]'
       value: 
       objectReference: {fileID: 4697650863290798474}
-    - target: {fileID: 7968207114872724104, guid: 9369ce6247342a44b8fe49217862724b, type: 3}
-      propertyPath: 'hearts.Array.data[3]'
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 7968207114872724104, guid: 9369ce6247342a44b8fe49217862724b, type: 3}
-      propertyPath: 'hearts.Array.data[4]'
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 7968207114872724104, guid: 9369ce6247342a44b8fe49217862724b, type: 3}
-      propertyPath: 'hearts.Array.data[5]'
-      value: 
-      objectReference: {fileID: 0}
     - target: {fileID: 9107385271224973018, guid: 9369ce6247342a44b8fe49217862724b, type: 3}
       propertyPath: m_Name
       value: Player

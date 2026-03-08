@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 4ba0285189c13a44fb152386cd6ecc7d
+guid: c8bed401eb05107439a8b99041210dbf
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
@@ -7,13 +7,43 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
+      name: SHuh
+    second: {fileID: 2100000, guid: 843fbb9a3efb72549a63b1d0e4b12ce4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Strohhut
+    second: {fileID: 2100000, guid: aeb28bbca213de041acf9a3e026ed805, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tshirt
+    second: {fileID: 2100000, guid: 90e72185948052a4aa014afb41057abb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
       name: aiStandardSurface1
-    second: {fileID: 2100000, guid: 608b209e8033f294d9232cad79c655ad, type: 2}
+    second: {fileID: 2100000, guid: be86d5bd55d72844a8242aeeea1bd8a2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: eyes
+    second: {fileID: 2100000, guid: c978eeeb7061c3f49bb7b03db214a8f0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: hair
+    second: {fileID: 2100000, guid: 9923c6c1a6ce234489de2116e78139fd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: hautfarbe
+    second: {fileID: 2100000, guid: 9bf734cd40a0e094d9c37b93530891b2, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: standardSurface1
-    second: {fileID: 2100000, guid: 892874bb1f6472045be137402b1cfd8c, type: 2}
+    second: {fileID: 2100000, guid: b714d3cb9b7f4304f9d1b74fad61e8f8, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
