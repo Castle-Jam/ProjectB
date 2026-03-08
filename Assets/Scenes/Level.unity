@@ -23308,7 +23308,7 @@ PrefabInstance:
     - target: {fileID: 785991368062719943, guid: 94bdc2c167a9ead4fb3f76c2400f2ce4, type: 3}
       propertyPath: milkCounter
       value: 
-      objectReference: {fileID: 2079887366}
+      objectReference: {fileID: 0}
     - target: {fileID: 785991368062719943, guid: 94bdc2c167a9ead4fb3f76c2400f2ce4, type: 3}
       propertyPath: MilkingMinigame
       value: 
@@ -23348,11 +23348,11 @@ PrefabInstance:
     - target: {fileID: 7953185842335333325, guid: 94bdc2c167a9ead4fb3f76c2400f2ce4, type: 3}
       propertyPath: milkCounter
       value: 
-      objectReference: {fileID: 2079887366}
+      objectReference: {fileID: 0}
     - target: {fileID: 7953185842335333325, guid: 94bdc2c167a9ead4fb3f76c2400f2ce4, type: 3}
       propertyPath: cheeseCounter
       value: 
-      objectReference: {fileID: 701719821}
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -31514,7 +31514,7 @@ PrefabInstance:
     - target: {fileID: 785991368062719943, guid: 94bdc2c167a9ead4fb3f76c2400f2ce4, type: 3}
       propertyPath: milkCounter
       value: 
-      objectReference: {fileID: 2079887366}
+      objectReference: {fileID: 0}
     - target: {fileID: 785991368062719943, guid: 94bdc2c167a9ead4fb3f76c2400f2ce4, type: 3}
       propertyPath: MilkingMinigame
       value: 
@@ -31554,11 +31554,11 @@ PrefabInstance:
     - target: {fileID: 7953185842335333325, guid: 94bdc2c167a9ead4fb3f76c2400f2ce4, type: 3}
       propertyPath: milkCounter
       value: 
-      objectReference: {fileID: 2079887366}
+      objectReference: {fileID: 0}
     - target: {fileID: 7953185842335333325, guid: 94bdc2c167a9ead4fb3f76c2400f2ce4, type: 3}
       propertyPath: cheeseCounter
       value: 
-      objectReference: {fileID: 701719821}
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -33321,6 +33321,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: UI
       objectReference: {fileID: 0}
+    - target: {fileID: 4054091080943369681, guid: 0f31c23637146e34294b44934065b980, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -1402827871, guid: 269d3c39324817d46bb818c56ffd3249, type: 3}
     - target: {fileID: 5273647952641426546, guid: 0f31c23637146e34294b44934065b980, type: 3}
       propertyPath: m_IsActive
       value: 0
