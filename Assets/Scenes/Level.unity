@@ -6432,27 +6432,27 @@ PrefabInstance:
       value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 7968207114872724104, guid: 9369ce6247342a44b8fe49217862724b, type: 3}
-      propertyPath: 'hearts.Array.data[0]'
+      propertyPath: hearts.Array.data[0]
       value: 
       objectReference: {fileID: 4969876070023807071}
     - target: {fileID: 7968207114872724104, guid: 9369ce6247342a44b8fe49217862724b, type: 3}
-      propertyPath: 'hearts.Array.data[1]'
+      propertyPath: hearts.Array.data[1]
       value: 
       objectReference: {fileID: 7323846602947086614}
     - target: {fileID: 7968207114872724104, guid: 9369ce6247342a44b8fe49217862724b, type: 3}
-      propertyPath: 'hearts.Array.data[2]'
+      propertyPath: hearts.Array.data[2]
       value: 
       objectReference: {fileID: 4697650863290798474}
     - target: {fileID: 7968207114872724104, guid: 9369ce6247342a44b8fe49217862724b, type: 3}
-      propertyPath: 'hearts.Array.data[3]'
+      propertyPath: hearts.Array.data[3]
       value: 
       objectReference: {fileID: 0}
     - target: {fileID: 7968207114872724104, guid: 9369ce6247342a44b8fe49217862724b, type: 3}
-      propertyPath: 'hearts.Array.data[4]'
+      propertyPath: hearts.Array.data[4]
       value: 
       objectReference: {fileID: 0}
     - target: {fileID: 7968207114872724104, guid: 9369ce6247342a44b8fe49217862724b, type: 3}
-      propertyPath: 'hearts.Array.data[5]'
+      propertyPath: hearts.Array.data[5]
       value: 
       objectReference: {fileID: 0}
     - target: {fileID: 9107385271224973018, guid: 9369ce6247342a44b8fe49217862724b, type: 3}
@@ -15981,10 +15981,7 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 1694305739211863294, guid: f7cab184108976343991849172b653e3, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1861392030}
+    m_AddedComponents: [{targetCorrespondingSourceObject: {fileID: 1694305739211863294, guid: f7cab184108976343991849172b653e3, type: 3}, insertIndex: -1, addedObject: {fileID: 1861392030}}]
   m_SourcePrefab: {fileID: 100100000, guid: f7cab184108976343991849172b653e3, type: 3}
 --- !u!1 &1025102125
 GameObject:
@@ -33875,19 +33872,10 @@ PrefabInstance:
       objectReference: {fileID: 293005398}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
-    m_AddedGameObjects:
-    - targetCorrespondingSourceObject: {fileID: 881217411736669574, guid: 0f31c23637146e34294b44934065b980, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 2079887365}
-    - targetCorrespondingSourceObject: {fileID: 881217411736669574, guid: 0f31c23637146e34294b44934065b980, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 701719820}
-    - targetCorrespondingSourceObject: {fileID: 4368527684712538559, guid: 0f31c23637146e34294b44934065b980, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1250931524}
-    - targetCorrespondingSourceObject: {fileID: 1555873708133181469, guid: 0f31c23637146e34294b44934065b980, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 920593690}
+    m_AddedGameObjects: [{targetCorrespondingSourceObject: {fileID: 881217411736669574, guid: 0f31c23637146e34294b44934065b980, type: 3}, insertIndex: -1, addedObject: {fileID: 2079887365}},
+      {targetCorrespondingSourceObject: {fileID: 881217411736669574, guid: 0f31c23637146e34294b44934065b980, type: 3}, insertIndex: -1, addedObject: {fileID: 701719820}},
+      {targetCorrespondingSourceObject: {fileID: 4368527684712538559, guid: 0f31c23637146e34294b44934065b980, type: 3}, insertIndex: -1, addedObject: {fileID: 1250931524}},
+      {targetCorrespondingSourceObject: {fileID: 1555873708133181469, guid: 0f31c23637146e34294b44934065b980, type: 3}, insertIndex: -1, addedObject: {fileID: 920593690}}]
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 8736784159347700588, guid: 0f31c23637146e34294b44934065b980, type: 3}
       insertIndex: -1
@@ -33970,10 +33958,6 @@ PrefabInstance:
     - target: {fileID: 5828420219980085140, guid: 94bdc2c167a9ead4fb3f76c2400f2ce4, type: 3}
       propertyPath: m_Name
       value: Goat
-      objectReference: {fileID: 0}
-    - target: {fileID: 5828420219980085140, guid: 94bdc2c167a9ead4fb3f76c2400f2ce4, type: 3}
-      propertyPath: m_IsActive
-      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7953185842335333325, guid: 94bdc2c167a9ead4fb3f76c2400f2ce4, type: 3}
       propertyPath: Minigame
