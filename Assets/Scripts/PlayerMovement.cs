@@ -7,6 +7,8 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] float speed = 20f;
     [SerializeField] float rotationSpeed = 5f;
 
+    public Vector2 MoveInput => moveInput;
+
     enum PlayerState
     {
         IDLE,
