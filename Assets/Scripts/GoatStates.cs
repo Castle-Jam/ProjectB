@@ -12,6 +12,8 @@ public class GoatStates : MonoBehaviour
     private GoatNightBehaviour goatNightBehaviour;
     private Vector3 lastPosition;
 
+    private GameObject interactionRadiusObject;
+
     public enum GoatState {DAY, NIGHT};
     private GoatState goatState;
 
@@ -22,17 +24,21 @@ public class GoatStates : MonoBehaviour
         goatNightBehaviour = GetComponent<GoatNightBehaviour>();
         CustomEvent.DayStarted.AddListener(SwitchToDayBehaviour);
         CustomEvent.NightStarted.AddListener(SwitchToNightBehaviour);
-
+        interactionRadiusObject = transform.Find("InteractionRadiusGoat").gameObject;
         _rigidbody = rigidbody;
     }
 
     void SwitchToDayBehaviour()
     {
         goatState = GoatState.DAY;
+        interactionRadiusObject.tag = "Untagged";
+
     }
     void SwitchToNightBehaviour()
     {
         goatState = GoatState.NIGHT;
+        interactionRadiusObject.tag = "Enemy";
+
     }
 
     private void OnDestroy()
