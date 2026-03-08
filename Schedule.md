@@ -63,11 +63,5 @@ Day 3 — 06:00–17:00 (11h)
   - Feature freeze at 15:00. Only critical bug fixes allowed.
   - Run final export, verify, prepare submission package (build, icon, screenshots, description) and upload before 17:00.
 
-Task ownership and scope control remain as in the original plan. Short checklist to have by 15:00:
-- Playable build with core mechanic.
-- One complete level with win/lose condition.
-- Functional UI/menu flow.
-- Audio loop + key SFX integrated.
-- Final exportable build and submission assets.
-
-If you want, I can produce a downloadable timetable (CSV) with these exact wall‑clock timestamps.
+Last ToDos:
+- SFX
