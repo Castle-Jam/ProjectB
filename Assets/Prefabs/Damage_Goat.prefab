@@ -126,7 +126,7 @@ GameObject:
   - component: {fileID: 4293453418472978177}
   - component: {fileID: 7201885042827175335}
   m_Layer: 0
-  m_Name: Goat
+  m_Name: Damage_Goat
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
