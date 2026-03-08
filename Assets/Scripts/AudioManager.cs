@@ -11,6 +11,7 @@ public class AudioManager : MonoBehaviour
     public AudioClip angryGoat;
     public AudioClip cheeseDone;
     public AudioClip cheeseMaking;
+    public AudioClip milking;
 
 
     public void PlaySFX(AudioClip clip)

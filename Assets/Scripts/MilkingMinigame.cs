@@ -10,6 +10,7 @@ public class MilkingMinigame : MonoBehaviour
     [SerializeField] private TextMeshProUGUI text;
     [SerializeField] private GameObject keyA;   // A-Taste GameObject (leuchtet auf)
     [SerializeField] private GameObject keyD;   // D-Taste GameObject (leuchtet auf)
+    AudioManager audioManager;
 
     [Header("Settings")]
     [SerializeField] private float inputWindow = 1.5f;  // Sekunden um die Taste zu drücken
@@ -23,6 +24,7 @@ public class MilkingMinigame : MonoBehaviour
 
     void Awake()
     {
+        audioManager = FindFirstObjectByType<AudioManager>();
         goatDayBehaviour = FindFirstObjectByType<GoatDayBehaviour>();
         if (goatDayBehaviour == null)
             Debug.LogError("No GoatDayBehaviour found in parent");
@@ -78,6 +80,7 @@ public class MilkingMinigame : MonoBehaviour
 
     private void HandleCorrectPress()
     {
+        audioManager.PlaySFX(audioManager.milking);
         finishedMilk += 20;
         UpdateText();
 
