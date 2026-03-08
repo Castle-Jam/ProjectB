@@ -6206,7 +6206,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5522291095124901323, guid: 9369ce6247342a44b8fe49217862724b, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -23.2
+      value: -35.84
       objectReference: {fileID: 0}
     - target: {fileID: 5522291095124901323, guid: 9369ce6247342a44b8fe49217862724b, type: 3}
       propertyPath: m_LocalPosition.y
@@ -6214,7 +6214,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5522291095124901323, guid: 9369ce6247342a44b8fe49217862724b, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 18.7
+      value: 30.04
       objectReference: {fileID: 0}
     - target: {fileID: 5522291095124901323, guid: 9369ce6247342a44b8fe49217862724b, type: 3}
       propertyPath: m_LocalRotation.w
@@ -6243,10 +6243,6 @@ PrefabInstance:
     - target: {fileID: 5522291095124901323, guid: 9369ce6247342a44b8fe49217862724b, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6776652364440665054, guid: 9369ce6247342a44b8fe49217862724b, type: 3}
-      propertyPath: speed
-      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 6776652364440665054, guid: 9369ce6247342a44b8fe49217862724b, type: 3}
       propertyPath: sprintExhausted
@@ -6286,10 +6282,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9107385271224973018, guid: 9369ce6247342a44b8fe49217862724b, type: 3}
       propertyPath: m_Name
-      value: Player
-      objectReference: {fileID: 0}
-    - target: {fileID: 9107385271224973018, guid: 9369ce6247342a44b8fe49217862724b, type: 3}
-      propertyPath: m_TagString
       value: Player
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -15346,10 +15338,7 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 1694305739211863294, guid: f7cab184108976343991849172b653e3, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1861392030}
+    m_AddedComponents: [{targetCorrespondingSourceObject: {fileID: 1694305739211863294, guid: f7cab184108976343991849172b653e3, type: 3}, insertIndex: -1, addedObject: {fileID: 1861392030}}]
   m_SourcePrefab: {fileID: 100100000, guid: f7cab184108976343991849172b653e3, type: 3}
 --- !u!1 &1025102125
 GameObject:
