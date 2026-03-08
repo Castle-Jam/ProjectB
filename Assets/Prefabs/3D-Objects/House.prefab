@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5045629953822024511}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: House
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -100,6 +100,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: c1c3e58c353ccbd4388474f662dada9f, type: 3}
       propertyPath: m_Name
       value: house_eg_v3
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: c1c3e58c353ccbd4388474f662dada9f, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -193,6 +197,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: HouseRoof (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 5417502654496520927, guid: 81f0fa82a192884479492781db3a8ff4, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 7399839602208636713, guid: 81f0fa82a192884479492781db3a8ff4, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 7924736951124698515, guid: 81f0fa82a192884479492781db3a8ff4, type: 3}
       propertyPath: m_LocalScale.z
       value: 0.051588
@@ -222,6 +234,10 @@ PrefabInstance:
     - target: {fileID: 3222588653782920780, guid: 4b298cbe336fb294ea22be0596e75f63, type: 3}
       propertyPath: m_Name
       value: Housebottom (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3222588653782920780, guid: 4b298cbe336fb294ea22be0596e75f63, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 5866622905223967747, guid: 4b298cbe336fb294ea22be0596e75f63, type: 3}
       propertyPath: m_LocalPosition.x
