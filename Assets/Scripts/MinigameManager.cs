@@ -5,6 +5,7 @@ public class MinigameManager : MonoBehaviour
 {
     [SerializeField] GameObject Minigame;
     private GoatDayBehaviour goatDayBehaviour;
+    private PlayerMovement playerMovement;
 
     void Start()
     {
@@ -18,8 +19,18 @@ public class MinigameManager : MonoBehaviour
     {
         if (Keyboard.current.eKey.wasPressedThisFrame && other.gameObject.CompareTag("Player"))
         {
-            goatDayBehaviour.TriggerMilking();
+            playerMovement = other.GetComponent<PlayerMovement>();
+
+            goatDayBehaviour.TriggerMilking(playerMovement);
+            playerMovement.SetInteracting(true);
         }
-        
+    }
+
+    void OnTriggerExit(Collider other)
+    {
+        if (other.gameObject.CompareTag("Player"))
+        {
+            playerMovement = null;
+        }
     }
 }

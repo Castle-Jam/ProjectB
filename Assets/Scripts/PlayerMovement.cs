@@ -114,6 +114,8 @@ public class PlayerMovement : MonoBehaviour
         if (!sprintExhausted && sprintCounter > 99) sprintExhausted = true;
         else if (sprintExhausted && sprintCounter < 1) sprintExhausted = false;
 
+        if (playerState == PlayerState.INTERACTING) return;
+
         if (moveInput.sqrMagnitude > 0.01f)
             playerState = CanSprint() ? PlayerState.SPRINTING : PlayerState.WALKING;
         else
@@ -137,14 +139,26 @@ public class PlayerMovement : MonoBehaviour
 
     public void OnInteract(InputAction.CallbackContext context)
     {
-        if (context.performed)
-            playerState = PlayerState.INTERACTING;
-
-        if (context.canceled)
-            HandleState();
+        _rigidbody.constraints = RigidbodyConstraints.FreezeAll;
+        HandleState();
     }
 
     public void HandleInteract()
     {
+        _rigidbody.constraints = RigidbodyConstraints.FreezePosition;
+    }
+
+    public void SetInteracting(bool interacting)
+    {
+        if (interacting)
+        {
+            playerState = PlayerState.INTERACTING;
+            _rigidbody.linearVelocity = Vector3.zero;
+            _rigidbody.constraints = RigidbodyConstraints.FreezePosition;
+        }
+        else
+        {
+            _rigidbody.constraints = RigidbodyConstraints.FreezeRotation | RigidbodyConstraints.FreezePositionY;
+        }
     }
 }

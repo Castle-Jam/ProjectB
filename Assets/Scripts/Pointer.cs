@@ -16,6 +16,7 @@ public class Pointer : MonoBehaviour
     private int finishedCheese = 0;
     public TextMeshProUGUI text;
     AudioManager audioManager;
+    private PlayerMovement playerMovement;
 
     void Awake()
     {audioManager = GameObject.FindGameObjectWithTag("AudioManager").GetComponent<AudioManager>();
@@ -94,6 +95,8 @@ public class Pointer : MonoBehaviour
     {
         finishedCheese = 0;
         active = true;
+        playerMovement?.SetInteracting(false);
+        playerMovement = null;
         Awake();
         gameObject.SetActive(false);
     }
@@ -109,5 +112,15 @@ public class Pointer : MonoBehaviour
         active = false;
         yield return new WaitForSeconds(duration);
         active = true;
+    }
+
+    public void SetPlayer(PlayerMovement player)
+    {
+        playerMovement = player;
+    }
+
+    private void ResetMinigame()
+    {
+        text.text = $"Finished Cheese {finishedCheese}%/100";
     }
 }

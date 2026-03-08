@@ -24,6 +24,7 @@ public class GoatDayBehaviour : MonoBehaviour
     private Unit unitScript;
     private CustomGrid gridScript;
     private Rigidbody goatRB;
+    private PlayerMovement playerMovement;
 
     void Awake()
     {
@@ -135,10 +136,11 @@ public class GoatDayBehaviour : MonoBehaviour
             goatDayState = GoatState.IDLE;
     }
 
-    public void TriggerMilking()
+    public void TriggerMilking(PlayerMovement player)
     {
         goatDayState = GoatState.MILKING;
         isMilkable = true;
+        this.playerMovement = player;
     }
 
     private void HandleMilking()
@@ -152,6 +154,8 @@ public class GoatDayBehaviour : MonoBehaviour
 
     public void OnMilkingFinished()
     {
+        playerMovement?.SetInteracting(false);
+        playerMovement = null;
         Debug.Log("Milking Finished - returning to IDLE");
         //unfreeze
         milkingStarted = false;
