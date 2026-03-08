@@ -1,6 +1,6 @@
-using System.Collections;
-using System.Runtime.ExceptionServices;
 using UnityEngine;
+using UnityEngine.UIElements;
+
 
 public class GoatDayBehaviour : MonoBehaviour
 {
@@ -8,6 +8,11 @@ public class GoatDayBehaviour : MonoBehaviour
 
     [SerializeField] GoatState goatDayState;
     [SerializeField] public float wanderRadius = 10f;
+
+    UnityEngine.Vector3 goalPos;
+    UnityEngine.Vector3 fuckY = new UnityEngine.Vector3(1.0f, 0.0f, 1.0f);
+    UnityEngine.Vector3 FlatPosition => new Vector3(transform.position.x, 0, transform.position.z);
+
     bool isMilkable = true;
 
     float WaitingCounter = 0f;
@@ -18,6 +23,8 @@ public class GoatDayBehaviour : MonoBehaviour
     void Awake()
     {
         otherScript = GetComponent<Unit>();
+        if (otherScript == null)
+            Debug.Log("No Unit component found on " + gameObject.name);
     }
 
     public void Do()
@@ -58,27 +65,34 @@ public class GoatDayBehaviour : MonoBehaviour
     private void Idle()
     {
         float rnd = Random.Range(0.0f, 1.0f);
+        Debug.Log("Idle rolled: " + rnd);
         if(rnd < 0.3)
         {
-            Vector3 randomPosVec3 = GetRandomPosition();
-            PathRequestManager.RequestPath(transform.position, randomPosVec3, otherScript.OnPathFound);
+            goalPos = GetRandomPosition();
+            Debug.Log("Requesting path to: " + goalPos);
+            PathRequestManager.RequestPath(transform.position, goalPos, otherScript.OnPathFound);
+            goatDayState = GoatState.WANDER;
         }
         else
         {
-            WaitingCounter = 2f;
+            WaitingCounter = 4f;
         }
     }
 
-    Vector3 GetRandomPosition()
+    UnityEngine.Vector3 GetRandomPosition()
     {
         // create a random position within a radius around object
-        Vector2 random = Random.insideUnitCircle * wanderRadius;
-        return transform.position + new Vector3(random.x, 0, random.y);
+        UnityEngine.Vector2 random = Random.insideUnitCircle * wanderRadius;
+        return FlatPosition + new UnityEngine.Vector3(random.x, 0, random.y);
     }
 
     private void HandleWander()
     {
-        
+        float dist = Vector3.Distance(FlatPosition, goalPos);
+        Debug.Log("Distance to goal: " + dist + " | FlatPos: " + FlatPosition + " | Goal: " + goalPos);
+
+        if (UnityEngine.Vector3.Distance(FlatPosition, goalPos) < 2.0f)
+            goatDayState = GoatState.IDLE;
     }
 
     private void HandleMilking()
