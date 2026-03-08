@@ -148,7 +148,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 1034bd29a85697a41a27a0ccc63aefa9
+    spriteID: 2e6bb80592530c24bbc8525de953233d
     internalID: -726356511
     vertices: []
     indices: 
@@ -162,7 +162,7 @@ TextureImporter:
       - key: SpriteEditor.SliceSettings
         value: '{"sliceOnImport":true,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
-      BACK_0: -868636322
+      BACK_0: 851304962
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
