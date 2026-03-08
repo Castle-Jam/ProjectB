@@ -8,14 +8,14 @@ public class MilkCounter : MonoBehaviour
     [SerializeField] public Text scoreText;
     public Text GoalText;
 
-    int score = 5;
-    int goal = 10;
+    int score = 2;
+    int limit = 3;
 
 
     private void Start()
     {
         scoreText.text = score.ToString() + " AMOUNT";
-        GoalText.text = "GOAL: " + goal.ToString();
+        GoalText.text = "LIMIT: " + limit.ToString();
     }
 
     public void Update()
@@ -41,7 +41,7 @@ public class MilkCounter : MonoBehaviour
     }
     public bool IsMilkMax()
     {
-        if (score == goal)
+        if (score == limit)
             return true;
         else
             return false;

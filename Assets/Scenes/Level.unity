@@ -33864,6 +33864,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 8010535975577802214, guid: 0f31c23637146e34294b44934065b980, type: 3}
+      propertyPath: cheeseManager
+      value: 
+      objectReference: {fileID: 293005398}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
@@ -33948,6 +33952,10 @@ PrefabInstance:
       objectReference: {fileID: 1968100921}
     - target: {fileID: 2592958796669359307, guid: 94bdc2c167a9ead4fb3f76c2400f2ce4, type: 3}
       propertyPath: target
+      value: 
+      objectReference: {fileID: 405348972}
+    - target: {fileID: 3426323488619826646, guid: 94bdc2c167a9ead4fb3f76c2400f2ce4, type: 3}
+      propertyPath: playerTransform
       value: 
       objectReference: {fileID: 405348972}
     - target: {fileID: 5828420219980085140, guid: 94bdc2c167a9ead4fb3f76c2400f2ce4, type: 3}

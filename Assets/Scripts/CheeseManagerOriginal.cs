@@ -10,7 +10,7 @@ public class CheeseManagerOriginal : MonoBehaviour
     private Pointer pointer;
     private bool onCooldown = false;
     public MilkCounter MilkCounter;
-    public CheeseCounter CheeseCounter;
+    [SerializeField] public CheeseCounter CheeseCounter;
 
     void Start()
     {
@@ -34,6 +34,7 @@ public class CheeseManagerOriginal : MonoBehaviour
 
     public void NotifyFinished()
     {
+        Debug.Log("NotifyFinished called - CheeseCounter: " + (CheeseCounter != null));
         CheeseCounter.AddCheeseAmount();
         StartCoroutine(Cooldown());
     }

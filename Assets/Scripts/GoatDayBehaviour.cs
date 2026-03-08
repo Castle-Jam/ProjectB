@@ -26,6 +26,7 @@ public class GoatDayBehaviour : MonoBehaviour
     private Rigidbody goatRB;
     private PlayerMovement playerMovement;
     [SerializeField] public MilkCounter milkCounter;
+    
 
     void Awake()
     {

@@ -17,7 +17,7 @@ public class Pointer : MonoBehaviour
     public TextMeshProUGUI text;
     AudioManager audioManager;
     private PlayerMovement playerMovement;
-    private CheeseManagerOriginal cheeseManager;
+    [SerializeField] public CheeseManagerOriginal cheeseManager;
 
     void Awake()
     {audioManager = GameObject.FindGameObjectWithTag("AudioManager").GetComponent<AudioManager>();
@@ -25,10 +25,7 @@ public class Pointer : MonoBehaviour
         
     }
 
-    void Start()
-    {
-        cheeseManager = GetComponentInParent<CheeseManagerOriginal>();
-    }
+
 
     void Update()
     {
