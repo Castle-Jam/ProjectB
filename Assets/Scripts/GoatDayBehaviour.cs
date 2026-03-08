@@ -7,6 +7,8 @@ public class GoatDayBehaviour : MonoBehaviour
 {
     [SerializeField] GameObject MilkingMinigame;
 
+    private MilkingMinigame milkingMini;
+
     [SerializeField] GoatState goatDayState;
     [SerializeField] public float wanderRadius = 10f;
 
@@ -42,7 +44,6 @@ public class GoatDayBehaviour : MonoBehaviour
             WaitingCounter -= Time.deltaTime;
             return;
         }
-        HandleState();
         switch (goatDayState)
         {
             default:
@@ -53,22 +54,13 @@ public class GoatDayBehaviour : MonoBehaviour
                 HandleWander();
                 break;
             case GoatState.MILKING:
-                HandleMilking();
+                if (isMilkable)
+                    HandleMilking();
                 break;
 
         }
     }
 
-    private void HandleState()
-    {
-        if (isMilkable)
-        {
-            HandleMilking();
-            isMilkable = false;
-            MilkingMinigame.SetActive(true);
-        }
-
-    }
 
     private void Idle()
     {
@@ -103,10 +95,15 @@ public class GoatDayBehaviour : MonoBehaviour
             UnityEngine.Vector2 random = Random.insideUnitCircle * wanderRadius;
             Vector3 candidate = FlatPosition + new Vector3(random.x, 0, random.y);
 
+            if (!gridScript.IsWithinBounds(candidate))
+                continue;
+
             Node node = gridScript.NodeFromWorldPoint(candidate);
             if (node != null && node.walkable)
+            {
                 Debug.Log("Good Area to Walk to");
                 return candidate;
+            }
         }
         Debug.LogWarning("No Walkable position found after " + maxAttempts + " attempts");
         return FlatPosition;
@@ -123,6 +120,26 @@ public class GoatDayBehaviour : MonoBehaviour
 
     private void HandleMilking()
     {
+        goatDayState = GoatState.MILKING;
+    }
 
+    private void Milking()
+    {
+        MilkingMinigame.SetActive(true);
+        bool minigameRunning = true;
+
+        while (minigameRunning)
+        {
+            transform.position = transform.position;
+            minigameRunning = milkingMini.GetStatus();
+        }
+
+    }
+
+    public void OnPathFailed()
+    {
+        Debug.Log("Path failed, returning to IDLE");
+        goatDayState = GoatState.IDLE;
+        WaitingCounter = 2f;
     }
 }

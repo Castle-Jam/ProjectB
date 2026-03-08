@@ -95,4 +95,15 @@ public class CustomGrid : MonoBehaviour
             }
         }
     }
+
+    public bool IsWithinBounds(Vector3 worldPosition)
+    {
+        float halfX = gridWorldSize.x / 2;
+        float halfY = gridWorldSize.y / 2;
+
+        return worldPosition.x > transform.position.x - halfX &&
+            worldPosition.x < transform.position.x + halfX &&
+            worldPosition.z > transform.position.z - halfY &&
+            worldPosition.z < transform.position.z + halfY;
+    }
 }

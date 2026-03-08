@@ -1,14 +1,14 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
 
-public class CheeseManager : MonoBehaviour
+public class MinigameManager : MonoBehaviour
 {
-    [SerializeField] GameObject CheeseMinigame;
+    [SerializeField] GameObject Minigame;
     void OnTriggerStay(Collider other)
     {
         if (Keyboard.current.eKey.wasPressedThisFrame && other.gameObject.CompareTag("Player"))
         {
-            CheeseMinigame.SetActive(true);
+            Minigame.SetActive(true);
         }
         
     }

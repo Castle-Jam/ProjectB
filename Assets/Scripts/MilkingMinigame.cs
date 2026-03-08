@@ -15,7 +15,7 @@ public class MilkingMinigame : MonoBehaviour
     [SerializeField] private float inputWindow = 1.5f;  // Sekunden um die Taste zu drücken
 
     private bool expectingA = true;
-    private bool active = true;
+    public bool active = true;
     private float windowTimer = 0f;
     private int finishedMilk = 0;
 
@@ -73,7 +73,7 @@ public class MilkingMinigame : MonoBehaviour
     {
         finishedMilk = Mathf.Max(0, finishedMilk - 20);
         UpdateText();
-        PauseMovement(0.8f);
+        PauseMovement(8f);
     }
 
     private void ShowNextKey()
@@ -99,7 +99,7 @@ public class MilkingMinigame : MonoBehaviour
         active = false;
         HideAllKeys();
         text.text = "🥛 Fertig gemolken!";
-        Destroy(miniGame, 2f);
+        miniGame.SetActive(false);
     }
 
     public void PauseMovement(float durationSeconds)
@@ -116,5 +116,10 @@ public class MilkingMinigame : MonoBehaviour
         yield return new WaitForSeconds(duration);
         active = true;
         ShowNextKey();
+    }
+
+    public bool GetStatus()
+    {
+        return active;
     }
 }

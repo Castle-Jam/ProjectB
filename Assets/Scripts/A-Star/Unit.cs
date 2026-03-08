@@ -17,12 +17,18 @@ public class Unit : MonoBehaviour
 
     public void OnPathFound(Vector3[] newPath, bool pathSuccess)
     {
-        if (pathSuccess)
+        Debug.Log("Path received, success: " + pathSuccess);
+        if (pathSuccess && newPath.Length > 0)
         {
             path = newPath;
             targetIndex = 0;
             StopCoroutine("FollowPath");
             StartCoroutine("FollowPath");
+        }
+        else
+        {
+            //notify goat the path failed
+            GetComponent<GoatDayBehaviour>()?.OnPathFailed();
         }
     }
 
