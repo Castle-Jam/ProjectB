@@ -6254,34 +6254,34 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7968207114872724104, guid: 9369ce6247342a44b8fe49217862724b, type: 3}
       propertyPath: m_Enabled
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7968207114872724104, guid: 9369ce6247342a44b8fe49217862724b, type: 3}
       propertyPath: hearts.Array.size
       value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 7968207114872724104, guid: 9369ce6247342a44b8fe49217862724b, type: 3}
-      propertyPath: 'hearts.Array.data[0]'
+      propertyPath: hearts.Array.data[0]
       value: 
       objectReference: {fileID: 4969876070023807071}
     - target: {fileID: 7968207114872724104, guid: 9369ce6247342a44b8fe49217862724b, type: 3}
-      propertyPath: 'hearts.Array.data[1]'
+      propertyPath: hearts.Array.data[1]
       value: 
       objectReference: {fileID: 7323846602947086614}
     - target: {fileID: 7968207114872724104, guid: 9369ce6247342a44b8fe49217862724b, type: 3}
-      propertyPath: 'hearts.Array.data[2]'
+      propertyPath: hearts.Array.data[2]
       value: 
       objectReference: {fileID: 4697650863290798474}
     - target: {fileID: 7968207114872724104, guid: 9369ce6247342a44b8fe49217862724b, type: 3}
-      propertyPath: 'hearts.Array.data[3]'
+      propertyPath: hearts.Array.data[3]
       value: 
       objectReference: {fileID: 0}
     - target: {fileID: 7968207114872724104, guid: 9369ce6247342a44b8fe49217862724b, type: 3}
-      propertyPath: 'hearts.Array.data[4]'
+      propertyPath: hearts.Array.data[4]
       value: 
       objectReference: {fileID: 0}
     - target: {fileID: 7968207114872724104, guid: 9369ce6247342a44b8fe49217862724b, type: 3}
-      propertyPath: 'hearts.Array.data[5]'
+      propertyPath: hearts.Array.data[5]
       value: 
       objectReference: {fileID: 0}
     - target: {fileID: 9107385271224973018, guid: 9369ce6247342a44b8fe49217862724b, type: 3}
@@ -22672,7 +22672,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 405348971}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9fb3bf6e2f591f742a0c44086182fbf0, type: 3}
   m_Name: 
@@ -23803,6 +23803,50 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4217469733082640679, guid: 7e0327f52ac78874e944dfc1e2d838cd, type: 3}
   m_PrefabInstance: {fileID: 1557577941}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1560561118
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1560561120}
+  - component: {fileID: 1560561119}
+  m_Layer: 0
+  m_Name: EvilGoatSound
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1560561119
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1560561118}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6b7f9946451b43c48bb839357d1fc996, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::EvilGoatSounds
+--- !u!4 &1560561120
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1560561118}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 23.61956, y: -0, z: -24.58881}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1562556843
 GameObject:
   m_ObjectHideFlags: 0
@@ -32552,18 +32596,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Kitchen
       objectReference: {fileID: 0}
-    - target: {fileID: 385914486951437679, guid: b1b875a6c1044684c869d993bbd035ac, type: 3}
-      propertyPath: m_Layer
-      value: 6
-      objectReference: {fileID: 0}
-    - target: {fileID: 2705987372100233244, guid: b1b875a6c1044684c869d993bbd035ac, type: 3}
-      propertyPath: m_Layer
-      value: 6
-      objectReference: {fileID: 0}
-    - target: {fileID: 3829244272868975110, guid: b1b875a6c1044684c869d993bbd035ac, type: 3}
-      propertyPath: m_Layer
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 3829244272868975110, guid: b1b875a6c1044684c869d993bbd035ac, type: 3}
       propertyPath: m_IsActive
       value: 1
@@ -32608,22 +32640,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 5954550242733043200, guid: b1b875a6c1044684c869d993bbd035ac, type: 3}
-      propertyPath: Minigame
-      value: 
-      objectReference: {fileID: 7634142894217876696}
-    - target: {fileID: 5954550242733043200, guid: b1b875a6c1044684c869d993bbd035ac, type: 3}
+    - target: {fileID: 6876970865390839359, guid: b1b875a6c1044684c869d993bbd035ac, type: 3}
       propertyPath: CheeseMinigame
       value: 
       objectReference: {fileID: 7634142894217876696}
-    m_RemovedComponents:
-    - {fileID: 5954550242733043200, guid: b1b875a6c1044684c869d993bbd035ac, type: 3}
+    - target: {fileID: 7211422943388089786, guid: b1b875a6c1044684c869d993bbd035ac, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: [{fileID: 5954550242733043200, guid: b1b875a6c1044684c869d993bbd035ac, type: 3}]
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 3829244272868975110, guid: b1b875a6c1044684c869d993bbd035ac, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 293005398}
+    m_AddedComponents: [{targetCorrespondingSourceObject: {fileID: 3829244272868975110, guid: b1b875a6c1044684c869d993bbd035ac, type: 3}, insertIndex: -1, addedObject: {fileID: 293005398}}]
   m_SourcePrefab: {fileID: 100100000, guid: b1b875a6c1044684c869d993bbd035ac, type: 3}
 --- !u!1001 &6796715205360772393
 PrefabInstance:
@@ -32977,6 +33005,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Goat
       objectReference: {fileID: 0}
+    - target: {fileID: 5828420219980085140, guid: 94bdc2c167a9ead4fb3f76c2400f2ce4, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7953185842335333325, guid: 94bdc2c167a9ead4fb3f76c2400f2ce4, type: 3}
       propertyPath: Minigame
       value: 
@@ -33004,3 +33036,4 @@ SceneRoots:
   - {fileID: 244921483}
   - {fileID: 1114881153}
   - {fileID: 9216200401247644952}
+  - {fileID: 1560561120}
