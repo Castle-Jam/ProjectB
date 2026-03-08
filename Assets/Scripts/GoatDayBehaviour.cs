@@ -1,3 +1,4 @@
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.UIElements;
 
@@ -18,13 +19,20 @@ public class GoatDayBehaviour : MonoBehaviour
     float WaitingCounter = 0f;
     enum GoatState{IDLE, WANDER, MILKING,}
 
-    private Unit otherScript;
+    private Unit unitScript;
+    private CustomGrid gridScript;
 
     void Awake()
     {
-        otherScript = GetComponent<Unit>();
-        if (otherScript == null)
-            Debug.Log("No Unit component found on " + gameObject.name);
+        unitScript = GetComponent<Unit>();
+        gridScript = GetComponent<CustomGrid>();
+
+        if (gridScript == null)
+            gridScript = FindFirstObjectByType<CustomGrid>();
+        if (unitScript == null)
+            Debug.LogError("No Unit component found on " + gameObject.name);
+        if (gridScript == null)
+            Debug.LogError("No CustomGrid found anywhere in scene");
     }
 
     public void Do()
@@ -68,9 +76,15 @@ public class GoatDayBehaviour : MonoBehaviour
         Debug.Log("Idle rolled: " + rnd);
         if(rnd < 0.3)
         {
-            goalPos = GetRandomPosition();
+            Vector3 candidate = GetRandomPosition();
             Debug.Log("Requesting path to: " + goalPos);
-            PathRequestManager.RequestPath(transform.position, goalPos, otherScript.OnPathFound);
+            if (candidate == FlatPosition)
+            {
+                WaitingCounter = 2f;
+                return;
+            }
+            goalPos = candidate;
+            PathRequestManager.RequestPath(transform.position, goalPos, unitScript.OnPathFound);
             goatDayState = GoatState.WANDER;
         }
         else
@@ -81,9 +95,21 @@ public class GoatDayBehaviour : MonoBehaviour
 
     UnityEngine.Vector3 GetRandomPosition()
     {
-        // create a random position within a radius around object
-        UnityEngine.Vector2 random = Random.insideUnitCircle * wanderRadius;
-        return FlatPosition + new UnityEngine.Vector3(random.x, 0, random.y);
+        // Adding a safety Net
+        int maxAttempts = 10;
+        for (int i = 0; i < maxAttempts; i++)
+        {
+            // create a random position within a radius around object
+            UnityEngine.Vector2 random = Random.insideUnitCircle * wanderRadius;
+            Vector3 candidate = FlatPosition + new Vector3(random.x, 0, random.y);
+
+            Node node = gridScript.NodeFromWorldPoint(candidate);
+            if (node != null && node.walkable)
+                Debug.Log("Good Area to Walk to");
+                return candidate;
+        }
+        Debug.LogWarning("No Walkable position found after " + maxAttempts + " attempts");
+        return FlatPosition;
     }
 
     private void HandleWander()

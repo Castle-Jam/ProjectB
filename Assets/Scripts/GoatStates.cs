@@ -4,8 +4,13 @@ using UnityEngine.Events;
 
 public class GoatStates : MonoBehaviour
 {
+    [SerializeField] float rotationSpeed = 5;
+    [SerializeField] Rigidbody rigidbody;
+
+    private Rigidbody _rigidbody;
     private GoatDayBehaviour goatDayBehaviour;
     private GoatNightBehaviour goatNightBehaviour;
+    private Vector3 lastPosition;
 
     public enum GoatState {DAY, NIGHT};
     private GoatState goatState;
@@ -17,6 +22,8 @@ public class GoatStates : MonoBehaviour
         goatNightBehaviour = GetComponent<GoatNightBehaviour>();
         CustomEvent.DayStarted.AddListener(SwitchToDayBehaviour);
         CustomEvent.NightStarted.AddListener(SwitchToNightBehaviour);
+
+        _rigidbody = rigidbody;
     }
 
     void SwitchToDayBehaviour()
@@ -44,6 +51,22 @@ public class GoatStates : MonoBehaviour
             case GoatState.NIGHT:
                 goatNightBehaviour.Do();
                 break;
+        }
+
+        // --- Rotation ---
+        Vector3 velocity = (transform.position - lastPosition) / Time.deltaTime;
+        lastPosition = transform.position;
+        velocity.y = 0;
+
+        if (velocity.sqrMagnitude > 0.01f)
+        {
+            Quaternion targetRot = Quaternion.LookRotation(velocity);
+
+            transform.rotation = Quaternion.Slerp(
+                transform.rotation,
+                Quaternion.Euler(0, targetRot.eulerAngles.y, 0),
+                rotationSpeed * Time.deltaTime
+            );
         }
     }
 }

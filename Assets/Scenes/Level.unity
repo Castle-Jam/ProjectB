@@ -22814,6 +22814,10 @@ PrefabInstance:
       value: A*
       objectReference: {fileID: 0}
     - target: {fileID: 8826821078198981073, guid: 127121b699c492c48939fd5e1901a119, type: 3}
+      propertyPath: nodeRadius
+      value: 0.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8826821078198981073, guid: 127121b699c492c48939fd5e1901a119, type: 3}
       propertyPath: gridWorldSize.x
       value: 85
       objectReference: {fileID: 0}
