@@ -4510,26 +4510,17 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 292693708}
   m_Mesh: {fileID: 4493585093827132993, guid: c6f9de6c2cf496047883801a02b49369, type: 3}
---- !u!1 &293005392 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3829244272868975110, guid: b1b875a6c1044684c869d993bbd035ac, type: 3}
+--- !u!114 &293005398 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8525444290629777551, guid: b1b875a6c1044684c869d993bbd035ac, type: 3}
   m_PrefabInstance: {fileID: 5076636539703033814}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &293005398
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 293005392}
+  m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fc876d1c530e78344b01e28bea9a0222, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CheeseManagerOriginal
-  CheeseMinigame: {fileID: 7634142894217876696}
-  MilkCounter: {fileID: 8879580659296564293}
-  CheeseCounter: {fileID: 8879580659296564294}
 --- !u!1 &298995510
 GameObject:
   m_ObjectHideFlags: 0
@@ -6988,6 +6979,33 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 466651590}
   m_Mesh: {fileID: 4493585093827132993, guid: 0c2e6a15eeff9b74fb156c183626aa5c, type: 3}
+--- !u!1 &469759663 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5149000993045979033, guid: b1b875a6c1044684c869d993bbd035ac, type: 3}
+  m_PrefabInstance: {fileID: 5076636539703033814}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &469759667
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 469759663}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -485743578430441126, guid: 28040900c16754c498877127ae35b99e, type: 3}
 --- !u!1 &474359401
 GameObject:
   m_ObjectHideFlags: 0
@@ -32731,10 +32749,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Kitchen
       objectReference: {fileID: 0}
-    - target: {fileID: 3829244272868975110, guid: b1b875a6c1044684c869d993bbd035ac, type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 4391489527303784178, guid: b1b875a6c1044684c869d993bbd035ac, type: 3}
       propertyPath: m_LocalPosition.x
       value: 28.11336
@@ -32775,23 +32789,25 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: -0.69
       objectReference: {fileID: 0}
-    - target: {fileID: 6876970865390839359, guid: b1b875a6c1044684c869d993bbd035ac, type: 3}
+    - target: {fileID: 8525444290629777551, guid: b1b875a6c1044684c869d993bbd035ac, type: 3}
+      propertyPath: MilkCounter
+      value: 
+      objectReference: {fileID: 8879580659296564293}
+    - target: {fileID: 8525444290629777551, guid: b1b875a6c1044684c869d993bbd035ac, type: 3}
+      propertyPath: CheeseCounter
+      value: 
+      objectReference: {fileID: 8879580659296564294}
+    - target: {fileID: 8525444290629777551, guid: b1b875a6c1044684c869d993bbd035ac, type: 3}
       propertyPath: CheeseMinigame
       value: 
       objectReference: {fileID: 7634142894217876696}
-    - target: {fileID: 7211422943388089786, guid: b1b875a6c1044684c869d993bbd035ac, type: 3}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents:
-    - {fileID: 5954550242733043200, guid: b1b875a6c1044684c869d993bbd035ac, type: 3}
-    - {fileID: 6876970865390839359, guid: b1b875a6c1044684c869d993bbd035ac, type: 3}
+    m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 3829244272868975110, guid: b1b875a6c1044684c869d993bbd035ac, type: 3}
+    - targetCorrespondingSourceObject: {fileID: 5149000993045979033, guid: b1b875a6c1044684c869d993bbd035ac, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 293005398}
+      addedObject: {fileID: 469759667}
   m_SourcePrefab: {fileID: 100100000, guid: b1b875a6c1044684c869d993bbd035ac, type: 3}
 --- !u!1001 &6796715205360772393
 PrefabInstance:
