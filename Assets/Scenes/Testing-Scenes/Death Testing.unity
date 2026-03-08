@@ -4402,64 +4402,43 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 6109248356344916183, guid: 9369ce6247342a44b8fe49217862724b, type: 3}
-      propertyPath: m_IsTrigger
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6776652364440665054, guid: 9369ce6247342a44b8fe49217862724b, type: 3}
-      propertyPath: speed
-      value: 20
-      objectReference: {fileID: 0}
-    - target: {fileID: 8095834659374781407, guid: 9369ce6247342a44b8fe49217862724b, type: 3}
-      propertyPath: m_IsTrigger
-      value: 1
-      objectReference: {fileID: 0}
+    - target: {fileID: 7968207114872724104, guid: 9369ce6247342a44b8fe49217862724b, type: 3}
+      propertyPath: 'hearts.Array.data[0]'
+      value: 
+      objectReference: {fileID: 9331157520161606}
+    - target: {fileID: 7968207114872724104, guid: 9369ce6247342a44b8fe49217862724b, type: 3}
+      propertyPath: 'hearts.Array.data[1]'
+      value: 
+      objectReference: {fileID: 2671652899057261261}
+    - target: {fileID: 7968207114872724104, guid: 9369ce6247342a44b8fe49217862724b, type: 3}
+      propertyPath: 'hearts.Array.data[2]'
+      value: 
+      objectReference: {fileID: 8552469295887546589}
     - target: {fileID: 9107385271224973018, guid: 9369ce6247342a44b8fe49217862724b, type: 3}
       propertyPath: m_Name
-      value: Player
-      objectReference: {fileID: 0}
-    - target: {fileID: 9107385271224973018, guid: 9369ce6247342a44b8fe49217862724b, type: 3}
-      propertyPath: m_TagString
       value: Player
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 9107385271224973018, guid: 9369ce6247342a44b8fe49217862724b, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 405348974}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9369ce6247342a44b8fe49217862724b, type: 3}
 --- !u!4 &405348972 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5522291095124901323, guid: 9369ce6247342a44b8fe49217862724b, type: 3}
   m_PrefabInstance: {fileID: 405348971}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &405348973 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 9107385271224973018, guid: 9369ce6247342a44b8fe49217862724b, type: 3}
+--- !u!114 &405348974 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7968207114872724104, guid: 9369ce6247342a44b8fe49217862724b, type: 3}
   m_PrefabInstance: {fileID: 405348971}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &405348974
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 405348973}
+  m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9fb3bf6e2f591f742a0c44086182fbf0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::HealthDisplay
-  health: 3
-  collider: {fileID: 0}
-  emptyHeart: {fileID: -440564644, guid: 2603ff66d482edc4882738a0a6310ec1, type: 3}
-  fullHeart: {fileID: 1084154081, guid: 2b1ce413529a8c643be3d2c6560ae175, type: 3}
-  hearts:
-  - {fileID: 9331157520161606}
-  - {fileID: 2671652899057261261}
-  - {fileID: 8552469295887546589}
 --- !u!1 &426750315
 GameObject:
   m_ObjectHideFlags: 0

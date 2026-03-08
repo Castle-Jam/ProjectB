@@ -353,9 +353,10 @@ GameObject:
   - component: {fileID: 8095834659374781407}
   - component: {fileID: 3435733144677212127}
   - component: {fileID: 6776652364440665054}
+  - component: {fileID: 7968207114872724104}
   m_Layer: 0
   m_Name: Player
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -418,7 +419,7 @@ CapsuleCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 2
@@ -586,3 +587,23 @@ MonoBehaviour:
   sprintMultiplier: 2
   sprintCounter: 0
   sprintExhausted: 0
+--- !u!114 &7968207114872724104
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9107385271224973018}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9fb3bf6e2f591f742a0c44086182fbf0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::HealthDisplay
+  health: 3
+  collider: {fileID: 0}
+  emptyHeart: {fileID: -440564644, guid: 2603ff66d482edc4882738a0a6310ec1, type: 3}
+  fullHeart: {fileID: 1084154081, guid: 2b1ce413529a8c643be3d2c6560ae175, type: 3}
+  hearts:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}

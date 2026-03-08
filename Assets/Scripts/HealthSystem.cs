@@ -7,7 +7,6 @@ public class HealthSystem : MonoBehaviour
 {
     public int health;
     private int maxHealth = 3;
-    [SerializeField] public new Collider collider;
 
     public Sprite emptyHeart;
     public Sprite fullHeart;
